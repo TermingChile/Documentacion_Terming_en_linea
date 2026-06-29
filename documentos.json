@@ -1,0 +1,174 @@
+{
+  "documentos": [
+    {
+      "category": "1. GOBERNANZA Y POLÍTICAS",
+      "items": [
+        { "code": "SG-PR-001", "name": "Política de Seguridad y Salud Ocupacional", "status": "ready", "url": "#URL_DEL_PDF" },
+        { "code": "SG-RR-002", "name": "Reglamento Interno de Orden, Higiene y Seguridad (RIOHS)", "status": "ready", "url": "#URL_DEL_PDF" },
+        { "code": "SG-PG-SSO-01", "name": "Programa de Seguridad Integral", "status": "ready", "url": "#URL_DEL_PDF" },
+        { "code": "MEM-GEN-2026-001", "name": "Memorándum General de Inicio de Operaciones", "status": "ready", "url": "#URL_DEL_PDF" }
+      ]
+    },
+    {
+      "category": "2. GESTIÓN LEGAL Y ADMINISTRATIVA",
+      "items": [
+        { "code": "GL-RC-001", "name": "Dossier de Cumplimiento Legal y Administrativo del Personal", "status": "ready", "url": "#URL_DEL_PDF" },
+        { "code": "GL-IL-001", "name": "Inventario de Legislación Aplicable (Chile)", "status": "ready", "url": "#URL_DEL_PDF" },
+        { "code": "GC-AE-001", "name": "Antecedentes Legales Empresa", "status": "ready", "url": "#URL_DEL_PDF" },
+        { "code": "R-ODI-2026-ODI", "name": "Registro de Obligaciones y Deberes Individuales", "status": "ready", "url": "#URL_DEL_PDF" },
+        { "code": "GC-DC-001", "name": "Declaración de Confidencialidad y No Divulgación (NDA)", "status": "ready", "url": "#URL_DEL_PDF" },
+        { "code": "GL-CT-001", "name": "Contrato de Trabajo con Cláusulas de Seguridad y Salud", "status": "ready", "url": "#URL_DEL_PDF" },
+        { "code": "GL-RS-001", "name": "Formato de Liquidación de Sueldos y Remuneraciones", "status": "ready", "url": "#URL_DEL_PDF" }
+      ]
+    },
+    {
+      "category": "3. IDENTIFICACIÓN DE PELIGROS Y RIESGOS",
+      "items": [
+        { "code": "SG-MR-003", "name": "Matriz de Identificación de Peligros y Evaluación de Riesgos (MIPER)", "status": "ready", "url": "#URL_DEL_PDF" },
+        { "code": "SG-IR-001", "name": "Inventario General de Riesgos Laborales", "status": "ready", "url": "#URL_DEL_PDF" }
+      ]
+    },
+    {
+      "category": "4. CAPACITACIÓN Y COMPETENCIA",
+      "items": [
+        { "code": "CA-PC-001", "name": "Programa Anual de Capacitación", "status": "ready", "url": "#URL_DEL_PDF" },
+        { "code": "CA-PC-001-XX", "name": "Charlas de Capacitación", "status": "ready", "url": "#URL_DEL_PDF" },
+        { "code": "CA-FR-002", "name": "Formato de Registro de Asistencia a Capacitación", "status": "ready", "url": "#URL_DEL_PDF" },
+        { "code": "CA-EV-003", "name": "Evaluación de Eficacia de Capacitación (Test post-curso)", "status": "pending", "url": null }
+      ]
+    },
+    {
+      "category": "5. VIGILANCIA DE LA SALUD Y PROTOCOLOS MÉDICOS",
+      "items": [
+        { "code": "VS-FR-001", "name": "Matriz de Vigilancia de la Salud Ocupacional", "status": "pending", "url": null },
+        { "code": "VS-PR-001", "name": "Procedimiento de Vigilancia de la Salud y Exámenes", "status": "ready", "url": "#URL_DEL_PDF" },
+        { "code": "SM-FR-001", "name": "Instrumento de Evaluación de Riesgos Psicosociales (STRESS/INPSICO)", "status": "pending", "url": null },
+        { "code": "SM-FR-002", "name": "Formulario de Denuncia de Acoso Laboral y Sexual (Ley Karin)", "status": "pending", "url": null },
+        { "code": "EC-FR-001", "name": "Protocolo de Acción ante Olas de Calor Extremo", "status": "pending", "url": null }
+      ]
+    },
+    {
+      "category": "6. GESTIÓN DE CONTRATISTAS Y TERCEROS",
+      "items": [
+        { "code": "GC-FR-001", "name": "Declaración de Contratistas (Art. 18 Ley 20.123)", "status": "pending", "url": null },
+        { "code": "GC-FR-003", "name": "Acta de Entrega de Información de Riesgos (ART18)", "status": "pending", "url": null },
+        { "code": "GC-DIO-001", "name": "Carpeta Documental Inicio de Obra", "status": "pending", "url": null },
+        { "code": "GC-CRH-001", "name": "Carta de Responsabilidad HSE Contratista", "status": "pending", "url": null }
+      ]
+    },
+    {
+      "category": "7. EMERGENCIAS Y CONTINGENCIAS",
+      "items": [
+        { "code": "EM-PE-001", "name": "Plan de Emergencias y Sub-Planes", "status": "pending", "url": null },
+        { "code": "EM-SI-002", "name": "Programa Anual de Simulacros", "status": "pending", "url": null },
+        { "code": "EM-FR-003", "name": "Formato de Registro y Evaluación de Simulacro", "status": "pending", "url": null },
+        { "code": "EM-LT-004", "name": "Listado de Teléfonos de Emergencia Actualizado", "status": "pending", "url": null }
+      ]
+    },
+    {
+      "category": "8. OPERACIONES Y CONTROL DE PROCESOS",
+      "items": [
+        { "code": "PR-FR-006", "name": "Procedimiento de Gestión del Ruido y Protocolo PREXOR", "status": "pending", "url": null },
+        { "code": "EM-FR-004", "name": "Procedimiento de Bloqueo y Etiquetado (LOTO)", "status": "pending", "url": null },
+        { "code": "PF-FR-005", "name": "Permiso de Trabajo en Espacios Confinados", "status": "pending", "url": null },
+        { "code": "AU-FR-004", "name": "Checklist Pre-Operacional de Vehículos y Equipos", "status": "pending", "url": null },
+        { "code": "SSP-FR-002", "name": "Permisos Especiales de Trabajo de Alto Riesgo", "status": "pending", "url": null }
+      ]
+    },
+    {
+      "category": "9. SUSTANCIAS Y RESIDUOS PELIGROSOS",
+      "items": [
+        { "code": "SSP-FR-001", "name": "Ficha de Datos de Seguridad (FDS)", "status": "pending", "url": null },
+        { "code": "SSP-FR-003", "name": "Inventario de Sustancias Peligrosas", "status": "pending", "url": null },
+        { "code": "SSP-FR-004", "name": "Registro de Recepción y Disposición de Residuos Peligrosos", "status": "pending", "url": null }
+      ]
+    },
+    {
+      "category": "10. COMITÉ PARITARIO Y AUDITORÍA",
+      "items": [
+        { "code": "AU-RE-003", "name": "Registro de Reuniones del Comité Paritario de Higiene y Seguridad", "status": "pending", "url": null },
+        { "code": "AU-IR-002", "name": "Informe de No Conformidad y Plan de Acción Correctiva", "status": "pending", "url": null },
+        { "code": "AU-IA-002", "name": "Procedimiento Investigación Accidentes e Incidentes", "status": "pending", "url": null },
+        { "code": "AU-IA-001", "name": "Checklist de Auditoría Interna", "status": "pending", "url": null }
+      ]
+    },
+    {
+      "category": "11. REGISTROS ESPECÍFICOS",
+      "items": [
+        { "code": "SG-CA-001", "name": "Cronograma Anual de Actividades HSE", "status": "pending", "url": null },
+        { "code": "EM-PS-001", "name": "Detalle de Ejercicios de Simulacro", "status": "pending", "url": null },
+        { "code": "SG-CE-001", "name": "Certificados de Equipos de Protección Personal", "status": "pending", "url": null },
+        { "code": "GL-CA-001", "name": "Certificado de Afiliación a Mutualidad/ISL", "status": "pending", "url": null },
+        { "code": "SG-AC-001", "name": "Certificado de Accidentabilidad (Anual)", "status": "pending", "url": null },
+        { "code": "SG-KPI-001", "name": "Tablero de Indicadores de Desempeño (KPIs)", "status": "pending", "url": null }
+      ]
+    },
+    {
+      "category": "12. GESTIÓN AMBIENTAL",
+      "items": [
+        { "code": "AM-MA-001", "name": "Matriz de Aspectos e Impactos Ambientales", "status": "pending", "url": null }
+      ]
+    },
+    {
+      "category": "13. CONTROL DEL SISTEMA",
+      "items": [
+        { "code": "SG-CD-001", "name": "Procedimiento de Control de Documentos y Registros", "status": "pending", "url": null },
+        { "code": "SG-GC-001", "name": "Procedimiento de Gestión del Cambio (MOC)", "status": "pending", "url": null },
+        { "code": "SG-CC-001", "name": "Procedimiento de Comunicación y Consulta", "status": "pending", "url": null }
+      ]
+    },
+    {
+      "category": "14. PROCEDIMIENTOS OPERATIVOS ESPECÍFICOS",
+      "items": [
+        { "code": "PO-PR-001", "name": "Procedimiento de Trabajo en Espacios Confinados", "status": "ready", "url": "#URL_DEL_PDF" },
+        { "code": "PO-PR-002", "name": "Procedimiento de Montaje y Desmontaje de Estructuras Metálicas", "status": "ready", "url": "#URL_DEL_PDF" },
+        { "code": "PO-PR-003", "name": "Procedimiento de Trabajos en Caliente (Soldadura y Corte)", "status": "ready", "url": "#URL_DEL_PDF" },
+        { "code": "PO-PR-004", "name": "Procedimiento de Trabajo en Altura y Andamiaje", "status": "pending", "url": null },
+        { "code": "PO-PR-005", "name": "Procedimiento de Izaje y Manejo de Cargas", "status": "pending", "url": null },
+        { "code": "PO-PR-006", "name": "Procedimiento de Excavación, Trenching y Relleno", "status": "pending", "url": null },
+        { "code": "PO-PR-007", "name": "Procedimiento de Hormigonado y Curado", "status": "pending", "url": null },
+        { "code": "PO-PR-008", "name": "Procedimiento de Pintura Industrial y Touch-Up", "status": "pending", "url": null },
+        { "code": "PO-PR-009", "name": "Procedimiento de Topografía y Replanteo", "status": "pending", "url": null },
+        { "code": "PO-PR-010", "name": "Procedimiento de Montaje de Equipos y Maquinaria", "status": "pending", "url": null },
+        { "code": "PO-PR-011", "name": "Procedimiento de y Transferencia de Marcas", "status": "pending", "url": null },
+        { "code": "PO-PR-012", "name": "Procedimiento de Instalación de Faena y Campamentos", "status": "pending", "url": null },
+        { "code": "PO-PR-013", "name": "Procedimiento de Uniones Apemadas (Torque y Tensión)", "status": "pending", "url": null },
+        { "code": "PO-PR-014", "name": "Procedimiento de Uso de Plataformas Elevadoras (Nacelas) y Canastillas", "status": "pending", "url": null },
+        { "code": "PO-PR-015", "name": "Procedimiento de Trabajos Eléctricos y Protección contra Arco Eléctrico", "status": "pending", "url": null },
+        { "code": "PO-PR-016", "name": "Procedimiento de Pruebas Hidrostáticas de Presión", "status": "pending", "url": null },
+        { "code": "PO-PR-017", "name": "Procedimiento de Instalación y Montaje de Piping (Cañería)", "status": "pending", "url": null },
+        { "code": "PO-PR-018", "name": "Procedimiento de Soldadura de Tubería Termoplástica (HDPE, PPR)", "status": "pending", "url": null },
+        { "code": "PO-PR-019", "name": "Procedimiento de Equipos Rotatorios y Partes Móviles", "status": "pending", "url": null },
+        { "code": "PO-PR-020", "name": "Procedimiento de Bloqueo y Etiquetado (LOTO)", "status": "pending", "url": null },
+        { "code": "PO-PR-021", "name": "Procedimiento de Orden y Limpieza (SS) y Almacenamiento", "status": "pending", "url": null },
+        { "code": "PO-PR-022", "name": "Procedimiento de Gestión de Riesgos Psicosociales y Acoso", "status": "pending", "url": null },
+        { "code": "PO-PR-023", "name": "Procedimiento de Coordinación de Contratistas (ART18)", "status": "pending", "url": null },
+        { "code": "PO-PR-024", "name": "Procedimiento de Ensayos No Destructivos (ENDs) y Radiología", "status": "pending", "url": null },
+        { "code": "PO-PR-025", "name": "Procedimiento de Primeros Auxilios y Respuesta Médica", "status": "pending", "url": null }
+      ]
+    },
+    {
+      "category": "15. PROTOCOLOS TÉCNICOS DE CALIDAD Y SEGURIDAD",
+      "items": [
+        { "code": "PT-PR-001", "name": "Protocolo Técnico de Unión Soldada (Arco, Gas, HDPE)", "status": "pending", "url": null },
+        { "code": "PT-PR-002", "name": "Protocolo Ensayos No Destructivos", "status": "pending", "url": null },
+        { "code": "PT-PR-003", "name": "Protocolo de Uniones Apemadas (Torque y Tensión)", "status": "pending", "url": null },
+        { "code": "PT-PR-004", "name": "Protocolo de Touch-Up y Reparación de Recubrimientos", "status": "pending", "url": null },
+        { "code": "EM-PR-001", "name": "Procedimiento de Primeros Auxilios y Respuesta Médica", "status": "pending", "url": null }
+      ]
+    },
+    {
+      "category": "16. CHECKLISTS DE VERIFICACIÓN OPERATIVA",
+      "items": [
+        { "code": "CK-FR-001", "name": "Pre-Operacional: Soldadura y Oxicorte", "status": "pending", "url": null },
+        { "code": "CK-FR-002", "name": "Pre-Operacional: Trabajo en Altura y Andamios", "status": "pending", "url": null },
+        { "code": "CK-FR-003", "name": "Pre-Operacional: Izaje y Grúas", "status": "pending", "url": null },
+        { "code": "CK-FR-004", "name": "Pre-Operacional: Espacios Confinados", "status": "pending", "url": null },
+        { "code": "CK-FR-005", "name": "Inspección: Herramientas Manuales y Eléctricas", "status": "pending", "url": null },
+        { "code": "CK-FR-006", "name": "Verificación: Pruebas Hidrostáticas", "status": "pending", "url": null },
+        { "code": "CK-FR-007", "name": "Montaje: Piping y Soportería", "status": "pending", "url": null },
+        { "code": "CK-FR-008", "name": "Entrada a Faena (Inducción y EPP)", "status": "pending", "url": null }
+      ]
+    }
+  ]
+}
