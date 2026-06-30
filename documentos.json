@@ -26,8 +26,8 @@
     {
       "category": "3. IDENTIFICACIÓN DE PELIGROS Y RIESGOS",
       "items": [
-        { "code": "SG-MR-003", "name": "Matriz de Identificación de Peligros y Evaluación de Riesgos (MIPER)", "status": "ready", "url": "#URL_DEL_PDF" },
-        { "code": "SG-IR-001", "name": "Inventario General de Riesgos Laborales", "status": "ready", "url": "#URL_DEL_PDF" }
+        { "code": "SG-MR-003", "name": "Matriz de Identificación de Peligros y Evaluación de Riesgos (MIPER)", "status": "ready", "url": "https://drive.google.com/file/d/1px-aHieBGNRC-GzHKRk0XuNiSPN1VRjf/view?usp=drive_link" },
+        { "code": "SG-IR-001", "name": "Inventario General de Riesgos Laborales", "status": "ready", "url": "#https://drive.google.com/file/d/1PihUuibMX7crXJqGrUv7gCrIpcXYWJz5/view?usp=drive_link" }
       ]
     },
     {
