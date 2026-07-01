@@ -4,10 +4,10 @@
       "category": "1. GOBERNANZA Y POLÍTICAS",
       "items": [
         { "code": "SG-PR-001", "name": "Política de Seguridad y Salud Ocupacional", "status": "ready", "url": "https://drive.google.com/file/d/13dVBfw5_VlL-5qYwk4q5Q4t5k7InPpGV/view?usp=drive_link" },
-        { "code": "SG-RR-002", "name": "Reglamento Interno de Orden, Higiene y Seguridad (RIOHS)", "status": "ready", "url": "#https://drive.google.com/file/d/10P0298kpgtc5gbnjSPSUHMWHUgUuXYy8/view?usp=drive_link" },
+        { "code": "SG-RR-002", "name": "Reglamento Interno de Orden, Higiene y Seguridad (RIOHS)", "status": "ready", "url": "https://drive.google.com/file/d/10P0298kpgtc5gbnjSPSUHMWHUgUuXYy8/view?usp=drive_link" },
         { "code": "SG-PG-SSO-01", "name": "Programa de Seguridad Integral", "status": "ready", "url": "https://drive.google.com/file/d/1jW2juj0rYpfh9Qw42NK36lCd_YvtGiV8/view?usp=drive_link" },
         { "code": "MEM-GEN-2026-001", "name": "Memorándum General de Inicio de Operaciones", "status": "ready", "url": "https://drive.google.com/file/d/15JFPQGUGFr0UrDzuUdM-lkD2yW5AmlA1/view?usp=drive_link" },
-        { "code": "MEM-GEN-2026-002", "name": "Memorándum General de Inicio de Operaciones", "status": "ready", "url": "https://drive.google.com/file/d/1C63apgI1UWApczrqW0alSocpOvM86fHu/view?usp=drive_link" },
+        { "code": "MEM-GEN-2026-002", "name": "Memorándum General de Implementación de Dossier General", "status": "ready", "url": "https://drive.google.com/file/d/1C63apgI1UWApczrqW0alSocpOvM86fHu/view?usp=drive_link" },
         { "code": "SG-PG-004", "name": "Programa de Integridad y Código Ético", "status": "ready", "url": "https://drive.google.com/file/d/1-gLaUsyyb6Q2LLEBsGEEKFdOurv0xFTY/view?usp=drive_link" }
       ]
     },
@@ -27,7 +27,7 @@
       "category": "3. IDENTIFICACIÓN DE PELIGROS Y RIESGOS",
       "items": [
         { "code": "SG-MR-003", "name": "Matriz de Identificación de Peligros y Evaluación de Riesgos (MIPER)", "status": "ready", "url": "https://drive.google.com/file/d/1px-aHieBGNRC-GzHKRk0XuNiSPN1VRjf/view?usp=drive_link" },
-        { "code": "SG-IR-001", "name": "Inventario General de Riesgos Laborales", "status": "ready", "url": "#https://drive.google.com/file/d/1PihUuibMX7crXJqGrUv7gCrIpcXYWJz5/view?usp=drive_link" }
+        { "code": "SG-IR-001", "name": "Inventario General de Riesgos Laborales", "status": "ready", "url": "https://drive.google.com/file/d/1PihUuibMX7crXJqGrUv7gCrIpcXYWJz5/view?usp=drive_link" }
       ]
     },
     {
@@ -223,6 +223,21 @@
         { "code": "CK-FR-006", "name": "Verificación: Pruebas Hidrostáticas", "status": "pending", "url": null },
         { "code": "CK-FR-007", "name": "Montaje: Piping y Soportería", "status": "pending", "url": null },
         { "code": "CK-FR-008", "name": "Entrada a Faena (Inducción y EPP)", "status": "pending", "url": null }
+      ]
+    },
+    {
+      "category": "17. GESTIÓN DE CALIDAD (ISO 9001)",
+      "items": [
+        { "code": "CA-PR-001", "name": "Política de Calidad", "status": "pending", "url": null },
+        { "code": "CA-AL-001", "name": "Alcance del Sistema de Gestión de Calidad", "status": "pending", "url": null },
+        { "code": "CA-MP-001", "name": "Mapa de Procesos (Cadena de Valor)", "status": "pending", "url": null },
+        { "code": "CA-MR-001", "name": "Matriz de Riesgos de Calidad y Oportunidades", "status": "pending", "url": null },
+        { "code": "CA-PR-002", "name": "Procedimiento de Control de Producto No Conforme", "status": "pending", "url": null },
+        { "code": "CA-PR-003", "name": "Procedimiento de Evaluación y Re-evaluación de Proveedores", "status": "pending", "url": null },
+        { "code": "CA-FR-001", "name": "Formato de Encuesta de Satisfacción al Cliente", "status": "pending", "url": null },
+        { "code": "CA-RE-001", "name": "Registro de Quejas, Reclamos y Felicitaciones", "status": "pending", "url": null },
+        { "code": "CA-KPI-001", "name": "Tablero de Indicadores de Calidad (Entregas, Eficiencia)", "status": "pending", "url": null },
+        { "code": "CA-RE-002", "name": "Acta de Revisión por la Dirección (Calidad)", "status": "pending", "url": null }
       ]
     }
   ]
