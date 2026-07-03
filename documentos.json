@@ -228,16 +228,17 @@
     {
       "category": "17. GESTIÓN DE CALIDAD (ISO 9001)",
       "items": [
-        { "code": "CA-PR-001", "name": "Política de Calidad", "status": "pending", "url": null },
-        { "code": "CA-AL-001", "name": "Alcance del Sistema de Gestión de Calidad", "status": "pending", "url": null },
-        { "code": "CA-MP-001", "name": "Mapa de Procesos (Cadena de Valor)", "status": "pending", "url": null },
-        { "code": "CA-MR-001", "name": "Matriz de Riesgos de Calidad y Oportunidades", "status": "pending", "url": null },
-        { "code": "CA-PR-002", "name": "Procedimiento de Control de Producto No Conforme", "status": "pending", "url": null },
-        { "code": "CA-PR-003", "name": "Procedimiento de Evaluación y Re-evaluación de Proveedores", "status": "pending", "url": null },
-        { "code": "CA-FR-001", "name": "Formato de Encuesta de Satisfacción al Cliente", "status": "pending", "url": null },
-        { "code": "CA-RE-001", "name": "Registro de Quejas, Reclamos y Felicitaciones", "status": "pending", "url": null },
-        { "code": "CA-KPI-001", "name": "Tablero de Indicadores de Calidad (Entregas, Eficiencia)", "status": "pending", "url": null },
-        { "code": "CA-RE-002", "name": "Acta de Revisión por la Dirección (Calidad)", "status": "pending", "url": null }
+        { "code": "CA-PR-001", "name": "Política de Calidad", "status": "ready", "url": "https://drive.google.com/file/d/1J8fN_wIorsJCBuW72xT3l4MyPoGENunx/view?usp=drive_link" },
+        { "code": "CA-AL-001", "name": "Alcance del Sistema de Gestión de Calidad", "status": "ready", "url": "https://drive.google.com/file/d/1PyMq6y3jKXF6_WYi8L774tnXaOIqgsLg/view?usp=drive_link" },
+        { "code": "CA-MP-001", "name": "Mapa de Procesos (Cadena de Valor)", "status": "ready", "url": "https://drive.google.com/file/d/1N_QnlF4afadbYYqVzZEnXQ2AuDhqD9fm/view?usp=drive_link" },
+        { "code": "CA-MP-001", "name": "Mapa de Procesos Grafico V1.0", "status": "ready", "url": "https://drive.google.com/file/d/1T4-n8aT-zpZ9tmTbw5AaP7AH6UOgrxGm/view?usp=drive_link" },
+        { "code": "CA-MR-001", "name": "Matriz de Riesgos de Calidad y Oportunidades", "status": "ready", "url": "https://drive.google.com/file/d/1bjn8GzaBQhxdXXwl612c9Ya0gk2aHA8E/view?usp=drive_link" },
+        { "code": "CA-PR-002", "name": "Procedimiento de Control de Producto No Conforme", "status": "ready", "url": "https://drive.google.com/file/d/126ZI73-IDPIdZQ0eg-1yiv9V7CmOf0MH/view?usp=drive_link" },
+        { "code": "CA-PR-003", "name": "Procedimiento de Evaluación y Re-evaluación de Proveedores", "status": "ready", "url": "https://drive.google.com/file/d/1dDKSeGKWUGiX2n1_LpiPBDs5dYElIzpp/view?usp=drive_link" },
+        { "code": "CA-FR-001", "name": "Formato de Encuesta de Satisfacción al Cliente", "status": "ready", "url": "https://drive.google.com/file/d/1LqVa7MAi0sTJaTKt4m-mAU7V4ePpqPb9/view?usp=drive_link" },
+        { "code": "CA-RE-001", "name": "Registro de Quejas, Reclamos y Felicitaciones", "status": "ready", "url": "https://drive.google.com/file/d/10a5UP3ZRik53Yh7UpkSUrKWr47x2NMa9/view?usp=drive_link" },
+        { "code": "CA-KPI-001", "name": "Tablero de Indicadores de Calidad (Entregas, Eficiencia)", "status": "ready", "url": "https://drive.google.com/file/d/1kNX1jtOH_8zknge_ryiSVJvqxUZDSWjk/view?usp=drive_link" },
+        { "code": "CA-RE-002", "name": "Acta de Revisión por la Dirección (Calidad)", "status": "ready", "url": "https://drive.google.com/file/d/1_YID6A8RaNbNfREfMiGDje38TvNcYy9O/view?usp=drive_link" }
       ]
     }
   ]
