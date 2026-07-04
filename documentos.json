@@ -209,7 +209,6 @@
         { "code": "PT-PR-002", "name": "Protocolo Ensayos No Destructivos", "status": "pending", "url": null },
         { "code": "PT-PR-003", "name": "Protocolo de Uniones Apemadas (Torque y Tensión)", "status": "pending", "url": null },
         { "code": "PT-PR-004", "name": "Protocolo de Touch-Up y Reparación de Recubrimientos", "status": "pending", "url": null },
-        { "code": "EM-PR-001", "name": "Procedimiento de Primeros Auxilios y Respuesta Médica", "status": "pending", "url": null }
       ]
     },
     {
