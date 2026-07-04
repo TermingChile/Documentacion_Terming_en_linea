@@ -215,14 +215,16 @@
     {
       "category": "16. CHECKLISTS DE VERIFICACIÓN OPERATIVA",
       "items": [
-        { "code": "CK-FR-001", "name": "Pre-Operacional: Soldadura y Oxicorte", "status": "pending", "url": null },
-        { "code": "CK-FR-002", "name": "Pre-Operacional: Trabajo en Altura y Andamios", "status": "pending", "url": null },
-        { "code": "CK-FR-003", "name": "Pre-Operacional: Izaje y Grúas", "status": "pending", "url": null },
-        { "code": "CK-FR-004", "name": "Pre-Operacional: Espacios Confinados", "status": "pending", "url": null },
-        { "code": "CK-FR-005", "name": "Inspección: Herramientas Manuales y Eléctricas", "status": "pending", "url": null },
-        { "code": "CK-FR-006", "name": "Verificación: Pruebas Hidrostáticas", "status": "pending", "url": null },
-        { "code": "CK-FR-007", "name": "Montaje: Piping y Soportería", "status": "pending", "url": null },
-        { "code": "CK-FR-008", "name": "Entrada a Faena (Inducción y EPP)", "status": "pending", "url": null }
+        { "code": "CK-FR-001", "name": "Pre-Operacional: Soldadura y Oxicorte", "status": "pending", "url": "https://drive.google.com/file/d/121TSURxsMUn1UzDHuCyTQNrZRBeR1rzT/view?usp=drive_link" },
+        { "code": "CK-FR-002", "name": "Pre-Operacional: Trabajo en Altura y Andamios", "status": "pending", "url": "https://drive.google.com/file/d/1jbzezBXOTcNBYvAsH5SigRM5_TFgK2Wm/view?usp=drive_link" },
+        { "code": "CK-FR-003", "name": "Pre-Operacional: Izaje y Grúas", "status": "pending", "url": "https://drive.google.com/file/d/1uiJElxKEus0wwA2Q_Q4b8BuyFyGUAKuV/view?usp=drive_link" },
+        { "code": "CK-FR-004", "name": "Pre-Operacional: Espacios Confinados", "status": "pending", "url": "https://drive.google.com/file/d/12hoNUbdK0W2I7Va3-UVRbX52sRBf5hMu/view?usp=drive_link" },
+        { "code": "CK-FR-005", "name": "Inspección: Herramientas Manuales y Eléctricas", "status": "pending", "url": "https://drive.google.com/file/d/1LKLsH8_GMik-cHpeioTZ2wBRDcMIkVIv/view?usp=drive_link" },
+        { "code": "CK-FR-006", "name": "Verificación: Pruebas Hidrostáticas", "status": "pending", "url": "https://drive.google.com/file/d/1ij40M4Wx0NanP2qpt0xPMBy5e9to-mOC/view?usp=drive_link" },
+        { "code": "CK-FR-007", "name": "Montaje: Piping y Soportería", "status": "pending", "url": "https://drive.google.com/file/d/1rARRvArJFot8qXcu_S9K2iF6WHVdUCFp/view?usp=drive_link" },
+        { "code": "CK-FR-008", "name": "Entrada a Faena (Inducción y EPP)", "status": "pending", "url": "https://drive.google.com/file/d/1Tu5pxFk6gP5Jl3FJ3bxmGbEfYls7pOB-/view?usp=drive_link" },
+        { "code": "CK-FR-009", "name": "Andamios Tubulares y de Fachada", "status": "pending", "url": "https://drive.google.com/file/d/1Jqf0gv_6zfZocv3HfvMWUoE1G1_M4GV9/view?usp=drive_link" },
+        { "code": "CK-FR-010", "name": "Excavación y Zanjas (Trenching)", "status": "pending", "url": "https://drive.google.com/file/d/1IC7AwcZk0PC3kr_3MZLqJADbsfwJpI9a/view?usp=drive_link" }
       ]
     },
     {
