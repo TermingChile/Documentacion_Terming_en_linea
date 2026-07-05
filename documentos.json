@@ -205,10 +205,10 @@
     {
       "category": "15. PROTOCOLOS TÉCNICOS DE CALIDAD Y SEGURIDAD",
       "items": [
-        { "code": "PT-PR-001", "name": "Protocolo Técnico de Unión Soldada (Arco, Gas, HDPE)", "status": "pending", "url": null },
-        { "code": "PT-PR-002", "name": "Protocolo Ensayos No Destructivos", "status": "pending", "url": null },
-        { "code": "PT-PR-003", "name": "Protocolo de Uniones Apemadas (Torque y Tensión)", "status": "pending", "url": null },
-        { "code": "PT-PR-004", "name": "Protocolo de Touch-Up y Reparación de Recubrimientos", "status": "pending", "url": null },
+        { "code": "PT-PR-001", "name": "Protocolo Técnico de Unión Soldada (Arco, Gas, HDPE)", "status": "ready", "url": "https://drive.google.com/file/d/17ndNOH4bNAkKQOWq6MQ-AxgFq6hbnWd7/view?usp=drive_link" },
+        { "code": "PT-FR-002", "name": "Procedimiento de Soldadura (WPS)", "status": "ready", "url": "https://drive.google.com/file/d/10X2fLg9UGlynL6i_e56IKgbGc5QClx3v/view?usp=drive_link" },
+        { "code": "PT-FR-003", "name": "Registro de Calificación de Procedimiento (PQR)", "status": "ready", "url": "https://drive.google.com/file/d/1KY5MVJtZsCxrHFlfiqsLyErm2ZoHZruy/view?usp=drive_link" },
+        { "code": "PT-FR-004", "name": "Registro de Calificación del Soldador (WPQ)", "status": "ready", "url": "https://drive.google.com/file/d/1jNY3Fq3QoDU8vUmPP81AJhXmuYet2DBj/view?usp=drive_link" },
       ]
     },
     {
