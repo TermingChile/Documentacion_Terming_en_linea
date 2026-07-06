@@ -14,13 +14,14 @@
     {
       "category": "2. GESTIÓN LEGAL Y ADMINISTRATIVA",
       "items": [
-        { "code": "GL-RC-001", "name": "Dossier de Cumplimiento Legal y Administrativo del Personal", "status": "ready", "url": "#URL_DEL_PDF" },
-        { "code": "GL-IL-001", "name": "Inventario de Legislación Aplicable (Chile)", "status": "ready", "url": "#URL_DEL_PDF" },
-        { "code": "GC-AE-001", "name": "Antecedentes Legales Empresa", "status": "ready", "url": "#URL_DEL_PDF" },
-        { "code": "R-ODI-2026-ODI", "name": "Registro de Obligaciones y Deberes Individuales", "status": "ready", "url": "#URL_DEL_PDF" },
-        { "code": "GC-DC-001", "name": "Declaración de Confidencialidad y No Divulgación (NDA)", "status": "ready", "url": "#URL_DEL_PDF" },
-        { "code": "GL-CT-001", "name": "Contrato de Trabajo con Cláusulas de Seguridad y Salud", "status": "ready", "url": "#URL_DEL_PDF" },
-        { "code": "GL-RS-001", "name": "Formato de Liquidación de Sueldos y Remuneraciones", "status": "ready", "url": "#URL_DEL_PDF" }
+        { "code": "GL-RC-001", "name": "Dossier de Cumplimiento Legal y Administrativo del Personal", "status": "ready", "url": "https://drive.google.com/file/d/18iFsF4DVSeZTFnGSF85x_mkZbzakLaLG/view?usp=drive_link" },
+        { "code": "GL-IL-001", "name": "Inventario de Legislación Aplicable (Chile)", "status": "ready", "url": "https://drive.google.com/file/d/19ayWy2U1xFupleVMoCRPkG83O4PGRpaX/view?usp=drive_link" },
+        { "code": "GC-AE-001", "name": "Antecedentes Legales Empresa", "status": "ready", "url": "https://drive.google.com/file/d/1aSDsLaigLiNdYPsOAQxC-qhQUiankowg/view?usp=drive_link" },
+        { "code": "R-ODI-001", "name": "Registro de Obligaciones y Deberes Individuales", "status": "ready", "url": "https://drive.google.com/file/d/1eRpOB3SBePF9qM3KEeDGXtU_QxXnN4Of/view?usp=drive_link" },
+        { "code": "GC-DC-001", "name": "Declaración de Confidencialidad y No Divulgación (NDA)", "status": "ready", "url": "https://drive.google.com/file/d/1sROGKye1Mv6yAZ4o66dSA2DTODWuLhQt/view?usp=drive_link" },
+        { "code": "GL-CT-001", "name": "Contrato de Trabajo con Cláusulas de Seguridad y Salud", "status": "ready", "url": "https://drive.google.com/file/d/1NkjrBKJw8_0EZdH5oKh8WkwOIdaDz2el/view?usp=drive_link" },
+        { "code": "GL-RS-001", "name": "Formato de Liquidación de Sueldos y Remuneraciones", "status": "ready", "url": "https://drive.google.com/file/d/1NkOo1gLc44XFmdPWxm7sKRCj5loXTQjY/view?usp=drive_link" },
+        { "code": "GL-AJ-001", "name": "Autorización de Jornada Excepcional", "status": "ready", "url": "https://drive.google.com/file/d/1g_PYPsJypXZIvvyA8o5lO8jgtzRcoiWx/view?usp=drive_link" }
       ]
     },
     {
