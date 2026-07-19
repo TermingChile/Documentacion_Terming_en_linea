@@ -115,10 +115,10 @@
     {
       "category": "7. EMERGENCIAS Y CONTINGENCIAS",
       "items": [
-        { "code": "EM-PE-001", "name": "Plan de Emergencias y Sub-Planes", "status": "pending", "url": null },
-        { "code": "EM-SI-002", "name": "Programa Anual de Simulacros", "status": "pending", "url": null },
-        { "code": "EM-FR-003", "name": "Formato de Registro y Evaluación de Simulacro", "status": "pending", "url": null },
-        { "code": "EM-LT-004", "name": "Listado de Teléfonos de Emergencia Actualizado", "status": "pending", "url": null }
+        { "code": "EM-PE-001", "name": "Plan de Emergencias y Sub-Planes", "status": "ready", "url": "https://drive.google.com/file/d/173_0MludMj-6MnboJb5JGaZlWr8WO6tV/view?usp=drive_link" },
+        { "code": "EM-SI-002", "name": "Programa Anual de Simulacros", "status": "ready", "url": "https://drive.google.com/file/d/1LGyqHcTShiiC6BUbXw47s_0nsBNCHn6c/view?usp=drive_link" },
+        { "code": "EM-FR-003", "name": "Formato de Registro y Evaluación de Simulacro", "status": "ready", "url": "https://drive.google.com/file/d/1rTgLwTK-CHz0yu20UMSzfWzIsHyly0_u/view?usp=drive_link" },
+        { "code": "EM-LT-004", "name": "Listado de Teléfonos de Emergencia Actualizado", "status": "ready", "url": "https://drive.google.com/file/d/14_cI3plrhMr9wW5WtPQ1XOUIBATPBdLE/view?usp=drive_link" }
       ]
     },
     {
@@ -134,9 +134,9 @@
     {
       "category": "9. SUSTANCIAS Y RESIDUOS PELIGROSOS",
       "items": [
-        { "code": "SSP-FR-001", "name": "Ficha de Datos de Seguridad (FDS)", "status": "pending", "url": null },
-        { "code": "SSP-FR-003", "name": "Inventario de Sustancias Peligrosas", "status": "pending", "url": null },
-        { "code": "SSP-FR-004", "name": "Registro de Recepción y Disposición de Residuos Peligrosos", "status": "pending", "url": null }
+        { "code": "SSP-FR-001", "name": "Ficha de Datos de Seguridad (FDS)", "status": "ready", "url": "https://drive.google.com/file/d/149xT5_puVY0saxcRrlY1yPNBjknty_BE/view?usp=drive_link" },
+        { "code": "SSP-FR-003", "name": "Inventario de Sustancias Peligrosas", "status": "ready", "url": "https://drive.google.com/file/d/1wweHt9jDL689DBhCsiscMksOhDT4sY3P/view?usp=drive_link" },
+        { "code": "SSP-FR-004", "name": "Registro de Recepción y Disposición de Residuos Peligrosos", "status": "ready", "url": "https://drive.google.com/file/d/1kIkmcu4QEaaa3EW2y2oZtiELQflAla-O/view?usp=drive_link" }
       ]
     },
     {
@@ -162,15 +162,25 @@
     {
       "category": "12. GESTIÓN AMBIENTAL",
       "items": [
-        { "code": "AM-MA-001", "name": "Matriz de Aspectos e Impactos Ambientales", "status": "pending", "url": null }
+        { "code": "AM-MA-001", "name": "Matriz de Aspectos e Impactos Ambientales", "status": "ready", "url": "https://drive.google.com/file/d/14PJvMleRrOVpodwlVaAYO7HO8FMfAXd9/view?usp=drive_link" },
+        { "code": "AM-PO-001", "name": "Política Ambiental Integrada QHSE", "status": "ready", "url": "https://drive.google.com/file/d/1bmKO7D1YXm4_hKBFC5x3-UGB-iXUTRtB/view?usp=drive_link" },
+        { "code": "AM-AL-001", "name": "Alcance del Sistema de Gestión Ambiental (SGA)", "status": "ready", "url": "https://drive.google.com/file/d/1Xxls6Y4lBidYUal0l42oJyfo_VaI-yny/view?usp=drive_link" },
+        { "code": "AM-MP-001", "name": "Mapa de Aspectos e Impactos Ambientales por Proceso", "status": "ready", "url": "https://drive.google.com/file/d/1E29dR1-u79sdX40gKVoaXRe1CPUQUeS8/view?usp=drive_link" },
+        { "code": "AM-MR-001", "name": "Matriz de Riesgos Ambientales y Oportunidades", "status": "ready", "url": "https://drive.google.com/file/d/1uy8ap0qS47nsXTpzoVpHhJ-gnNHdyIUV/view?usp=drive_link" },
+        { "code": "AM-PR-001", "name": "Procedimiento para Identificación y Evaluación de Aspectos Ambientales", "status": "ready", "url": "https://drive.google.com/file/d/1wQq6c81FHAmdYxtHp_OMPodlBfQoW9cJ/view?usp=drive_link" },
+        { "code": "AM-PR-002", "name": "Control Operacional de Emisiones, Residuos y Vertimientos", "status": "ready", "url": "https://drive.google.com/file/d/1I603W_w7wx_4G4CpmSwCXmFtkGJVzZO-/view?usp=drive_link" },
+        { "code": "AM-PR-003", "name": "Gestión de Sustancias Químicas y Residuos Peligrosos", "status": "ready", "url": "https://drive.google.com/file/d/1q3lLoPe2HO6BWoZC080EctHn5L2pRmNR/view?usp=drive_link" },
+        { "code": "AM-PR-004", "name": "Respuesta ante Emergencias Ambientales", "status": "ready", "url": "https://drive.google.com/file/d/1mBuHyhKR0k0V2VcJRaQ3cbA4M60Bi4JR/view?usp=drive_link" },
+        { "code": "AM-RE-001", "name": "Registro de Incidentes Ambientales", "status": "ready", "url": "https://drive.google.com/file/d/1BqRJ8GxWmbyHmtnJgRA0ekF31lzhd7Th/view?usp=drive_link" },
+        { "code": "AM-RE-002", "name": "Seguimiento de Indicadores Ambientales", "status": "ready", "url": "https://drive.google.com/file/d/18bpVqphuKjK_JXAUC3XVEOoAdkIcism-/view?usp=drive_link" }
       ]
     },
     {
       "category": "13. CONTROL DEL SISTEMA",
       "items": [
-        { "code": "SG-CD-001", "name": "Procedimiento de Control de Documentos y Registros", "status": "pending", "url": null },
-        { "code": "SG-GC-001", "name": "Procedimiento de Gestión del Cambio (MOC)", "status": "pending", "url": null },
-        { "code": "SG-CC-001", "name": "Procedimiento de Comunicación y Consulta", "status": "pending", "url": null }
+        { "code": "SG-CD-001", "name": "Procedimiento de Control de Documentos y Registros", "status": "ready", "url": "https://drive.google.com/file/d/1TrHbhgO-_k7Ea6QQYFyfuU-06Voi2bIa/view?usp=drive_link" },
+        { "code": "SG-GC-001", "name": "Procedimiento de Gestión del Cambio (MOC)", "status": "ready", "url": "https://drive.google.com/file/d/1gk-BKvwp3cHnIwINgjbA8_7HZNm48ePr/view?usp=drive_link" },
+        { "code": "SG-CC-001", "name": "Procedimiento de Comunicación y Consulta", "status": "ready", "url": "https://drive.google.com/file/d/1v_lIpWVrXRGQC40B523ghVGj80bSQC5i/view?usp=drive_link" }
       ]
     },
     {
@@ -241,6 +251,47 @@
         { "code": "CA-RE-001", "name": "Registro de Quejas, Reclamos y Felicitaciones", "status": "ready", "url": "https://drive.google.com/file/d/10a5UP3ZRik53Yh7UpkSUrKWr47x2NMa9/view?usp=drive_link" },
         { "code": "CA-KPI-001", "name": "Tablero de Indicadores de Calidad (Entregas, Eficiencia)", "status": "ready", "url": "https://drive.google.com/file/d/1kNX1jtOH_8zknge_ryiSVJvqxUZDSWjk/view?usp=drive_link" },
         { "code": "CA-RE-002", "name": "Acta de Revisión por la Dirección (Calidad)", "status": "ready", "url": "https://drive.google.com/file/d/1_YID6A8RaNbNfREfMiGDje38TvNcYy9O/view?usp=drive_link" }
+      ]
+    },
+    {
+      "category": "18. SEGURIDAD DE LA INFORMACIÓN (SGSI)",
+      "items": [
+        { "code": "SI-PO-001", "name": "Política de Seguridad de la Información y Protección de Datos", "status": "ready", "url": "https://drive.google.com/file/d/1qZQUM5fM9xFRkImG9s0QuBiQkjpe4jt2/view?usp=drive_link" },
+        { "code": "SI-AL-001", "name": "Alcance del SGSI", "status": "ready", "url": "https://drive.google.com/file/d/1SRphisQmQVwc5cTCHOfdPsppHdOr-ZuM/view?usp=drive_link" },
+        { "code": "SI-MR-001", "name": "Matriz de Riesgos y Oportunidades de Seguridad", "status": "ready", "url": "https://drive.google.com/file/d/1FITp-YFuG1JtkyVyaIubb2w-b6csip8E/view?usp=drive_link" },
+        { "code": "SI-RE-001", "name": "Declaración de Aplicabilidad (SoA - Statement of Applicability)", "status": "ready", "url": "https://drive.google.com/file/d/1BdU3TStWTE3rvekDTKjdjWqIuUHZIqNP/view?usp=drive_link" },
+        { "code": "SI-PR-001", "name": "Control de Accesos Lógicos y Gestión de Identidades", "status": "ready", "url": "https://drive.google.com/file/d/1uJi7ZGw9UFONeHXNHYuTYH58JTc1MA-C/view?usp=drive_link" },
+        { "code": "SI-PR-002", "name": "Gestión de Incidentes de Seguridad y Brechas de Datos", "status": "ready", "url": "https://drive.google.com/file/d/10x-G--RwVMXecOKrc-mY5oU8TDAuJCXp/view?usp=drive_link" },
+        { "code": "SI-PR-003", "name": "Plan de Continuidad del Negocio ante caídas de TI (BCP)", "status": "ready", "url": "https://drive.google.com/file/d/1y6NXBK2mF012k5H5YOI0qYD0ddwDd4h3/view?usp=drive_link" },
+        { "code": "SI-PR-004", "name": "Clasificación y Control de Activos de Información", "status": "ready", "url": "https://drive.google.com/file/d/1G11lokQG_mzLqI1BLAjXwol_fiO5_f1G/view?usp=drive_link" },
+        { "code": "SI-PR-005", "name": "Seguridad en la Gestión de Contratistas y Terceros", "status": "ready", "url": "https://drive.google.com/file/d/1W-6weiACO6CSVknl83-gAfd5QDKJBj_B/view?usp=drive_link" },
+        { "code": "SI-RE-002", "name": "Matriz de Cumplimiento Legal aplicable del SGSI", "status": "ready", "url": "https://drive.google.com/file/d/1JY-kOSGB9Pwv18pGAMRE3vx7-OsN75WQ/view?usp=drive_link" }
+      ]
+    },
+    {
+      "category": "19. LIMPIEZA, HIGIENE E INOCUIDAD (SGIA)",
+      "items": [
+        { "code": "IA-PO-001", "name": "Política de Limpieza, Higiene e Inocuidad", "status": "ready", "url": "https://drive.google.com/file/d/1izfubKHceJAytdUSXZQP0r8bOi4SrBhL/view?usp=drive_link" },
+        { "code": "IA-AL-001", "name": "Alcance del SGIA", "status": "ready", "url": "https://drive.google.com/file/d/1aG-9ia4IM6MuK4t8xzyVqdz9zJ_ousnR/view?usp=drive_link" },
+        { "code": "IA-MR-001", "name": "Análisis de Peligros y Puntos Críticos de Control (HACCP)", "status": "ready", "url": "https://drive.google.com/file/d/1f2H-Kde5_7jtPt6WZk6Ueh_WjtJId07_/view?usp=drive_link" },
+        { "code": "IA-PR-001", "name": "Programas de Prerrequisitos (PPR)", "status": "ready", "url": "https://drive.google.com/file/d/11zAIBugGceZzBDF6j7H3Q16TleNHiDLA/view?usp=drive_link" },
+        { "code": "IA-PR-002", "name": "Control de No Conformidades y Acciones Correctivas en Inocuidad", "status": "ready", "url": "https://drive.google.com/file/d/1RTONpCnL5kfXPQZswfbaNNDlZkmE7FAF/view?usp=drive_link" },
+        { "code": "IA-PR-003", "name": "Sistema de Trazabilidad y Retiro de Productos", "status": "ready", "url": "https://drive.google.com/file/d/1rqvhU0Lxbih8tgeevrEd8ewn031XuGuh/view?usp=drive_link" },
+        { "code": "IA-PR-004", "name": "Validación y Verificación de Controles Operacionaless", "status": "ready", "url": "https://drive.google.com/file/d/1tfkUYJsxIYNlNvp5Sy_7YzwAUiKCcSUW/view?usp=drive_link" },
+        { "code": "IA-RE-001", "name": "Registro de Incidentes de Inocuidad y Reclamos de clientes", "status": "ready", "url": "https://drive.google.com/file/d/1h0Zg5JEsRkLxMeKfnBEq9v65yU7DbMuL/view?usp=drive_link" },
+        { "code": "IA-KPI-001", "name": "Tablero de Indicadores de Inocuidad", "status": "ready", "url": "https://drive.google.com/file/d/1d7YX-CwTCztCg8D_EmpGFCx2wyJqB8d3/view?usp=drive_link" }
+      ]
+    },
+    {
+      "category": "20. INTEGRIDAD Y CUMPLIMIENTO NORMATIVO (Ley 21.595)",
+      "items": [
+        { "code": "IC-PR-001", "name": "Política de Integridad y Cumplimiento Normativo", "status": "ready", "url": "https://drive.google.com/file/d/1n6Umew7gMj_7lkzEsOWjZnVqhri48inf/view?usp=drive_link" },
+        { "code": "IC-AL-001", "name": "Matriz de Riesgos de Integridad y Cumplimiento Normativo", "status": "ready", "url": "https://drive.google.com/file/d/1bEGEB0PQpUQIBi_bZ5qJWaUJuYY5ZDj8/view?usp=drive_link" },
+        { "code": "IC-MP-001", "name": "Procedimiento de Denuncias y Canales de Reporte", "status": "ready", "url": "https://drive.google.com/file/d/1vfN8fgeNU8hcDVlKdAyo_DS47BiirzYz/view?usp=drive_link" },
+        { "code": "IC-MP-001", "name": "Procedimiento de Investigación Interna", "status": "ready", "url": "https://drive.google.com/file/d/1s-emqwzg1lL7zy-PtKSoIAujtg6O9iyq/view?usp=drive_link" },
+        { "code": "IC-MR-001", "name": "Plan de Capacitación en Integridad", "status": "ready", "url": "https://drive.google.com/file/d/1FKAbWTROZbmQxtz_WuoeXLWhbcivgy2s/view?usp=drive_link" },
+        { "code": "IC-PR-002", "name": "Registro de Capacitaciones y Evaluaciones en Integridad", "status": "ready", "url": "https://drive.google.com/file/d/1CmfjA-UL_-QVAuhse5_GykKKMQGZUvgq/view?usp=drive_link" },
+        { "code": "IC-PR-003", "name": "Tablero de Indicadores de Integridad", "status": "ready", "url": "https://drive.google.com/file/d/1QB1EymYwIpUca8pHFVHSKas_fF68T4fD/view?usp=drive_link" }
       ]
     }
   ]
