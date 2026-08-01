@@ -119,6 +119,28 @@
             background: #F29D38;
         }
 
+        /* ─── CARGOS ─── */
+        #cargosContainer {
+            background: #eef4fa;
+            border-radius: 8px;
+            padding: 12px 24px;
+            margin-bottom: 24px;
+            border-left: 4px solid #F29D38;
+            font-size: 14px;
+            display: none;
+            flex-wrap: wrap;
+            align-items: baseline;
+            gap: 8px 16px;
+        }
+        #cargosContainer strong {
+            color: #2D4E71;
+            font-weight: 700;
+        }
+        #cargosList {
+            color: #1a2a3a;
+            font-weight: 500;
+        }
+
         /* ─── BUSCADOR Y FILTROS ─── */
         .controls {
             display: flex;
@@ -482,6 +504,12 @@
             </div>
         </header>
 
+        <!-- ═══ CARGOS DEL SISTEMA ═══ -->
+        <div id="cargosContainer">
+            <strong>👥 Equipo de Gestión QHSE:</strong>
+            <span id="cargosList"></span>
+        </div>
+
         <!-- ═══ CONTROLES ═══ -->
         <div class="controls">
             <div class="search-box">
@@ -522,7 +550,7 @@
         const searchInput = document.getElementById('searchInput');
         const filterButtons = document.querySelectorAll('.filter-btn');
 
-        let documentos = []; // se llenará con fetch
+        let documentos = [];
         let currentFilter = 'all';
         let searchTerm = '';
 
@@ -549,7 +577,6 @@
             let anyMatch = false;
 
             documentos.forEach(category => {
-                // Filtrar items
                 const filtered = category.items.filter(doc => {
                     const matchSearch = doc.code.toLowerCase().includes(searchTerm.toLowerCase()) ||
                         doc.name.toLowerCase().includes(searchTerm.toLowerCase());
@@ -640,19 +667,21 @@
                 const data = await response.json();
 
                 // --- Procesar cargos ---
+                const cargosContainer = document.getElementById('cargosContainer');
+                const cargosList = document.getElementById('cargosList');
                 if (data.cargos && data.cargos.length > 0) {
-                    const cargosContainer = document.getElementById('cargosContainer');
-                    const cargosList = document.getElementById('cargosList');
-                    cargosList.textContent = data.cargos.join(' · '); // Separa con punto
-                    cargosContainer.style.display = 'block';
+                    cargosList.textContent = data.cargos.join(' · ');
+                    cargosContainer.style.display = 'flex';
+                } else {
+                    cargosContainer.style.display = 'none';
                 }
 
-                // --- Procesar documentos (tu código existente) ---
-                documentos = data.documentos; // asumiendo que el JSON tiene un array "documentos"
+                // --- Procesar documentos ---
+                documentos = data.documentos;
                 updateCounts(documentos);
                 render();
 
-                // Vincular eventos de búsqueda y filtros después de cargar datos
+                // Vincular eventos de búsqueda y filtros
                 searchInput.addEventListener('input', function() {
                     searchTerm = this.value;
                     render();
