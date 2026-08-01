@@ -248,9 +248,9 @@
         { "code": "CK-FR-005", "name": "Inspección: Herramientas Manuales y Eléctricas", "status": "ready", "url": "https://drive.google.com/file/d/1LKLsH8_GMik-cHpeioTZ2wBRDcMIkVIv/view?usp=drive_link" },
         { "code": "CK-FR-006", "name": "Verificación: Pruebas Hidrostáticas", "status": "ready", "url": "https://drive.google.com/file/d/1ij40M4Wx0NanP2qpt0xPMBy5e9to-mOC/view?usp=drive_link" },
         { "code": "CK-FR-007", "name": "Montaje: Piping y Soportería", "status": "ready", "url": "https://drive.google.com/file/d/1rARRvArJFot8qXcu_S9K2iF6WHVdUCFp/view?usp=drive_link" },
-        { "code": "CK-FR-008", "name": "Entrada a Faena (Inducción y EPP)", "status": "ready", "url": "https://drive.google.com/file/d/1Tu5pxFk6gP5Jl3FJ3bxmGbEfYls7pOB-/view?usp=drive_link" },
-        { "code": "CK-FR-009", "name": "Andamios Tubulares y de Fachada", "status": "ready", "url": "https://drive.google.com/file/d/1Jqf0gv_6zfZocv3HfvMWUoE1G1_M4GV9/view?usp=drive_link" },
-        { "code": "CK-FR-010", "name": "Excavación y Zanjas (Trenching)", "status": "ready", "url": "https://drive.google.com/file/d/1IC7AwcZk0PC3kr_3MZLqJADbsfwJpI9a/view?usp=drive_link" }
+        { "code": "CK-FR-008", "name": "Entrada a Faena: Inducción y EPP", "status": "ready", "url": "https://drive.google.com/file/d/1Tu5pxFk6gP5Jl3FJ3bxmGbEfYls7pOB-/view?usp=drive_link" },
+        { "code": "CK-FR-009", "name": "Verificación: Andamios Tubulares y de Fachada", "status": "ready", "url": "https://drive.google.com/file/d/1Jqf0gv_6zfZocv3HfvMWUoE1G1_M4GV9/view?usp=drive_link" },
+        { "code": "CK-FR-010", "name": "Verificación: Excavación y Zanjas (Trenching)", "status": "ready", "url": "https://drive.google.com/file/d/1IC7AwcZk0PC3kr_3MZLqJADbsfwJpI9a/view?usp=drive_link" }
       ]
     },
     {
@@ -259,14 +259,14 @@
         { "code": "CA-PR-001", "name": "Política de Calidad", "status": "ready", "url": "https://drive.google.com/file/d/1J8fN_wIorsJCBuW72xT3l4MyPoGENunx/view?usp=drive_link" },
         { "code": "CA-AL-001", "name": "Alcance del Sistema de Gestión de Calidad", "status": "ready", "url": "https://drive.google.com/file/d/1PyMq6y3jKXF6_WYi8L774tnXaOIqgsLg/view?usp=drive_link" },
         { "code": "CA-MP-001", "name": "Mapa de Procesos (Cadena de Valor)", "status": "ready", "url": "https://drive.google.com/file/d/1N_QnlF4afadbYYqVzZEnXQ2AuDhqD9fm/view?usp=drive_link" },
-        { "code": "CA-MP-001", "name": "Mapa de Procesos Grafico V1.0", "status": "ready", "url": "https://drive.google.com/file/d/1T4-n8aT-zpZ9tmTbw5AaP7AH6UOgrxGm/view?usp=drive_link" },
         { "code": "CA-MR-001", "name": "Matriz de Riesgos de Calidad y Oportunidades", "status": "ready", "url": "https://drive.google.com/file/d/1bjn8GzaBQhxdXXwl612c9Ya0gk2aHA8E/view?usp=drive_link" },
         { "code": "CA-PR-002", "name": "Procedimiento de Control de Producto No Conforme", "status": "ready", "url": "https://drive.google.com/file/d/126ZI73-IDPIdZQ0eg-1yiv9V7CmOf0MH/view?usp=drive_link" },
         { "code": "CA-PR-003", "name": "Procedimiento de Evaluación y Re-evaluación de Proveedores", "status": "ready", "url": "https://drive.google.com/file/d/1dDKSeGKWUGiX2n1_LpiPBDs5dYElIzpp/view?usp=drive_link" },
         { "code": "CA-FR-001", "name": "Formato de Encuesta de Satisfacción al Cliente", "status": "ready", "url": "https://drive.google.com/file/d/1LqVa7MAi0sTJaTKt4m-mAU7V4ePpqPb9/view?usp=drive_link" },
         { "code": "CA-RE-001", "name": "Registro de Quejas, Reclamos y Felicitaciones", "status": "ready", "url": "https://drive.google.com/file/d/10a5UP3ZRik53Yh7UpkSUrKWr47x2NMa9/view?usp=drive_link" },
         { "code": "CA-KPI-001", "name": "Tablero de Indicadores de Calidad (Entregas, Eficiencia)", "status": "ready", "url": "https://drive.google.com/file/d/1kNX1jtOH_8zknge_ryiSVJvqxUZDSWjk/view?usp=drive_link" },
-        { "code": "CA-RE-002", "name": "Acta de Revisión por la Dirección (Calidad)", "status": "ready", "url": "https://drive.google.com/file/d/1_YID6A8RaNbNfREfMiGDje38TvNcYy9O/view?usp=drive_link" }
+        { "code": "CA-RE-002", "name": "Acta de Revisión por la Dirección (Calidad)", "status": "ready", "url": "https://drive.google.com/file/d/1_YID6A8RaNbNfREfMiGDje38TvNcYy9O/view?usp=drive_link" },
+        { "code": "CA-MP-001-GRAF", "name": "Mapa de Procesos Gráfico (Cadena de Valor)", "status": "ready", "url": "https://drive.google.com/file/d/1gDCpcBsWriDXt-M-3YA0gAG98QisfFi1/view?usp=drive_link" }
       ]
     },
     {
@@ -301,13 +301,18 @@
     {
       "category": "20. INTEGRIDAD Y CUMPLIMIENTO NORMATIVO (Ley 21.595)",
       "items": [
-        { "code": "IC-PR-001", "name": "Política de Integridad y Cumplimiento Normativo", "status": "ready", "url": "https://drive.google.com/file/d/1n6Umew7gMj_7lkzEsOWjZnVqhri48inf/view?usp=drive_link" },
-        { "code": "IC-AL-001", "name": "Matriz de Riesgos de Integridad y Cumplimiento Normativo", "status": "ready", "url": "https://drive.google.com/file/d/1bEGEB0PQpUQIBi_bZ5qJWaUJuYY5ZDj8/view?usp=drive_link" },
-        { "code": "IC-MP-001", "name": "Procedimiento de Denuncias y Canales de Reporte", "status": "ready", "url": "https://drive.google.com/file/d/1vfN8fgeNU8hcDVlKdAyo_DS47BiirzYz/view?usp=drive_link" },
-        { "code": "IC-MP-001", "name": "Procedimiento de Investigación Interna", "status": "ready", "url": "https://drive.google.com/file/d/1s-emqwzg1lL7zy-PtKSoIAujtg6O9iyq/view?usp=drive_link" },
-        { "code": "IC-MR-001", "name": "Plan de Capacitación en Integridad", "status": "ready", "url": "https://drive.google.com/file/d/1FKAbWTROZbmQxtz_WuoeXLWhbcivgy2s/view?usp=drive_link" },
-        { "code": "IC-PR-002", "name": "Registro de Capacitaciones y Evaluaciones en Integridad", "status": "ready", "url": "https://drive.google.com/file/d/1CmfjA-UL_-QVAuhse5_GykKKMQGZUvgq/view?usp=drive_link" },
-        { "code": "IC-PR-003", "name": "Tablero de Indicadores de Integridad", "status": "ready", "url": "https://drive.google.com/file/d/1QB1EymYwIpUca8pHFVHSKas_fF68T4fD/view?usp=drive_link" }
+        { "code": "IC-PO-001", "name": "Política de Integridad y Cumplimiento Normativo", "status": "ready", "url": "https://drive.google.com/file/d/1n6Umew7gMj_7lkzEsOWjZnVqhri48inf/view?usp=drive_link" },
+        { "code": "IC-MR-001", "name": "Matriz de Riesgos de Integridad y Cumplimiento Normativo", "status": "ready", "url": "https://drive.google.com/file/d/1bEGEB0PQpUQIBi_bZ5qJWaUJuYY5ZDj8/view?usp=drive_link" },
+        { "code": "IC-PR-001", "name": "Procedimiento de Denuncias y Canales de Reporte", "status": "ready", "url": "https://drive.google.com/file/d/1vfN8fgeNU8hcDVlKdAyo_DS47BiirzYz/view?usp=drive_link" },
+        { "code": "IC-PR-002", "name": "Procedimiento de Investigación Interna", "status": "ready", "url": "https://drive.google.com/file/d/1s-emqwzg1lL7zy-PtKSoIAujtg6O9iyq/view?usp=drive_link" },
+        { "code": "IC-PC-001", "name": "Plan de Capacitación en Integridad", "status": "ready", "url": "https://drive.google.com/file/d/1FKAbWTROZbmQxtz_WuoeXLWhbcivgy2s/view?usp=drive_link" },
+        { "code": "IC-RE-001", "name": "Registro de Capacitaciones y Evaluaciones en Integridad", "status": "ready", "url": "https://drive.google.com/file/d/1CmfjA-UL_-QVAuhse5_GykKKMQGZUvgq/view?usp=drive_link" },
+        { "code": "IC-KPI-001", "name": "Tablero de Indicadores de Integridad", "status": "ready", "url": "https://drive.google.com/file/d/1QB1EymYwIpUca8pHFVHSKas_fF68T4fD/view?usp=drive_link" },
+        { "code": "IC-PO-002", "name": "Política Anticorrupción", "status": "ready", "url": "https://drive.google.com/file/d/1bNBHLzCbtVEy5z-rGyg6Hgd16Jk-25dV/view?usp=drive_link" },
+        { "code": "IC-PO-003", "name": "Política de Conflictos de Interés", "status": "ready", "url": "https://drive.google.com/file/d/1x7WGqrOfdV1h-PHspA68loXZgz2rdlqm/view?usp=drive_link" },
+        { "code": "IC-PO-004", "name": "Política de Gestión del Canal de Denuncias", "status": "ready", "url": "https://drive.google.com/file/d/1iEDHktGWDXUNXUZf0mmDJsQo0OgpRK6k/view?usp=drive_link" },
+        { "code": "IC-PR-003", "name": "Lineamientos para el Oficial de Cumplimiento", "status": "ready", "url": "https://drive.google.com/file/d/1wBJF5rpj-cf7wMnf8LT-KsXiyuLSQuKJ/view?usp=drive_link" },
+        { "code": "IC-CE-001", "name": "Certificado de Implementación", "status": "ready", "url": "https://drive.google.com/file/d/1xFylAL2Fbzk15f_AcQYp4q1awUkpKA1j/view?usp=drive_link" }
       ]
     },
     {
@@ -377,17 +382,17 @@
     {
       "category": "26. CIBERSEGURIDAD INDUSTRIAL / OT",
       "items": [
-        { "code": "CI-PO-001", "name": "Política de Ciberseguridad Industrial (OT)", "status": "ready", "url": "" },
-        { "code": "CI-AL-001", "name": "Alcance del Sistema de Ciberseguridad OT", "status": "ready", "url": "" },
-        { "code": "CI-MR-001", "name": "Matriz de Riesgos de Ciberseguridad OT", "status": "ready", "url": "" },
-        { "code": "CI-PR-001", "name": "Procedimiento de Segmentación de Redes IT/OT", "status": "ready", "url": "" },
-        { "code": "CI-PR-002", "name": "Procedimiento de Gestión de Incidentes de Ciberseguridad OT", "status": "ready", "url": "" },
-        { "code": "CI-RE-001", "name": "Registro de Inventario de Activos OT", "status": "ready", "url": "" },
-        { "code": "CI-KPI-001", "name": "Tablero de Indicadores de Ciberseguridad OT", "status": "ready", "url": "" },
-        { "code": "CI-RE-002", "name": "Registro de Incidentes de Ciberseguridad OT", "status": "ready", "url": "" },
-        { "code": "CI-MR-002", "name": "Matriz Ampliada de Riesgos de Ciberseguridad OT", "status": "ready", "url": "" },
-        { "code": "CI-PR-003", "name": "Procedimiento de Simulacros de Ciberseguridad OT", "status": "ready", "url": "" },
-        { "code": "CI-RE-003", "name": "Declaración de Aplicabilidad (SoA) - Controles IEC 62443", "status": "ready", "url": "" }
+        { "code": "CI-PO-001", "name": "Política de Ciberseguridad Industrial (OT)", "status": "ready", "url": "https://drive.google.com/file/d/1jNAMjXxogOzvlnMyNVXe25Gu5tKfaLFt/view?usp=drive_link" },
+        { "code": "CI-AL-001", "name": "Alcance del Sistema de Ciberseguridad OT", "status": "ready", "url": "https://drive.google.com/file/d/1VSMBx-kXdz5B6MdFUR7pbySRESwikt9s/view?usp=drive_link" },
+        { "code": "CI-MR-001", "name": "Matriz de Riesgos de Ciberseguridad OT", "status": "ready", "url": "https://drive.google.com/file/d/1JA6q7iCUPTuLIiEwxFSz6evPg_5YTGs2/view?usp=drive_link" },
+        { "code": "CI-PR-001", "name": "Procedimiento de Segmentación de Redes IT/OT", "status": "ready", "url": "https://drive.google.com/file/d/16j4QXPNO2x_P6P3hXrw5qZTcYC_Py2N1/view?usp=drive_link" },
+        { "code": "CI-PR-002", "name": "Procedimiento de Gestión de Incidentes de Ciberseguridad OT", "status": "ready", "url": "https://drive.google.com/file/d/1tu_z2MKs_YCreHvOzv0ODFaGlRBup4ox/view?usp=drive_link" },
+        { "code": "CI-RE-001", "name": "Registro de Inventario de Activos OT", "status": "ready", "url": "https://drive.google.com/file/d/1WGnA_THr8utxUMcCc5seuSeORH1Mg2p_/view?usp=drive_link" },
+        { "code": "CI-KPI-001", "name": "Tablero de Indicadores de Ciberseguridad OT", "status": "ready", "url": "https://drive.google.com/file/d/1Cf2YzbD8d4_Mruo8_TAKBpb60IzRN5Ak/view?usp=drive_link" },
+        { "code": "CI-RE-002", "name": "Registro de Incidentes de Ciberseguridad OT", "status": "ready", "url": "https://drive.google.com/file/d/1gDYXfVDdt36eg71rJE5QGsx0YokanKpT/view?usp=drive_link" },
+        { "code": "CI-MR-002", "name": "Matriz Ampliada de Riesgos de Ciberseguridad OT", "status": "ready", "url": "https://drive.google.com/file/d/1D3njs7rIcPHKoHDTpDEJbbgzdgAvFjLi/view?usp=drive_link" },
+        { "code": "CI-PR-003", "name": "Procedimiento de Simulacros de Ciberseguridad OT", "status": "ready", "url": "https://drive.google.com/file/d/1u4WlHLsFQeMwE_7S9xzyxBcv9hw2sxTB/view?usp=drive_link" },
+        { "code": "CI-RE-003", "name": "Declaración de Aplicabilidad (SoA) - Controles IEC 62443", "status": "ready", "url": "https://drive.google.com/file/d/14DWWgkIAw07WjU9c9pluLNNKKrgIdhDA/view?usp=drive_link" }
       ]
     }
   ]
