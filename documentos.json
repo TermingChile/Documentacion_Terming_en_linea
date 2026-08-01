@@ -1,4 +1,20 @@
 {
+  "cargos": [
+    "Gerente General / Representante Legal",
+    "Gerente de Operaciones / Jefe de Proyecto",
+    "Gerente QHSE",
+    "Prevencionista de Riesgos / Asesor HSE",
+    "Supervisor de Seguridad",
+    "Encargado de Calidad",
+    "Comité Paritario de Higiene y Seguridad",
+    "Encargado de Medio Ambiente",
+    "Representante de la Dirección (SGSI)",
+    "Encargado de Inocuidad (SGIA)",
+    "Jefe de Mantenimiento",
+    "Encargado de Relaciones Comunitarias",
+    "Comité de Crisis",
+    "Encargado de Ciberseguridad OT"
+  ],
   "documentos": [
     {
       "category": "1. GOBERNANZA Y POLÍTICAS",
@@ -292,6 +308,86 @@
         { "code": "IC-MR-001", "name": "Plan de Capacitación en Integridad", "status": "ready", "url": "https://drive.google.com/file/d/1FKAbWTROZbmQxtz_WuoeXLWhbcivgy2s/view?usp=drive_link" },
         { "code": "IC-PR-002", "name": "Registro de Capacitaciones y Evaluaciones en Integridad", "status": "ready", "url": "https://drive.google.com/file/d/1CmfjA-UL_-QVAuhse5_GykKKMQGZUvgq/view?usp=drive_link" },
         { "code": "IC-PR-003", "name": "Tablero de Indicadores de Integridad", "status": "ready", "url": "https://drive.google.com/file/d/1QB1EymYwIpUca8pHFVHSKas_fF68T4fD/view?usp=drive_link" }
+      ]
+    },
+    {
+      "category": "21. GESTIÓN DE ACTIVOS Y MANTENIMIENTO (ISO 55001)",
+      "items": [
+        { "code": "GA-PO-001 ", "name": "Política de Gestión de Activos", "status": "ready", "url": "https://drive.google.com/file/d/1xx8npbFxXxM2UJ7seFboLDbvqCcFCUZb/view?usp=drive_link" },
+        { "code": "GA-AL-001", "name": "Alcance del Sistema de Gestión de Activos", "status": "ready", "url": "https://drive.google.com/file/d/1tyKoY-Y5PN78KrjmWI5cqk5o-WLRLSPy/view?usp=drive_link" },
+        { "code": "GA-MR-001", "name": "Matriz de Riesgos y Criticidad de Activos", "status": "ready", "url": "https://drive.google.com/file/d/1i0kkcBhsP3vKoIBe8oCqcZX5KrS80IaE/view?usp=drive_link" },
+        { "code": "GA-PR-001", "name": "Procedimiento de Mantenimiento Preventivo", "status": "ready", "url": "https://drive.google.com/file/d/1YTUgprTTz0gtOlnCCDsJEI9RRU5y7Fp1/view?usp=drive_link" },
+        { "code": "GA-PR-002", "name": "Procedimiento de Mantenimiento Predictivo", "status": "ready", "url": "https://drive.google.com/file/d/1RGGWk6rzdakpyTEBAQwbh_i63FDRXZxK/view?usp=drive_link" },
+        { "code": "GA-PR-003", "name": "Procedimiento de Gestión de Repuestos Críticos", "status": "ready", "url": "https://drive.google.com/file/d/1ZoEjw4z0Sg5K0cvZ6xvp8AwoSthFvFCE/view?usp=drive_link" },
+        { "code": "GA-RE-001", "name": "Registro de Hoja de Vida de Equipos", "status": "ready", "url": "https://drive.google.com/file/d/19zY7LnFoeVTTFGjLU4V8PUju4mOhPcSi/view?usp=drive_link" },
+        { "code": "GA-RE-002", "name": "Registro de Órdenes de Trabajo de Mantenimiento", "status": "ready", "url": "https://drive.google.com/file/d/13NL-npUNW6_rIxJxKOOqd11P4E1uZhdj/view?usp=drive_link" },
+        { "code": "GA-KPI-001", "name": "Tablero de Indicadores de Mantenimiento", "status": "ready", "url": "https://drive.google.com/file/d/1q1zfvJm-GL5fCcCJT-bpxAqtgNXOMWlq/view?usp=drive_link" },
+        { "code": "GA-RE-003", "name": "Informe Técnico Mantención Preventiva Gas", "status": "ready", "url": "https://drive.google.com/file/d/1Ypd0Mb-dpLobwMnK4XLoW8j2uxAJNsbs/view?usp=drive_link" },
+        { "code": "GA-RE-004", "name": "Registro de Inventario de Repuestos Críticos", "status": "ready", "url": "https://drive.google.com/file/d/1FtOwr74Tg-6biVkA9qpuK9Pm_AEw1uou/view?usp=drive_link" }
+      ]
+    },
+    {
+      "category": "22. SOSTENIBILIDAD Y CAMBIO CLIMÁTICO",
+      "items": [
+        { "code": "SC-PO-001", "name": "Política de Sostenibilidad y Cambio Climático", "status": "ready", "url": "https://drive.google.com/file/d/1XnVq7MtbiQqUpNhBVWyV9pLYiylRuQDF/view?usp=drive_link" },
+        { "code": "SC-AL-001", "name": "Alcance del Sistema de Gestión de Sostenibilidad", "status": "ready", "url": "https://drive.google.com/file/d/1bYJn6QlYxMUxP06DjHbMqknuu1vB_1Zh/view?usp=drive_link" },
+        { "code": "SC-MR-001", "name": "Matriz de Riesgos Climáticos", "status": "ready", "url": "https://drive.google.com/file/d/1xwpkKVMmqbfSOipYIBhT2SF1ifveCwzQ/view?usp=drive_link" },
+        { "code": "SC-PR-001", "name": "Procedimiento de Cuantificación de Huella de Carbono", "status": "ready", "url": "https://drive.google.com/file/d/1XuK5OQTikvvPTJh9oSD8p8jJXuZ9Ugmx/view?usp=drive_link" },
+        { "code": "SC-PR-002", "name": "Procedimiento de Alineación con Ley Marco de Cambio Climático", "status": "ready", "url": "https://drive.google.com/file/d/10uFwVxkP-KGr3ueN6z7AA9EEOH_Z66yw/view?usp=drive_link" },
+        { "code": "SC-RE-001", "name": "Registro de Emisiones de Gases de Efecto Invernadero (GEI)", "status": "ready", "url": "https://drive.google.com/file/d/18lAgmbev47g73TrIsIaYi_SEhBJfeYOF/view?usp=drive_link" },
+        { "code": "SC-KPI-001", "name": "Tablero de Indicadores de Sostenibilidad", "status": "ready", "url": "https://drive.google.com/file/d/1bg_oFmCk6zxY1Dhh0BdJSGWnmAiyBFWX/view?usp=drive_link" }
+      ]
+    },
+    {
+      "category": "23. RELACIÓN CON COMUNIDADES Y LICENCIA SOCIAL PARA OPERAR",
+      "items": [
+        { "code": "RC-PO-001", "name": "Política de Relacionamiento Comunitario", "status": "ready", "url": "https://drive.google.com/file/d/18UlvEelJ_IVJFzM0q_zr1yC00WzKU_Vp/view?usp=drive_link" },
+        { "code": "RC-AL-001", "name": "Alcance de Gestión de Relaciones Comunitarias", "status": "ready", "url": "https://drive.google.com/file/d/1fI8lLG-FwCjbGCFl5FpQA0GSCILaTXtg/view?usp=drive_link" },
+        { "code": "RC-MR-001", "name": "Matriz de Riesgos y Grupos de Interés (Stakeholders)", "status": "ready", "url": "https://drive.google.com/file/d/15clJbvVJoJip82OyBN7UT5qHcPh8lRhe/view?usp=drive_link" },
+        { "code": "RC-PR-001", "name": "Procedimiento de Participación Ciudadana y Consulta", "status": "ready", "url": "https://drive.google.com/file/d/11u5I496njxtNo5MIe18KAA2AbmsAMBvZ/view?usp=drive_link" },
+        { "code": "RC-PR-002", "name": "Procedimiento de Coordinación con SEIA/RCA", "status": "ready", "url": "https://drive.google.com/file/d/1wO3xuZyYOHtPlClZ78TVmX-xdP5p6O9n/view?usp=drive_link" },
+        { "code": "RC-FR-001", "name": "Formato de Gestión de Quejas y Reclamos de Comunidades", "status": "ready", "url": "https://drive.google.com/file/d/1z3-CoKLm0GFx0QhzOUI6Q6SHkrDkULAa/view?usp=drive_link" },
+        { "code": "RC-RE-001", "name": "Registro de Compromisos Ambientales/Sociales (RCA)", "status": "ready", "url": "https://drive.google.com/file/d/1kJ-LD9YWjUowr5VDMCeNDPzVtkKD7ETC/view?usp=drive_link" },  
+        { "code": "RC-KPI-001", "name": "Tablero de Indicadores de Relacionamiento Comunitario", "status": "ready", "url": "https://drive.google.com/file/d/1O7upxhAUwNMj6aTqbnu62LEBDuZoR2bs/view?usp=drive_link" }
+      ]
+    },
+    {
+      "category": "24. GESTIÓN DE CRISIS Y COMUNICACIONES",
+      "items": [
+        { "code": "CR-PO-001", "name": "Política de Gestión de Crisis y Comunicaciones", "status": "ready", "url": "https://drive.google.com/file/d/12SGgdGzTkHLzhLaaBTBj1YNxsLfcFg3v/view?usp=drive_link" },
+        { "code": "CR-AL-001", "name": "Alcance del Plan de Gestión de Crisis", "status": "ready", "url": "https://drive.google.com/file/d/1XE9PrPw8axcXdtDLygfM7yVnhaWG51WP/view?usp=drive_link" },
+        { "code": "CR-PE-001", "name": "Plan de Comunicación de Crisis", "status": "ready", "url": "https://drive.google.com/file/d/1Oprmpr3ag-w13tHFFLjJI9pgsSSbwt4n/view?usp=drive_link" },
+        { "code": "CR-PR-001", "name": "Procedimiento de Activación del Comité de Crisis", "status": "ready", "url": "https://drive.google.com/file/d/17SZI6nJrrhZ9i3S8cvSWl6gZJslGbfzB/view?usp=drive_link" },
+        { "code": "CR-PR-002", "name": "Procedimiento de Vocería y Manejo de Prensa", "status": "ready", "url": "https://drive.google.com/file/d/1eKI1uFlSqR0WKPe3DbG_tv2uFYjOf36y/view?usp=drive_link" },
+        { "code": "CR-FR-001", "name": "Formato de Registro de Incidente Mayor y Escalamiento", "status": "ready", "url": "https://drive.google.com/file/d/1stTxDddNVHAE4AHkV92aFYSEyrlHX3D1/view?usp=drive_link" },
+        { "code": "CR-LT-001", "name": "Listado de Contactos Clave ", "status": "ready", "url": "https://drive.google.com/file/d/1J8i3H6tHoxH60J09EtPaWLiJLZpCeHLf/view?usp=drive_link" }
+      ]
+    },
+    {
+      "category": "25. DIVERSIDAD, EQUIDAD E INCLUSIÓN (DEI)",
+      "items": [
+        { "code": "DEI-PO-001", "name": "Política de Diversidad, Equidad e Inclusión", "status": "ready", "url": "https://drive.google.com/file/d/1XQHpbwDsRbHkizfVXUdQBsWUPFzjwDVW/view?usp=drive_link" },
+        { "code": "DEI-AL-001", "name": "Alcance del Programa de Inclusión Laboral", "status": "ready", "url": "https://drive.google.com/file/d/1zk3TSq-JMwy4t5pdsjepmqUbKzmZMcu3/view?usp=drive_link" },
+        { "code": "DEI-PR-001", "name": "Procedimiento de Inclusión Laboral de Personas con Discapacidad (Ley 21.015)", "status": "ready", "url": "https://drive.google.com/file/d/122Xx9tzaRco56wFvgHn9cTxBhwhk95aW/view?usp=drive_link" },
+        { "code": "DEI-PR-002", "name": "Procedimiento de Equidad de Género y Brecha Salarial", "status": "ready", "url": "https://drive.google.com/file/d/1opst0B3YjLdyNNTdOnOm5O1figgKyHJU/view?usp=drive_link" },
+        { "code": "DEI-RE-001", "name": "Registro de Cumplimiento de Cuota Ley 21.015", "status": "ready", "url": "https://drive.google.com/file/d/1SodP1xvtHEtuPS3t_KQZ4aDr8BEgHN9Z/view?usp=drive_link" },
+        { "code": "DEI-KPI-001", "name": "Tablero de Indicadores de Diversidad e Inclusión", "status": "ready", "url": "https://drive.google.com/file/d/17tQZco_G6n5ycExccabuJdKs7nYrteNZ/view?usp=drive_link" }
+      ]
+    },
+    {
+      "category": "26. CIBERSEGURIDAD INDUSTRIAL / OT",
+      "items": [
+        { "code": "CI-PO-001", "name": "Política de Ciberseguridad Industrial (OT)", "status": "ready", "url": "" },
+        { "code": "CI-AL-001", "name": "Alcance del Sistema de Ciberseguridad OT", "status": "ready", "url": "" },
+        { "code": "CI-MR-001", "name": "Matriz de Riesgos de Ciberseguridad OT", "status": "ready", "url": "" },
+        { "code": "CI-PR-001", "name": "Procedimiento de Segmentación de Redes IT/OT", "status": "ready", "url": "" },
+        { "code": "CI-PR-002", "name": "Procedimiento de Gestión de Incidentes de Ciberseguridad OT", "status": "ready", "url": "" },
+        { "code": "CI-RE-001", "name": "Registro de Inventario de Activos OT", "status": "ready", "url": "" },
+        { "code": "CI-KPI-001", "name": "Tablero de Indicadores de Ciberseguridad OT", "status": "ready", "url": "" },
+        { "code": "CI-RE-002", "name": "Registro de Incidentes de Ciberseguridad OT", "status": "ready", "url": "" },
+        { "code": "CI-MR-002", "name": "Matriz Ampliada de Riesgos de Ciberseguridad OT", "status": "ready", "url": "" },
+        { "code": "CI-PR-003", "name": "Procedimiento de Simulacros de Ciberseguridad OT", "status": "ready", "url": "" },
+        { "code": "CI-RE-003", "name": "Declaración de Aplicabilidad (SoA) - Controles IEC 62443", "status": "ready", "url": "" }
       ]
     }
   ]
