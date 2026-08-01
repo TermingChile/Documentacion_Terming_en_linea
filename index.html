@@ -119,26 +119,46 @@
             background: #F29D38;
         }
 
-        /* ─── CARGOS ─── */
+        /* ─── CARGOS EN BADGES ─── */
         #cargosContainer {
             background: #eef4fa;
-            border-radius: 8px;
-            padding: 12px 24px;
+            border-radius: 12px;
+            padding: 16px 24px;
             margin-bottom: 24px;
-            border-left: 4px solid #F29D38;
-            font-size: 14px;
-            display: none;
+            border-left: 5px solid #F29D38;
+            display: none;          /* Se mostrará con JS si hay datos */
             flex-wrap: wrap;
             align-items: baseline;
             gap: 8px 16px;
         }
+
         #cargosContainer strong {
             color: #2D4E71;
             font-weight: 700;
+            font-size: 15px;
+            margin-right: 4px;
         }
-        #cargosList {
-            color: #1a2a3a;
+
+        .cargo-badge {
+            display: inline-block;
+            background: white;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 13px;
             font-weight: 500;
+            color: #1a2a3a;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+            border: 1px solid #d6e0eb;
+            transition: all .15s;
+            white-space: nowrap;
+        }
+
+        .cargo-badge:hover {
+            background: #2D4E71;
+            color: white;
+            border-color: #2D4E71;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(45,78,113,0.15);
         }
 
         /* ─── BUSCADOR Y FILTROS ─── */
@@ -386,6 +406,14 @@
             .section-body {
                 padding: 0 16px 12px;
             }
+            #cargosContainer {
+                padding: 12px 16px;
+                gap: 6px 12px;
+            }
+            .cargo-badge {
+                font-size: 12px;
+                padding: 3px 10px;
+            }
         }
 
         @media (max-width: 480px) {
@@ -504,7 +532,7 @@
             </div>
         </header>
 
-        <!-- ═══ CARGOS DEL SISTEMA ═══ -->
+        <!-- ═══ CARGOS DEL SISTEMA (Badges) ═══ -->
         <div id="cargosContainer">
             <strong>👥 Equipo de Gestión QHSE:</strong>
             <span id="cargosList"></span>
@@ -617,7 +645,7 @@
                 filtered.forEach(doc => {
                     const statusClass = doc.status === 'ready' ? 'ready' : 'pending';
                     const statusLabel = doc.status === 'ready' ? '✅ Listo' : '⏳ Pendiente';
-                    const linkHtml = doc.url && doc.url !== '#URL_DEL_PDF' ?
+                    const linkHtml = doc.url && doc.url !== '#URL_DEL_PDF' && doc.url !== '' ?
                         `<a href="${doc.url}" target="_blank" class="doc-link">📄 Ver</a>` :
                         `<span class="doc-link disabled">⏳ Próximo</span>`;
 
@@ -666,17 +694,20 @@
                 if (!response.ok) throw new Error(`Error HTTP: ${response.status}`);
                 const data = await response.json();
 
-                // --- Procesar cargos ---
+                // ─── Mostrar cargos como badges ───
                 const cargosContainer = document.getElementById('cargosContainer');
                 const cargosList = document.getElementById('cargosList');
-                if (data.cargos && data.cargos.length > 0) {
-                    cargosList.textContent = data.cargos.join(' · ');
+
+                if (data.cargos && data.cargos.length > 0 && cargosContainer && cargosList) {
+                    // Generar badges
+                    const badgesHtml = data.cargos.map(cargo =>
+                        `<span class="cargo-badge">${cargo}</span>`
+                    ).join(' ');
+                    cargosList.innerHTML = badgesHtml;
                     cargosContainer.style.display = 'flex';
-                } else {
-                    cargosContainer.style.display = 'none';
                 }
 
-                // --- Procesar documentos ---
+                // ─── Cargar documentos ───
                 documentos = data.documentos;
                 updateCounts(documentos);
                 render();
@@ -715,6 +746,9 @@
                                 </p>
                             </div>
                         `;
+                // Oculta el contenedor de cargos si hay error
+                const cargosContainer = document.getElementById('cargosContainer');
+                if (cargosContainer) cargosContainer.style.display = 'none';
             }
         }
 
