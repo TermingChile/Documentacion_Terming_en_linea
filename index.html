@@ -638,8 +638,17 @@
                 const response = await fetch('documentos.json');
                 if (!response.ok) throw new Error(`Error HTTP: ${response.status}`);
                 const data = await response.json();
-                documentos = data.documentos; // asumiendo que el JSON tiene un array "documentos"
 
+                // --- Procesar cargos ---
+                if (data.cargos && data.cargos.length > 0) {
+                    const cargosContainer = document.getElementById('cargosContainer');
+                    const cargosList = document.getElementById('cargosList');
+                    cargosList.textContent = data.cargos.join(' · '); // Separa con punto
+                    cargosContainer.style.display = 'block';
+                }
+
+                // --- Procesar documentos (tu código existente) ---
+                documentos = data.documentos; // asumiendo que el JSON tiene un array "documentos"
                 updateCounts(documentos);
                 render();
 
