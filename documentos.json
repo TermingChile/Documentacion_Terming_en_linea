@@ -16,16 +16,94 @@
     "Encargado de Ciberseguridad OT"
   ],
   "documentos": [
+{
+  "category": "1. GOBERNANZA Y POLÍTICAS",
+  "items": [
     {
-      "category": "1. GOBERNANZA Y POLÍTICAS",
-      "items": [
-        { "code": "SG-PR-001", "name": "Política de Seguridad y Salud Ocupacional", "status": "ready", "url": "https://drive.google.com/file/d/13dVBfw5_VlL-5qYwk4q5Q4t5k7InPpGV/view?usp=drive_link" },
-        { "code": "SG-RR-002", "name": "Reglamento Interno de Orden, Higiene y Seguridad (RIOHS)", "status": "ready", "url": "https://drive.google.com/file/d/10P0298kpgtc5gbnjSPSUHMWHUgUuXYy8/view?usp=drive_link" },
-        { "code": "SG-PG-SSO-01", "name": "Programa de Seguridad Integral", "status": "ready", "url": "https://drive.google.com/file/d/1jW2juj0rYpfh9Qw42NK36lCd_YvtGiV8/view?usp=drive_link" },
-        { "code": "MEM-GEN-2026-001", "name": "Memorándum General de Inicio de Operaciones", "status": "ready", "url": "https://drive.google.com/file/d/15JFPQGUGFr0UrDzuUdM-lkD2yW5AmlA1/view?usp=drive_link" },
-        { "code": "MEM-GEN-2026-002", "name": "Memorándum General de Implementación de Dossier General", "status": "ready", "url": "https://drive.google.com/file/d/1C63apgI1UWApczrqW0alSocpOvM86fHu/view?usp=drive_link" },
-        { "code": "SG-PG-004", "name": "Programa de Integridad y Código Ético", "status": "ready", "url": "https://drive.google.com/file/d/1-gLaUsyyb6Q2LLEBsGEEKFdOurv0xFTY/view?usp=drive_link" }
-      ]
+      "code": "SG-PO-001",
+      "name": "Política de Seguridad y Salud Ocupacional",
+      "status": "ready",
+      "url": "https://drive.google.com/file/d/1hdhZByyEkbqAXInFDt1c1a1GGxXFCErU/view?usp=drive_link"
+    },
+    {
+      "code": "SG-RR-002",
+      "name": "Reglamento Interno de Orden, Higiene y Seguridad (RIOHS)",
+      "status": "ready",
+      "url": "https://drive.google.com/file/d/10P0298kpgtc5gbnjSPSUHMWHUgUuXYy8/view?usp=drive_link"
+    },
+    {
+      "code": "SG-PG-001",
+      "name": "Programa de Seguridad Integral",
+      "status": "ready",
+      "url": "https://drive.google.com/file/d/1jW2juj0rYpfh9Qw42NK36lCd_YvtGiV8/view?usp=drive_link"
+    },
+    {
+      "code": "MEM-GEN-2026-001",
+      "name": "Memorándum General de Inicio de Operaciones",
+      "status": "ready",
+      "url": "https://drive.google.com/file/d/15JFPQGUGFr0UrDzuUdM-lkD2yW5AmlA1/view?usp=drive_link"
+    },
+    {
+      "code": "MEM-GEN-2026-002",
+      "name": "Memorándum General de Implementación de Dossier General",
+      "status": "ready",
+      "url": "https://drive.google.com/file/d/1C63apgI1UWApczrqW0alSocpOvM86fHu/view?usp=drive_link"
+    },
+    {
+      "code": "MEM-GEN-2026-003",
+      "name": "Memorándum General de Designación — Oficial CISO (Chief Information Security Officer)",
+      "status": "ready",
+      "url": "https://drive.google.com/file/d/1ns16ejSOD1Cn7yb3bWflKnDETLz3s4Vv/view?usp=drive_link"
+    },
+    {
+      "code": "MEM-GEN-2026-004",
+      "name": "Memorándum General de Designación — Responsable de Calidad y HSE",
+      "status": "ready",
+      "url": "https://drive.google.com/file/d/1jiyx7q6cQM68IE8REF0Z_24FiGzMjamg/view?usp=drive_link"
+    },
+    {
+      "code": "MEM-GEN-2026-005",
+      "name": "Memorándum General de Designación — Oficial de Cumplimiento (Compliance Officer)",
+      "status": "ready",
+      "url": "https://drive.google.com/file/d/1xQ_tNQZN4ktfymErjc9p-bPlcJujxvaj/view?usp=drive_link"
+    },
+    {
+      "code": "MEM-GEN-2026-006",
+      "name": "Memorándum de Acuerdo de Servicios Profesionales HSE Externos",
+      "status": "ready",
+      "url": "https://drive.google.com/file/d/1oAMw3VmKRDWbnI00CbC9MxgDNrSR3MQI/view?usp=drive_link"
+    },
+    {
+      "code": "MEM-GEN-2026-007",
+      "name": "Memorándum de Acuerdo de Servicios Profesionales Operativos",
+      "status": "pending",
+      "url": null
+    },
+    {
+      "code": "MEM-GEN-2026-008",
+      "name": "Memorándum General de Designación y Ratificación — Responsable de Administración y Finanzas (Interino)",
+      "status": "pending",
+      "url": null
+    },
+    {
+      "code": "SG-PG-004",
+      "name": "Programa de Integridad y Código Ético",
+      "status": "ready",
+      "url": "https://drive.google.com/file/d/1-gLaUsyyb6Q2LLEBsGEEKFdOurv0xFTY/view?usp=drive_link"
+    },
+    {
+      "code": "SG-OR-001",
+      "name": "Organigrama Funcional Integrado",
+      "status": "ready",
+      "url": "https://drive.google.com/file/d/1M4c6QahzJSNsTzVa1dPZbHOrc_TaOsW2/view?usp=drive_link"
+    },
+    {
+      "code": "SG-PG-006",
+      "name": "Política y Procedimiento de Prevención de Alcohol y Drogas",
+      "status": "ready",
+      "url": "https://drive.google.com/file/d/1mRsbO91hG9Ae9nxxqbd6EiolUSBQgUSx/view?usp=drive_link"
+    }
+  ]
     },
     {
       "category": "2. GESTIÓN LEGAL Y ADMINISTRATIVA",
