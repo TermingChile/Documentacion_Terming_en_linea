@@ -1,4 +1,12 @@
 {
+  "_generado_por": "generar_json.py v2.1",
+  "_fuente": "LOG_MAESTRO_DE_DOCUMENTOS.xlsx",
+  "fecha_generacion": "2026-10-01",
+  "totales": {
+    "listos": 263,
+    "pendientes": 40,
+    "restringidos": 19
+  },
   "cargos": [
     "Gerente General / Representante Legal",
     "Gerente de Operaciones / Jefe de Proyecto",
@@ -16,461 +24,3042 @@
     "Encargado de Ciberseguridad OT"
   ],
   "documentos": [
-{
-  "category": "1. GOBERNANZA Y POLÍTICAS",
-  "items": [
     {
-      "code": "SG-PO-001",
-      "name": "Política de Seguridad y Salud Ocupacional",
-      "status": "ready",
-      "url": "https://drive.google.com/file/d/1hdhZByyEkbqAXInFDt1c1a1GGxXFCErU/view?usp=drive_link"
+      "category": "0. DOCUMENTOS GENERALES Y ESTRATEGICOS",
+      "items": [
+        {
+          "code": "SG-MAN-001",
+          "name": "Manual de Gestión Integrado",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-23",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/1TTvyjB4wfpHI3bP4enwoid-Ju1M9XQhb/view?usp=sharing"
+        },
+        {
+          "code": "SG-IMP-001",
+          "name": "Checklist de Implementación",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-23",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/1mNU2OwDqgrumGP3QVwB4WqVn5HJ42SYf/view?usp=sharing"
+        },
+        {
+          "code": "SG-DASH-001",
+          "name": "Dashboard de Indicadores Globales",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-23",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/12Hpmf_ZaEjjarPcYHcn9bc1ry1Po-fCv/view?usp=sharing"
+        }
+      ]
     },
     {
-      "code": "SG-RR-002",
-      "name": "Reglamento Interno de Orden, Higiene y Seguridad (RIOHS)",
-      "status": "ready",
-      "url": "https://drive.google.com/file/d/10P0298kpgtc5gbnjSPSUHMWHUgUuXYy8/view?usp=drive_link"
-    },
-    {
-      "code": "SG-PG-001",
-      "name": "Programa de Seguridad Integral",
-      "status": "ready",
-      "url": "https://drive.google.com/file/d/1jW2juj0rYpfh9Qw42NK36lCd_YvtGiV8/view?usp=drive_link"
-    },
-    {
-      "code": "MEM-GEN-2026-001",
-      "name": "Memorándum General de Inicio de Operaciones",
-      "status": "ready",
-      "url": "https://drive.google.com/file/d/15JFPQGUGFr0UrDzuUdM-lkD2yW5AmlA1/view?usp=drive_link"
-    },
-    {
-      "code": "MEM-GEN-2026-002",
-      "name": "Memorándum General de Implementación de Dossier General",
-      "status": "ready",
-      "url": "https://drive.google.com/file/d/1C63apgI1UWApczrqW0alSocpOvM86fHu/view?usp=drive_link"
-    },
-    {
-      "code": "MEM-GEN-2026-003",
-      "name": "Memorándum General de Designación — Oficial CISO (Chief Information Security Officer)",
-      "status": "ready",
-      "url": "https://drive.google.com/file/d/1ns16ejSOD1Cn7yb3bWflKnDETLz3s4Vv/view?usp=drive_link"
-    },
-    {
-      "code": "MEM-GEN-2026-004",
-      "name": "Memorándum General de Designación — Responsable de Calidad y HSE",
-      "status": "ready",
-      "url": "https://drive.google.com/file/d/1jiyx7q6cQM68IE8REF0Z_24FiGzMjamg/view?usp=drive_link"
-    },
-    {
-      "code": "MEM-GEN-2026-005",
-      "name": "Memorándum General de Designación — Oficial de Cumplimiento (Compliance Officer)",
-      "status": "ready",
-      "url": "https://drive.google.com/file/d/1xQ_tNQZN4ktfymErjc9p-bPlcJujxvaj/view?usp=drive_link"
-    },
-    {
-      "code": "MEM-GEN-2026-006",
-      "name": "Memorándum de Acuerdo de Servicios Profesionales HSE Externos",
-      "status": "ready",
-      "url": "https://drive.google.com/file/d/1oAMw3VmKRDWbnI00CbC9MxgDNrSR3MQI/view?usp=drive_link"
-    },
-    {
-      "code": "MEM-GEN-2026-007",
-      "name": "Memorándum de Acuerdo de Servicios Profesionales Operativos",
-      "status": "pending",
-      "url": null
-    },
-    {
-      "code": "MEM-GEN-2026-008",
-      "name": "Memorándum General de Designación y Ratificación — Responsable de Administración y Finanzas (Interino)",
-      "status": "pending",
-      "url": null
-    },
-    {
-      "code": "SG-PG-004",
-      "name": "Programa de Integridad y Código Ético",
-      "status": "ready",
-      "url": "https://drive.google.com/file/d/1-gLaUsyyb6Q2LLEBsGEEKFdOurv0xFTY/view?usp=drive_link"
-    },
-    {
-      "code": "SG-OR-001",
-      "name": "Organigrama Funcional Integrado",
-      "status": "ready",
-      "url": "https://drive.google.com/file/d/1M4c6QahzJSNsTzVa1dPZbHOrc_TaOsW2/view?usp=drive_link"
-    },
-    {
-      "code": "SG-PG-006",
-      "name": "Política y Procedimiento de Prevención de Alcohol y Drogas",
-      "status": "ready",
-      "url": "https://drive.google.com/file/d/1mRsbO91hG9Ae9nxxqbd6EiolUSBQgUSx/view?usp=drive_link"
-    }
-  ]
+      "category": "1. GOBERNANZA Y POLÍTICAS",
+      "items": [
+        {
+          "code": "SG-PO-001",
+          "name": "Política de Seguridad y Salud Ocupacional",
+          "status": "ready",
+          "version": "4.0",
+          "fecha_vigencia": "2026-07-01",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/1hdhZByyEkbqAXInFDt1c1a1GGxXFCErU/view?usp=sharing"
+        },
+        {
+          "code": "SG-RR-002",
+          "name": "Reglamento Interno de Orden, Higiene y Seguridad (RIOHS)",
+          "status": "ready",
+          "version": "4.0",
+          "fecha_vigencia": "2026-07-01",
+          "responsable": "RRHH/HSE",
+          "url": "https://drive.google.com/file/d/10P0298kpgtc5gbnjSPSUHMWHUgUuXYy8/view?usp=sharing"
+        },
+        {
+          "code": "SG-PG-01",
+          "name": "Programa de Seguridad Integral",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-05",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1jW2juj0rYpfh9Qw42NK36lCd_YvtGiV8/view?usp=sharing"
+        },
+        {
+          "code": "MEM-GEN-2026-001",
+          "name": "Memorándum General de Inicio de Operaciones",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-05",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/15JFPQGUGFr0UrDzuUdM-lkD2yW5AmlA1/view?usp=sharing"
+        },
+        {
+          "code": "MEM-GEN-2026-002",
+          "name": "Memorándum General de Implementación de Dossier General",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-16",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/1C63apgI1UWApczrqW0alSocpOvM86fHu/view?usp=sharing"
+        },
+        {
+          "code": "MEM-GEN-2026-003",
+          "name": "Memorándum Designación Oficial de CISO (Chief Information Security Officer)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-25",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/1ns16ejSOD1Cn7yb3bWflKnDETLz3s4Vv/view?usp=sharing"
+        },
+        {
+          "code": "MEM-GEN-2026-004",
+          "name": "Memorándum Designación Oficial de Responsable de Calidad y HSE",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-25",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/1jiyx7q6cQM68IE8REF0Z_24FiGzMjamg/view?usp=sharing"
+        },
+        {
+          "code": "MEM-GEN-2026-005",
+          "name": "Memorándum Designación Oficial de Responsable de Cumplimiento Normativo",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/1xQ_tNQZN4ktfymErjc9p-bPlcJujxvaj/view?usp=sharing"
+        },
+        {
+          "code": "MEM-GEN-2026-006",
+          "name": "Memorándum de Acuerdo de Servicios HSE (Prevencionista de Riesgos Externo)",
+          "status": "restricted",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-18",
+          "responsable": "Gerencia",
+          "url": null
+        },
+        {
+          "code": "MEM-GEN-2026-007",
+          "name": "Memorándum de Acuerdo de Prestación de Servicios Profesionales Operativos",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-08-22",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/1P5f3DWX80YIi3pU7XDZY_2QKiBgipGEh/view?usp=sharing"
+        },
+        {
+          "code": "MEM-GEN-2026-008",
+          "name": "Memorándum de Designación y Ratificación – Responsable de Administración y Finanzas (Interino)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-09",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/1MzOXtHWwkC4Xhycy2oEnZ5YyJN5PgKLp/view?usp=sharing"
+        },
+        {
+          "code": "MEM-GEN-2026-006 Anexo-1",
+          "name": "Modificación del Art. 7 y ratificación de honorarios agosto–septiembre 2026",
+          "status": "restricted",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-28",
+          "responsable": "Gerencia",
+          "url": null
+        },
+        {
+          "code": "SG-PG-004",
+          "name": "Programa de Integridad y Código Ético",
+          "status": "ready",
+          "version": "2.1",
+          "fecha_vigencia": "2026-08-04",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/1-gLaUsyyb6Q2LLEBsGEEKFdOurv0xFTY/view?usp=sharing"
+        },
+        {
+          "code": "SG-OR-001",
+          "name": "Organigrama Funcional Integrado",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-04",
+          "responsable": "Gerencia General",
+          "url": "https://drive.google.com/file/d/1M4c6QahzJSNsTzVa1dPZbHOrc_TaOsW2/view?usp=sharing"
+        },
+        {
+          "code": "SG-PG-006",
+          "name": "Política y Procedimiento de Prevención de Alcohol y Drogas",
+          "status": "pending",
+          "version": null,
+          "fecha_vigencia": null,
+          "responsable": null,
+          "url": "https://drive.google.com/file/d/1mRsbO91hG9Ae9nxxqbd6EiolUSBQgUSx/view?usp=sharing"
+        }
+      ]
     },
     {
       "category": "2. GESTIÓN LEGAL Y ADMINISTRATIVA",
       "items": [
-        { "code": "GL-RC-001", "name": "Dossier de Cumplimiento Legal y Administrativo del Personal", "status": "ready", "url": "https://drive.google.com/file/d/18iFsF4DVSeZTFnGSF85x_mkZbzakLaLG/view?usp=drive_link" },
-        { "code": "GL-IL-001", "name": "Inventario de Legislación Aplicable (Chile)", "status": "ready", "url": "https://drive.google.com/file/d/19ayWy2U1xFupleVMoCRPkG83O4PGRpaX/view?usp=drive_link" },
-        { "code": "GC-AE-001", "name": "Antecedentes Legales Empresa", "status": "ready", "url": "https://drive.google.com/file/d/1aSDsLaigLiNdYPsOAQxC-qhQUiankowg/view?usp=drive_link" },
-        { "code": "R-ODI-001", "name": "Registro de Obligaciones y Deberes Individuales", "status": "ready", "url": "https://drive.google.com/file/d/1eRpOB3SBePF9qM3KEeDGXtU_QxXnN4Of/view?usp=drive_link" },
-        { "code": "GC-DC-001", "name": "Declaración de Confidencialidad y No Divulgación (NDA)", "status": "ready", "url": "https://drive.google.com/file/d/1sROGKye1Mv6yAZ4o66dSA2DTODWuLhQt/view?usp=drive_link" },
-        { "code": "GL-CT-001", "name": "Contrato de Trabajo con Cláusulas de Seguridad y Salud", "status": "ready", "url": "https://drive.google.com/file/d/1NkjrBKJw8_0EZdH5oKh8WkwOIdaDz2el/view?usp=drive_link" },
-        { "code": "GL-RS-001", "name": "Formato de Liquidación de Sueldos y Remuneraciones", "status": "ready", "url": "https://drive.google.com/file/d/1NkOo1gLc44XFmdPWxm7sKRCj5loXTQjY/view?usp=drive_link" },
-        { "code": "GL-AJ-001", "name": "Autorización de Jornada Excepcional", "status": "ready", "url": "https://drive.google.com/file/d/1g_PYPsJypXZIvvyA8o5lO8jgtzRcoiWx/view?usp=drive_link" }
+        {
+          "code": "GL-RC-001",
+          "name": "Dossier de Cumplimiento Legal y Administrativo del Personal",
+          "status": "ready",
+          "version": "3.0",
+          "fecha_vigencia": "2026-07-05",
+          "responsable": "RRHH",
+          "url": "https://drive.google.com/file/d/18iFsF4DVSeZTFnGSF85x_mkZbzakLaLG/view?usp=sharing"
+        },
+        {
+          "code": "GL-IL-001",
+          "name": "Inventario de Legislación Aplicable (Chile)",
+          "status": "ready",
+          "version": "3.0",
+          "fecha_vigencia": "2026-07-05",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/19ayWy2U1xFupleVMoCRPkG83O4PGRpaX/view?usp=sharing"
+        },
+        {
+          "code": "GC-AE-001",
+          "name": "Antecedentes Legales Empresa",
+          "status": "ready",
+          "version": "3.3",
+          "fecha_vigencia": "2026-09-09",
+          "responsable": "RRHH",
+          "url": "https://drive.google.com/file/d/1aSDsLaigLiNdYPsOAQxC-qhQUiankowg/view?usp=sharing"
+        },
+        {
+          "code": "GL-OD-001",
+          "name": "Registro de Obligaciones y Deberes Individuales",
+          "status": "ready",
+          "version": "3.1",
+          "fecha_vigencia": "2026-07-25",
+          "responsable": "RRHH",
+          "url": "https://drive.google.com/file/d/1eRpOB3SBePF9qM3KEeDGXtU_QxXnN4Of/view?usp=sharing"
+        },
+        {
+          "code": "GC-DC-001",
+          "name": "Declaración de Confidencialidad y No Divulgación (NDA)",
+          "status": "ready",
+          "version": "3.1",
+          "fecha_vigencia": "2026-07-25",
+          "responsable": "RRHH/Legal",
+          "url": "https://drive.google.com/file/d/1sROGKye1Mv6yAZ4o66dSA2DTODWuLhQt/view?usp=sharing"
+        },
+        {
+          "code": "GL-CT-001",
+          "name": "Contrato de Trabajo con Cláusulas de Seguridad y Salud",
+          "status": "ready",
+          "version": "3.0",
+          "fecha_vigencia": "2026-07-05",
+          "responsable": "RRHH/Legal",
+          "url": "https://drive.google.com/file/d/1NkjrBKJw8_0EZdH5oKh8WkwOIdaDz2el/view?usp=sharing"
+        },
+        {
+          "code": "GL-RS-001",
+          "name": "Formato de Liquidación de Sueldos y Remuneraciones",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026",
+          "responsable": "RRHH/Legal",
+          "url": "https://drive.google.com/file/d/1NkOo1gLc44XFmdPWxm7sKRCj5loXTQjY/view?usp=sharing"
+        },
+        {
+          "code": "GL-AJ-001",
+          "name": "Autorización de Jornada Excepcional",
+          "status": "ready",
+          "version": "3.0",
+          "fecha_vigencia": "2026-07-05",
+          "responsable": "RRHH/Legal",
+          "url": "https://drive.google.com/file/d/1g_PYPsJypXZIvvyA8o5lO8jgtzRcoiWx/view?usp=sharing"
+        },
+        {
+          "code": "GC-AE-002-01",
+          "name": "Certificado de Vigencia",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-09",
+          "responsable": null,
+          "url": "https://drive.google.com/file/d/1S1nr800eYlpFtXfDY7KS4GNDm0eoKPrh/view?usp=sharing"
+        },
+        {
+          "code": "GC-AE-002-02",
+          "name": "Certificado de Estatuto Actualizado",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-09",
+          "responsable": null,
+          "url": "https://drive.google.com/file/d/1f6NnQZgEeYCIfdm1NwWrnb-CZ3-J-pnh/view?usp=sharing"
+        },
+        {
+          "code": "GC-AE-002-03",
+          "name": "Certificado de Anotaciones",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-09",
+          "responsable": null,
+          "url": "https://drive.google.com/file/d/1GLPL3ObiUzll5216YAAHDaEIVIrPWGXx/view?usp=sharing"
+        },
+        {
+          "code": "GC-AE-002-04",
+          "name": "Certificado de Vigencia de Poderes",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-09",
+          "responsable": null,
+          "url": "https://drive.google.com/file/d/1Y3qwQN_NxElTS36JVoRaOjqEHMFv53ME/view?usp=sharing"
+        },
+        {
+          "code": "GC-AE-002-05",
+          "name": "Certificado de Accionista",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-09",
+          "responsable": null,
+          "url": "https://drive.google.com/file/d/1ER_PogKyb4Qjbap7tYPDjzCKcIopsf3B/view?usp=sharing"
+        },
+        {
+          "code": "GC-AE-002-06",
+          "name": "Certificado de Acciones",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-09",
+          "responsable": null,
+          "url": "https://drive.google.com/file/d/1bMw5qBmTHzDf2H_RmD3uMOF8IBg58WyF/view?usp=sharing"
+        },
+        {
+          "code": "GC-AE-002-07",
+          "name": "Formulario de constitucion RES",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-09",
+          "responsable": null,
+          "url": "https://drive.google.com/file/d/1bvREtPvopCAZUxEL5GgOOXWkZau_4ahb/view?usp=sharing"
+        },
+        {
+          "code": "GC-AE-002-08",
+          "name": "Comprobantes de entero de capital",
+          "status": "restricted",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-09",
+          "responsable": null,
+          "url": null
+        },
+        {
+          "code": "GC-AE-002-09",
+          "name": "(sin título)",
+          "status": "pending",
+          "version": null,
+          "fecha_vigencia": null,
+          "responsable": null,
+          "url": null
+        },
+        {
+          "code": "GC-AE-003-01",
+          "name": "Certificado incorporación Pro Pyme 14 D",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-09",
+          "responsable": null,
+          "url": "https://drive.google.com/file/d/1mA13cj9I1R9o0QjjP3EUv5K8RdccrjQd/view?usp=sharing"
+        },
+        {
+          "code": "GC-AE-003-02",
+          "name": "Certificado Verificación de Actividades",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-09",
+          "responsable": null,
+          "url": "https://drive.google.com/file/d/16QaXGPdgCA2LF9Jqhm6MkO33YRKfyGI7/view?usp=sharing"
+        },
+        {
+          "code": "GC-AE-003-03",
+          "name": "Modificación DAS Folio n°1",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-09",
+          "responsable": null,
+          "url": "https://drive.google.com/file/d/1BAoLAgRpFO-6xfT4Tb7E2A3OsyscG7H4/view?usp=sharing"
+        },
+        {
+          "code": "GC-AE-003-04",
+          "name": "Modificación DAS Folio n°2",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-09",
+          "responsable": null,
+          "url": "https://drive.google.com/file/d/1LqCgsIyCkkZ_-wlUzsDmwoDxn4Ad0dX-/view?usp=sharing"
+        },
+        {
+          "code": "GC-AE-004-01",
+          "name": "Certificado Antecedentes Laborales y Previsionales F30",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-09",
+          "responsable": null,
+          "url": "https://drive.google.com/file/d/1lbUoWLKUaMhc8b9tjaVkYLKJvz937P05/view?usp=sharing"
+        },
+        {
+          "code": "GC-AE-003-05",
+          "name": "Carpeta Tributaria Electrónica",
+          "status": "restricted",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-09",
+          "responsable": null,
+          "url": null
+        },
+        {
+          "code": "GL-RE-002",
+          "name": "Registro de Gestión de Crédito con Proveedores",
+          "status": "restricted",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-10",
+          "responsable": null,
+          "url": null
+        },
+        {
+          "code": "GL-JA-001",
+          "name": "Formato de Resolución Única del Accionista",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-11",
+          "responsable": null,
+          "url": "https://drive.google.com/file/d/1qOoupLl22Fm24yfTA1ioctG1pm_hXTVd/view?usp=sharing"
+        },
+        {
+          "code": "GL-PR-002",
+          "name": "Procedimiento de Compras y Adquisiciones",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-11",
+          "responsable": null,
+          "url": "https://drive.google.com/file/d/10Z4SFhwrSejHORW5Dlk2RfEmCa5x1RhD/view?usp=sharing"
+        },
+        {
+          "code": "GL-FR-001",
+          "name": "Orden de Compra",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-11",
+          "responsable": null,
+          "url": "https://drive.google.com/file/d/1oJfJYZPkZBR-D9B4mEaBRyjExFmU5oeC/view?usp=sharing"
+        },
+        {
+          "code": "GL-RE-001",
+          "name": "Registro de Flujo de Caja y Conciliación (Control Contable)",
+          "status": "restricted",
+          "version": "6.0",
+          "fecha_vigencia": "2026-09-15",
+          "responsable": "Administración y Finanzas",
+          "url": null
+        },
+        {
+          "code": "GL-PR-001",
+          "name": "Procedimiento de Tesorería y Autorización de Pagos",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-11",
+          "responsable": "Administración y Finanzas",
+          "url": "https://drive.google.com/file/d/1qOXslOPgoBVfByETMXVFshsPpyWj8G8B/view?usp=sharing"
+        },
+        {
+          "code": "GL-PR-003",
+          "name": "Procedimiento de Facturación y Cobranza",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-11",
+          "responsable": "Administración y Finanzas",
+          "url": "https://drive.google.com/file/d/1vTE1s_4vz8cst_D5VVhnOw6LcoCp24bD/view?usp=sharing"
+        },
+        {
+          "code": "GL-RE-003",
+          "name": "Expediente de Postulación de Fondos Públicos",
+          "status": "restricted",
+          "version": null,
+          "fecha_vigencia": "2026-09-09",
+          "responsable": "Administración y Finanzas",
+          "url": null
+        },
+        {
+          "code": "GL-RE-004",
+          "name": "Registro de Cierre de Ejercicio 2026 y Apertura 2027",
+          "status": "restricted",
+          "version": null,
+          "fecha_vigencia": null,
+          "responsable": "Administración y Finanzas",
+          "url": null
+        },
+        {
+          "code": "GL-PO-001",
+          "name": "Política Financiera y de Tesorería",
+          "status": "pending",
+          "version": null,
+          "fecha_vigencia": null,
+          "responsable": "Administración y Finanzas",
+          "url": null
+        },
+        {
+          "code": "GL-IR-001",
+          "name": "Informe Semestral de Verificación de Controles Financieros",
+          "status": "pending",
+          "version": null,
+          "fecha_vigencia": null,
+          "responsable": "Contador Externo",
+          "url": null
+        },
+        {
+          "code": "GL-PU-001",
+          "name": "Presupuesto Anual y Control Presupuestario",
+          "status": "pending",
+          "version": null,
+          "fecha_vigencia": null,
+          "responsable": "Administración y Finanzas",
+          "url": null
+        }
       ]
     },
     {
       "category": "3. IDENTIFICACIÓN DE PELIGROS Y RIESGOS",
       "items": [
-        { "code": "SG-MR-003", "name": "Matriz de Identificación de Peligros y Evaluación de Riesgos (MIPER)", "status": "ready", "url": "https://drive.google.com/file/d/1px-aHieBGNRC-GzHKRk0XuNiSPN1VRjf/view?usp=drive_link" },
-        { "code": "SG-IR-001", "name": "Inventario General de Riesgos Laborales", "status": "ready", "url": "https://drive.google.com/file/d/1PihUuibMX7crXJqGrUv7gCrIpcXYWJz5/view?usp=drive_link" }
+        {
+          "code": "SG-MR-003",
+          "name": "Matriz de Identificación de Peligros y Evaluación de Riesgos (MIPER)",
+          "status": "ready",
+          "version": "3.0",
+          "fecha_vigencia": "2026-07-07",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1px-aHieBGNRC-GzHKRk0XuNiSPN1VRjf/view?usp=sharing"
+        },
+        {
+          "code": "SG-IN-001",
+          "name": "Inventario General de Riesgos Laborales",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-05",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1PihUuibMX7crXJqGrUv7gCrIpcXYWJz5/view?usp=sharing"
+        }
       ]
     },
     {
       "category": "4. CAPACITACIÓN Y COMPETENCIA",
       "items": [
-        { "code": "CA-PC-001", "name": "Programa Anual de Capacitación", "status": "ready", "url": "https://drive.google.com/file/d/1rqMOVyAJK1FUsPgtMbmOlJLoJAALicts/view?usp=drive_link" },
-        { "code": "CA-PC-001-01", "name": "Capacitación - Inducción General HSE", "status": "ready", "url": "https://drive.google.com/file/d/1tvM_FXSvz4N7EkBTP5zEtJAazIdnvSuL/view?usp=drive_link" },
-        { "code": "CA-PC-001-02", "name": "Capacitación - Uso Correcto de Equipos de Protección Personal EPP", "status": "ready", "url": "https://drive.google.com/file/d/1v16edenkrGRvBBVIH_ENy0qQbPQoV-d3/view?usp=drive_link" },
-        { "code": "CA-PC-001-03", "name": "Capacitación - Trabajos en Altura y Andamiaje", "status": "ready", "url": "https://drive.google.com/file/d/1405RLMCZ5JsxsCFwynJPWITKs3rsMkf9/view?usp=drive_link" },
-        { "code": "CA-PC-001-04", "name": "Capacitación - Trabajos en Espacios Confinados", "status": "ready", "url": "https://drive.google.com/file/d/1MZQpg9EQjwvHvqab-8wuAifyoPlR65eG/view?usp=drive_link" },
-        { "code": "CA-PC-001-05", "name": "Capacitación - Trabajos en Caliente", "status": "ready", "url": "https://drive.google.com/file/d/1MU_dRu-DUu9Cws9vGWPutNpdkUcNIMXP/view?usp=drive_link" },
-        { "code": "CA-PC-001-06", "name": "Capacitación - Izaje de Cargas y Rigging", "status": "ready", "url": "https://drive.google.com/file/d/1ofbP59T9kIeR6IbQh8YGSIj7Dbns8Wg9/view?usp=drive_link" },
-        { "code": "CA-PC-001-07", "name": "Capacitación - Excavación, Trenching y Relleno", "status": "ready", "url": "https://drive.google.com/file/d/1w82jyt20CzUY-7l1CUjHtqePQSl4Pwrt/view?usp=drive_link" },
-        { "code": "CA-PC-001-08", "name": "Capacitación - Trabajos Eléctricos y Protección contra Arco Eléctrico", "status": "ready", "url": "https://drive.google.com/file/d/1-HFLj2VdiL68wuesm5OhU__qtp0XG1_Q/view?usp=drive_link" },
-        { "code": "CA-PC-001-09", "name": "Capacitación - Pruebas Hidrostáticas de Presión", "status": "ready", "url": "https://drive.google.com/file/d/1BmEEUtNqRxP4TCmEEHKxA-gM4uPFS1yI/view?usp=drive_link" },
-        { "code": "CA-PC-001-10", "name": "Capacitación - Manejo de Sustancias Peligrosas y Compuestos Orgánicos Volátiles", "status": "ready", "url": "https://drive.google.com/file/d/1Q_K_85SoUXWc8n-kMga6eE-xqmjvPljb/view?usp=drive_link" },
-        { "code": "CA-PC-001-11", "name": "Capacitación - Uniones Apernadas", "status": "ready", "url": "https://drive.google.com/file/d/19P9hsdQnEOg7BFVA1lorliWz8IIPjrW0/view?usp=sharing" },
-        { "code": "CA-PC-001-12", "name": "Capacitación - Operación Segura de Plataformas Elevadoras", "status": "ready", "url": "https://drive.google.com/file/d/1oo2Suh6LCOB5jlm4lfAw78WZCsZ39cSi/view?usp=drive_link" },
-        { "code": "CA-PC-001-13", "name": "Capacitación - Primeros Auxilios, RCP Y Control de Hemorragias", "status": "ready", "url": "https://drive.google.com/file/d/16ssazQU3qXe_nLHblw9JcRptEw4pIR89/view?usp=drive_link" },
-        { "code": "CA-PC-001-14", "name": "Capacitación - Prevención de Acoso Laboral, Sexual y Violencia (Ley Karin)", "status": "ready", "url": "https://drive.google.com/file/d/1oP0ibYFYA8u4_JqjJ0aU9i_uu-ybvbp8/view?usp=drive_link" },
-        { "code": "CA-PC-001-15", "name": "Capacitación - Riesgos Psicosociales, Estrés y Gestión del Bienestar", "status": "ready", "url": "https://drive.google.com/file/d/19V6eiVF0OY_YzjqiFsJRQM7j2BpIZLia/view?usp=drive_link" },
-        { "code": "CA-PC-001-16", "name": "Capacitación - Uso Seguro de Herramientas y Protección Auditiva", "status": "ready", "url": "https://drive.google.com/file/d/15Y9fGphbDdqZdrNl3Ypq8C3ERH5xA2eB/view?usp=drive_link" },
-        { "code": "CA-PC-001-17", "name": "Capacitación - Seguridad en Ensayos No Destructivos (END's) y Radiología Industrial", "status": "ready", "url": "https://drive.google.com/file/d/1cJ_TSRzaBpjjVyGM2W3z-KFNk-_T-N4d/view?usp=drive_link" },
-        { "code": "CA-PC-001-18", "name": "Capacitación - Soldadura de Tubería Termoplástica (HDPE/PPR)", "status": "ready", "url": "https://drive.google.com/file/d/1rs0o8k1EEVlplCR_w76cnPOftKQv_rT0/view?usp=drive_link" },
-        { "code": "CA-PC-001-19", "name": "Capacitación - Bloqueo y Etiquetado (LOTO)", "status": "ready", "url": "https://drive.google.com/file/d/1cPR4nIGJyve5kdQFSUJoVigZ7vPBPXBc/view?usp=drive_link" },
-        { "code": "CA-PC-001-20", "name": "Capacitación - Montajes y Desmontajes de Estructuras Metálicas", "status": "ready", "url": "https://drive.google.com/file/d/1BWOhY4QKqPU6fzzq8ID83E1MRJaIWv26/view?usp=drive_link" },
-        { "code": "CA-PC-001-21", "name": "Capacitación - Hormigonado, Vibrado y Curado", "status": "ready", "url": "https://drive.google.com/file/d/1vQkqWgATK3SXWra8GoN-ZXmLuVKbQ-oH/view?usp=drive_link" },
-        { "code": "CA-PC-001-22", "name": "Capacitación - Seguridad en Topografía y Trabajos en Vía Pública", "status": "ready", "url": "https://drive.google.com/file/d/1fFrxCzGx-TD2rDpWX1rmG2G9P8vUV95I/view?usp=drive_link" },
-        { "code": "CA-PC-001-23", "name": "Capacitación - Seguridad en Equipos Rotatorios y Partes Móviles", "status": "ready", "url": "https://drive.google.com/file/d/175g1Y68GxEMY3C24CvZRIi9SNkAPrKUt/view?usp=drive_link" },
-        { "code": "CA-PC-001-24", "name": "Capacitación - Técnicas Seguras de Manejo Manual de Cargas", "status": "ready", "url": "https://drive.google.com/file/d/1DTdeJ8-C2x0mJ3MyVBaKnv5Km1efi5Eg/view?usp=drive_link" },
-        { "code": "CA-PC-001-25", "name": "Capacitación - Ergonomía y Prevención de TMERT", "status": "ready", "url": "https://drive.google.com/file/d/1oVM6D_OSScqtgtgo0LUEdowdJ8CTd7cq/view?usp=drive_link" },
-        { "code": "CA-PC-001-26", "name": "Capacitación - Coordinación de Contratistas y Terceros", "status": "ready", "url": "https://drive.google.com/file/d/11IEAEAgYGWkKDMR269Q1MEB5e6MCfcZG/view?usp=sharing" },
-        { "code": "CA-PC-001-27", "name": "Capacitación - Orden, Limpieza y Almacenamiento Seguro", "status": "ready", "url": "https://drive.google.com/file/d/1QrXOWe3FjAheQVEaZJOiyMUqK0KKh5Dg/view?usp=drive_link" },
-        { "code": "CA-PC-001-28", "name": "Capacitación - Uso de Extintores", "status": "ready", "url": "https://drive.google.com/file/d/16XsnBxF_HqXuUMQ-wumtgkpMfUXilZMj/view?usp=drive_link" },
-        { "code": "CA-FR-002-01", "name": "Asistencia a Capacitación - Espacios Confinados", "status": "ready", "url": "https://drive.google.com/file/d/1gUdAkIwBlE8oYZ_R7MKKAYGZZGJQCewQ/view?usp=drive_link" },
-        { "code": "CA-FR-002-02", "name": "Asistencia a Capacitación - Estructuras Metálicas", "status": "ready", "url": "https://drive.google.com/file/d/1weEftjn57eejpB2Rl64s6kGnirceN1Bv/view?usp=drive_link" },
-        { "code": "CA-FR-002-03", "name": "Asistencia a Capacitación - Trabajos en Caliente / Soldadura", "status": "ready", "url": "https://drive.google.com/file/d/1T_EHI7x4VeK0Vx5NW5smGhPI3GT4jzTf/view?usp=drive_link" },
-        { "code": "CA-FR-002-04", "name": "Asistencia a Capacitación - Trabajo en Altura >1.8 [m]", "status": "ready", "url": "https://drive.google.com/file/d/1sxmQwVyE9V026vM8jUVuxwluYCibtp48/view?usp=drive_link" },
-        { "code": "CA-FR-002-05", "name": "Asistencia a Capacitación - Andamiaje", "status": "ready", "url": "https://drive.google.com/file/d/1wznthJgXBlq62C2cjc75Fnrjht-V_Lgw/view?usp=drive_link" },
-        { "code": "CA-FR-002-06", "name": "Asistencia a Capacitación - Izaje de Cargas", "status": "ready", "url": "https://drive.google.com/file/d/14bk96-2dAhUzLx-H7Mm_NSprOabyEQ0p/view?usp=drive_link" },
-        { "code": "CA-FR-002-07", "name": "Asistencia a Capacitación - Excavación / Trenching", "status": "ready", "url": "https://drive.google.com/file/d/1-KSufNGYB5QeUF5N5kvP61-HnSf5OR_n/view?usp=drive_link" },
-        { "code": "CA-FR-002-08", "name": "Asistencia a Capacitación - Hormigonado", "status": "ready", "url": "https://drive.google.com/file/d/1Qb3FP--IRRJJ2ribnJMfGVQySp3AITiu/view?usp=drive_link" },
-        { "code": "CA-FR-002-09", "name": "Asistencia a Capacitación - Pintura / Touch-Up", "status": "ready", "url": "https://drive.google.com/file/d/1V0SVwCvF2KJ9tAmPBZJrAl1TeQaldaLz/view?usp=drive_link" },
-        { "code": "CA-FR-002-10", "name": "Asistencia a Capacitación - Topografía / Replanteo", "status": "ready", "url": "https://drive.google.com/file/d/10kAvMcwAczfn6Thku9i4JhDQrPZd3B4b/view?usp=drive_link" },
-        { "code": "CA-FR-002-11", "name": "Asistencia a Capacitación - Montaje de Equipos", "status": "ready", "url": "https://drive.google.com/file/d/1i6V1LFFwMAytEWNSKSM1hVvqPcr9i9RK/view?usp=drive_link" },
-        { "code": "CA-FR-002-12", "name": "Asistencia a Capacitación - Uniones Apernadas", "status": "ready", "url": "https://drive.google.com/file/d/1BEXp3qH-YTjAUOnMrzywYUHmnyd14lXy/view?usp=drive_link" },
-        { "code": "CA-FR-002-13", "name": "Asistencia a Capacitación - Soldadura HDPE/PPR", "status": "ready", "url": "https://drive.google.com/file/d/1gP3AmcqcCwJC-x4L2up9xmEI2TsPsDeA/view?usp=drive_link" },
-        { "code": "CA-FR-002-14", "name": "Asistencia a Capacitación - Plataformas Elevadoras", "status": "ready", "url": "https://drive.google.com/file/d/1c1zjPzTGM-sEjqfJZRO8wlv27zUNfGZs/view?usp=drive_link" },
-        { "code": "CA-FR-002-15", "name": "Asistencia a Capacitación - Trabajos Eléctricos / Arco Eléctrico", "status": "ready", "url": "https://drive.google.com/file/d/1wtK8CBQEcUm2dGFWrnbpc2OJYx-02AWu/view?usp=drive_link" },
-        { "code": "CA-FR-002-16", "name": "Asistencia a Capacitación - Pruebas Hidrostáticas", "status": "ready", "url": "https://drive.google.com/file/d/1sUeEDbwCBPNnV8_01fyYoyviRNRAiNLz/view?usp=drive_link" },
-        { "code": "CA-FR-002-17", "name": "Asistencia a Capacitación - Ensayos No Destructivos – END’s", "status": "ready", "url": "https://drive.google.com/file/d/108qB7IjurgCgKMdMk0wezRS4UY5keXjI/view?usp=drive_link" },
-        { "code": "CA-FR-002-18", "name": "Asistencia a Capacitación - Primeros Auxilios", "status": "ready", "url": "https://drive.google.com/file/d/1YCcJDcBYPpVDdTO5JB4lmytHHeCJQ6TV/view?usp=drive_link" },
-        { "code": "CA-FR-002-19", "name": "Asistencia a Capacitación - Almacenamiento / Faena", "status": "ready", "url": "https://drive.google.com/file/d/1-wcSmp14aaFdJoc79XdPzoGI3LaN8JGw/view?usp=drive_link" },
-        { "code": "CA-FR-002-20", "name": "Asistencia a Capacitación - Ruido / Herramientas", "status": "ready", "url": "https://drive.google.com/file/d/15ASRsmJhD_4SlO3XPyosMBwGvrb45Yj5/view?usp=drive_link" },
-        { "code": "CA-FR-002-21", "name": "Asistencia a Capacitación - Psicosocial / Ley Karin", "status": "ready", "url": "https://drive.google.com/file/d/10gaLYvOSItzwu1kL0zvlPYdEt-5rgvfp/view?usp=drive_link" },
-        { "code": "CA-FR-002-22", "name": "Asistencia a Capacitación - Contratistas / Terceros", "status": "ready", "url": "https://drive.google.com/file/d/1IsFK9Sd44Y4JXrhcvpxKiW0QZIh150Lt/view?usp=drive_link" },
-        { "code": "CA-FR-002-23", "name": "Asistencia a Capacitación - Equipos Rotatorios y Partes Móviles", "status": "ready", "url": "https://drive.google.com/file/d/17PXJeQXk80o2hg57k1v1eQk1xK-7bMfl/view?usp=drive_link" },
-        { "code": "CA-FR-002-24", "name": "Asistencia a Capacitación - Manejo Manual de Cargas", "status": "ready", "url": "https://drive.google.com/file/d/1rUYzo8xUIcIFx-zl5Xg9VRZ8P-FHNtrQ/view?usp=drive_link" },
-        { "code": "CA-FR-002-25", "name": "Asistencia a Capacitación - Ergonomía y Prevención de TMERT", "status": "ready", "url": "https://drive.google.com/file/d/1KYRYnfofes2STAATXYZM1iLlrh1CN_cZ/view?usp=drive_link" },
-        { "code": "CA-FR-002-26", "name": "Asistencia a Capacitación - Uso de Extintores", "status": "ready", "url": "https://drive.google.com/file/d/1rTmm-HRqeYaQ7FGRFZ5vyYWGieHeVciV/view?usp=drive_link" },
-        { "code": "CA-FR-002-27", "name": "Asistencia a Capacitación - Concientización en Salud", "status": "ready", "url": "https://drive.google.com/file/d/1Hv5jMSE09Jl1ZMGilSMIqjHuOeW1-jq4/view?usp=drive_link" },
-        { "code": "CA-EV-003", "name": "Evaluación de Eficacia de Capacitación (Test post-curso)", "status": "pending", "url": null }
+        {
+          "code": "CP-PC-001",
+          "name": "Programa Anual de Capacitación",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-05-05",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1rqMOVyAJK1FUsPgtMbmOlJLoJAALicts/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-01",
+          "name": "Charla: Inducción General HSE",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1tvM_FXSvz4N7EkBTP5zEtJAazIdnvSuL/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-02",
+          "name": "Charla: Uso Correcto EPP",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1v16edenkrGRvBBVIH_ENy0qQbPQoV-d3/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-03",
+          "name": "Charla: Altura Andamiaje",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1405RLMCZ5JsxsCFwynJPWITKs3rsMkf9/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-04",
+          "name": "Charla: Espacios Confinados",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1MZQpg9EQjwvHvqab-8wuAifyoPlR65eG/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-05",
+          "name": "Charla: Trabajos en Caliente",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1MU_dRu-DUu9Cws9vGWPutNpdkUcNIMXP/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-06",
+          "name": "Charla: Izaje Rigging",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1ofbP59T9kIeR6IbQh8YGSIj7Dbns8Wg9/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-07",
+          "name": "Charla: Excavación Trenching",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1w82jyt20CzUY-7l1CUjHtqePQSl4Pwrt/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-08",
+          "name": "Charla: Trabajos Eléctricos",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1-HFLj2VdiL68wuesm5OhU__qtp0XG1_Q/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-09",
+          "name": "Charla: Pruebas Hidrostáticas",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1BmEEUtNqRxP4TCmEEHKxA-gM4uPFS1yI/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-10",
+          "name": "Charla: Manejo de Sustancias Peligrosas",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1Q_K_85SoUXWc8n-kMga6eE-xqmjvPljb/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-11",
+          "name": "Charla: Uniones Apernadas",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/19P9hsdQnEOg7BFVA1lorliWz8IIPjrW0/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-12",
+          "name": "Charla: Plataformas Elevadoras",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1oo2Suh6LCOB5jlm4lfAw78WZCsZ39cSi/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-13",
+          "name": "Charla: Primeros Auxilios RCP",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/16ssazQU3qXe_nLHblw9JcRptEw4pIR89/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-14",
+          "name": "Charla: Prevención Acoso",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1oP0ibYFYA8u4_JqjJ0aU9i_uu-ybvbp8/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-15",
+          "name": "Charla: Riesgos Psicosociales",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/19V6eiVF0OY_YzjqiFsJRQM7j2BpIZLia/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-16",
+          "name": "Charla: Uso Herramientas Desgaste Auditivo",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/15Y9fGphbDdqZdrNl3Ypq8C3ERH5xA2eB/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-17",
+          "name": "Charla: END Radiografia",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1cJ_TSRzaBpjjVyGM2W3z-KFNk-_T-N4d/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-18",
+          "name": "Charla: Soldadura HDPE PPR",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1rs0o8k1EEVlplCR_w76cnPOftKQv_rT0/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-19",
+          "name": "Charla: Bloqueo Etiquetado",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1cPR4nIGJyve5kdQFSUJoVigZ7vPBPXBc/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-20",
+          "name": "Charla: Estructuras Metálicas",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1BWOhY4QKqPU6fzzq8ID83E1MRJaIWv26/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-21",
+          "name": "Charla: Hormigonado Vibrado",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1vQkqWgATK3SXWra8GoN-ZXmLuVKbQ-oH/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-22",
+          "name": "Charla: Topografía Replanteo",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1fFrxCzGx-TD2rDpWX1rmG2G9P8vUV95I/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-23",
+          "name": "Charla: Equipos Rotatorios",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/175g1Y68GxEMY3C24CvZRIi9SNkAPrKUt/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-24",
+          "name": "Charla: Manejo Manual Carga",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1DTdeJ8-C2x0mJ3MyVBaKnv5Km1efi5Eg/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-25",
+          "name": "Charla: Ergonomía TMERT",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1oVM6D_OSScqtgtgo0LUEdowdJ8CTd7cq/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-26",
+          "name": "Charla: Coordinación",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/11IEAEAgYGWkKDMR269Q1MEB5e6MCfcZG/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-27",
+          "name": "Charla: Orden y Limpieza",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1QrXOWe3FjAheQVEaZJOiyMUqK0KKh5Dg/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-28",
+          "name": "Charla: Uso de Extintores",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-30",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/16XsnBxF_HqXuUMQ-wumtgkpMfUXilZMj/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-29",
+          "name": "Charla: Integridad y Cumplimiento",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-18",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1UisdwK3xqGKNxCMTj1_ssQtpgSZN2_GO/view?usp=sharing"
+        },
+        {
+          "code": "CP-PC-001-30",
+          "name": "Charla: Inclusión y Diversidad (DEI)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-25",
+          "responsable": "HSE/RRHH",
+          "url": "https://drive.google.com/file/d/1PgcSFsvqIjGXocwbiKtnztUKlHMxc6iq/view?usp=sharing"
+        },
+        {
+          "code": "CP-FR-002-01 a 29",
+          "name": "Formatos de Registro de Asistencia a Capacitación",
+          "status": "pending",
+          "version": "1.0",
+          "fecha_vigencia": "2026",
+          "responsable": "RRHH",
+          "url": null
+        },
+        {
+          "code": "CP-EV-003",
+          "name": "Evaluación de Eficacia de Capacitación (Test post-curso)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-05",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1M4iND_fGNBGvGrJ9_OeRNR4HdDKCDVEa/view?usp=sharing"
+        }
       ]
     },
     {
       "category": "5. VIGILANCIA DE LA SALUD Y PROTOCOLOS MÉDICOS",
       "items": [
-        { "code": "VS-FR-001", "name": "Matriz de Vigilancia de la Salud Ocupacional", "status": "pending", "url": null },
-        { "code": "VS-PR-001", "name": "Procedimiento de Vigilancia de la Salud y Exámenes", "status": "ready", "url": "#URL_DEL_PDF" },
-        { "code": "SM-FR-001", "name": "Instrumento de Evaluación de Riesgos Psicosociales (STRESS/INPSICO)", "status": "pending", "url": null },
-        { "code": "SM-FR-002", "name": "Formulario de Denuncia de Acoso Laboral y Sexual (Ley Karin)", "status": "pending", "url": null },
-        { "code": "EC-FR-001", "name": "Protocolo de Acción ante Olas de Calor Extremo", "status": "pending", "url": null }
+        {
+          "code": "VS-MR-001",
+          "name": "Matriz de Vigilancia de la Salud Ocupacional",
+          "status": "ready",
+          "version": "2.0",
+          "fecha_vigencia": "2026-07-18",
+          "responsable": "Médico Laboral",
+          "url": "https://drive.google.com/file/d/1vIIrmY17J4JDpMyDBBDHAPtcHeqb3POR/view?usp=sharing"
+        },
+        {
+          "code": "VS-PR-001",
+          "name": "Procedimiento de Vigilancia de la Salud y Exámenes",
+          "status": "ready",
+          "version": "2.0",
+          "fecha_vigencia": "2026-07-18",
+          "responsable": "Medico",
+          "url": "https://drive.google.com/file/d/1A3aPpOdng8pOZSAg2w6H41enjLbgUBgF/view?usp=sharing"
+        },
+        {
+          "code": "SM-FR-001",
+          "name": "Instrumento de Evaluación de Riesgos Psicosociales (STRESS/INPSICO)",
+          "status": "ready",
+          "version": "2.0",
+          "fecha_vigencia": "2026-07-18",
+          "responsable": "Psicólogo",
+          "url": "https://drive.google.com/file/d/1ZeSoUqkzFW1kg77r-YU-qKNqDBxtXH4A/view?usp=sharing"
+        },
+        {
+          "code": "SM-FR-002",
+          "name": "Formulario de Denuncia de Acoso Laboral y Sexual (Ley Karin)",
+          "status": "ready",
+          "version": "2.0",
+          "fecha_vigencia": "2026-07-18",
+          "responsable": "RRHH",
+          "url": "https://drive.google.com/file/d/1iO5HAZ4VFN_WTXcm2D9n-wsNtfY-Qsg5/view?usp=sharing"
+        },
+        {
+          "code": "EC-PR-001",
+          "name": "Protocolo de Acción ante Olas de Calor Extremo",
+          "status": "ready",
+          "version": "2.0",
+          "fecha_vigencia": "2026-07-18",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1aBK1uZGgY5LMBcBItrqzb-DUv9wR5rBF/view?usp=sharing"
+        },
+        {
+          "code": "SM-PR-001",
+          "name": "Protocolo de Investigación de Acoso (Ley Karin)",
+          "status": "ready",
+          "version": "2.0",
+          "fecha_vigencia": "2026-07-18",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1JLfjj-TWMhUUdY-wbKOJ7aKW3wQ-EwDr/view?usp=sharing"
+        }
       ]
     },
     {
       "category": "6. GESTIÓN DE CONTRATISTAS Y TERCEROS",
       "items": [
-        { "code": "GC-FR-001", "name": "Declaración de Contratistas (Art. 18 Ley 20.123)", "status": "pending", "url": null },
-        { "code": "GC-FR-003", "name": "Acta de Entrega de Información de Riesgos (ART18)", "status": "pending", "url": null },
-        { "code": "GC-DIO-001", "name": "Carpeta Documental Inicio de Obra", "status": "pending", "url": null },
-        { "code": "GC-CRH-001", "name": "Carta de Responsabilidad HSE Contratista", "status": "pending", "url": null }
+        {
+          "code": "GC-FR-001",
+          "name": "Declaración de Contratistas (Art. 66 bis Ley N°16.744, reglamentado por el D.S. N°76/2007)",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-10",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/14iLCvRGWfpCGHaUSJxr-u2zb5-zL0T7c/view?usp=sharing"
+        },
+        {
+          "code": "GC-FR-003",
+          "name": "Acta de Entrega de Información de Riesgos (ART18)",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-10",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1Y5hKgr7lwSQcTmrA1FE2iCHb0c4G2v6s/view?usp=sharing"
+        },
+        {
+          "code": "GC-DIO-001",
+          "name": "Carpeta Documental Inicio de Obra",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-10",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1U6hu5X1u6-agxHsQJeb3ithQTrwL8w8l/view?usp=sharing"
+        },
+        {
+          "code": "GC-CRH-001",
+          "name": "Carta de Responsabilidad HSE Contratista",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-10",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1FzmJYHTQnWx5efPuviwhE68wMUs5vsgE/view?usp=sharing"
+        }
       ]
     },
     {
       "category": "7. EMERGENCIAS Y CONTINGENCIAS",
       "items": [
-        { "code": "EM-PE-001", "name": "Plan de Emergencias y Sub-Planes", "status": "ready", "url": "https://drive.google.com/file/d/173_0MludMj-6MnboJb5JGaZlWr8WO6tV/view?usp=drive_link" },
-        { "code": "EM-SI-002", "name": "Programa Anual de Simulacros", "status": "ready", "url": "https://drive.google.com/file/d/1LGyqHcTShiiC6BUbXw47s_0nsBNCHn6c/view?usp=drive_link" },
-        { "code": "EM-FR-003", "name": "Formato de Registro y Evaluación de Simulacro", "status": "ready", "url": "https://drive.google.com/file/d/1rTgLwTK-CHz0yu20UMSzfWzIsHyly0_u/view?usp=drive_link" },
-        { "code": "EM-LT-004", "name": "Listado de Teléfonos de Emergencia Actualizado", "status": "ready", "url": "https://drive.google.com/file/d/14_cI3plrhMr9wW5WtPQ1XOUIBATPBdLE/view?usp=drive_link" }
+        {
+          "code": "EM-PE-001",
+          "name": "Plan de Emergencias y Sub-Planes",
+          "status": "pending",
+          "version": "0.0",
+          "fecha_vigencia": "2026-09-23",
+          "responsable": "HSE",
+          "url": null
+        },
+        {
+          "code": "EM-SI-002",
+          "name": "Programa Anual de Simulacros",
+          "status": "pending",
+          "version": "0.0",
+          "fecha_vigencia": "2026-09-23",
+          "responsable": "HSE",
+          "url": null
+        },
+        {
+          "code": "EM-FR-003",
+          "name": "Formato de Registro y Evaluación de Simulacro",
+          "status": "pending",
+          "version": "0.0",
+          "fecha_vigencia": "2026-09-23",
+          "responsable": "HSE",
+          "url": null
+        },
+        {
+          "code": "EM-LT-004",
+          "name": "Listado de Teléfonos de Emergencia Actualizado",
+          "status": "pending",
+          "version": "0.0",
+          "fecha_vigencia": "2026-09-23",
+          "responsable": "HSE",
+          "url": null
+        }
       ]
     },
     {
       "category": "8. OPERACIONES Y CONTROL DE PROCESOS",
       "items": [
-        { "code": "PR-FR-006", "name": "Procedimiento de Gestión del Ruido y Protocolo PREXOR", "status": "pending", "url": null },
-        { "code": "EM-FR-004", "name": "Procedimiento de Bloqueo y Etiquetado (LOTO)", "status": "pending", "url": null },
-        { "code": "PF-FR-005", "name": "Permiso de Trabajo en Espacios Confinados", "status": "pending", "url": null },
-        { "code": "AU-FR-004", "name": "Checklist Pre-Operacional de Vehículos y Equipos", "status": "pending", "url": null },
-        { "code": "SSP-FR-002", "name": "Permisos Especiales de Trabajo de Alto Riesgo", "status": "pending", "url": null }
+        {
+          "code": "SG-PR-006",
+          "name": "Procedimiento de Gestión del Ruido y Protocolo PREXOR",
+          "status": "ready",
+          "version": "2.0",
+          "fecha_vigencia": "2026-07-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1FTr-hf5dZVwOou0Xco_8iCHqRsiwE_oC/view?usp=sharing"
+        },
+        {
+          "code": "SG-PR-005",
+          "name": "Permiso de Trabajo en Espacios Confinados",
+          "status": "pending",
+          "version": "1.0",
+          "fecha_vigencia": "2026",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1-3oLcSgF2SJJE2yvI9D7hVCpjlN0G1ZB/view?usp=sharing"
+        },
+        {
+          "code": "CK-FR-009",
+          "name": "Checklist Pre-Operacional de Vehículos y Equipos",
+          "status": "pending",
+          "version": "0.0",
+          "fecha_vigencia": "2026-07-01",
+          "responsable": "Operaciones",
+          "url": "https://drive.google.com/file/d/1lLW_CQMlg6YeAfujynid7XQ8hv5usuKv/view?usp=sharing"
+        },
+        {
+          "code": "CK-FR-002",
+          "name": "Permisos Especiales de Trabajo de Alto Riesgo",
+          "status": "pending",
+          "version": "2.0",
+          "fecha_vigencia": "2026-07-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1-BJsBzTUYlKcgU57lLk_gbS5WxFDq7nr/view?usp=sharing"
+        }
       ]
     },
     {
       "category": "9. SUSTANCIAS Y RESIDUOS PELIGROSOS",
       "items": [
-        { "code": "SSP-FR-001", "name": "Ficha de Datos de Seguridad (FDS)", "status": "ready", "url": "https://drive.google.com/file/d/149xT5_puVY0saxcRrlY1yPNBjknty_BE/view?usp=drive_link" },
-        { "code": "SSP-FR-003", "name": "Inventario de Sustancias Peligrosas", "status": "ready", "url": "https://drive.google.com/file/d/1wweHt9jDL689DBhCsiscMksOhDT4sY3P/view?usp=drive_link" },
-        { "code": "SSP-FR-004", "name": "Registro de Recepción y Disposición de Residuos Peligrosos", "status": "ready", "url": "https://drive.google.com/file/d/1kIkmcu4QEaaa3EW2y2oZtiELQflAla-O/view?usp=drive_link" }
+        {
+          "code": "SSP-FR-001",
+          "name": "Ficha de Datos de Seguridad (FDS)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-06-27",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/149xT5_puVY0saxcRrlY1yPNBjknty_BE/view?usp=sharing"
+        },
+        {
+          "code": "SSP-FR-003",
+          "name": "Inventario de Sustancias Peligrosas",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-18",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1wweHt9jDL689DBhCsiscMksOhDT4sY3P/view?usp=sharing"
+        },
+        {
+          "code": "SSP-FR-004",
+          "name": "Registro de Recepción y Disposición de Residuos Peligrosos",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-18",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1kIkmcu4QEaaa3EW2y2oZtiELQflAla-O/view?usp=sharing"
+        }
       ]
     },
     {
       "category": "10. COMITÉ PARITARIO Y AUDITORÍA",
       "items": [
-        { "code": "AU-RE-003", "name": "Registro de Reuniones del Comité Paritario de Higiene y Seguridad", "status": "pending", "url": null },
-        { "code": "AU-IR-002", "name": "Informe de No Conformidad y Plan de Acción Correctiva", "status": "pending", "url": null },
-        { "code": "AU-IA-002", "name": "Procedimiento Investigación Accidentes e Incidentes", "status": "pending", "url": null },
-        { "code": "AU-IA-001", "name": "Checklist de Auditoría Interna", "status": "pending", "url": null }
+        {
+          "code": "AU-RE-003",
+          "name": "Registro de Reuniones del Comité Paritario de Higiene y Seguridad",
+          "status": "pending",
+          "version": "1.0",
+          "fecha_vigencia": "2026",
+          "responsable": "Comité",
+          "url": null
+        },
+        {
+          "code": "AU-IR-002",
+          "name": "Informe de Investigación de Incidentes -Instructivo y Formulario de Reporte, Clasificación e Investigación",
+          "status": "pending",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-29",
+          "responsable": "HSE",
+          "url": null
+        },
+        {
+          "code": "AU-IA-002",
+          "name": "Procedimiento Investigación Accidentes e Incidentes",
+          "status": "pending",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-11",
+          "responsable": "HSE",
+          "url": null
+        },
+        {
+          "code": "AU-CK-001",
+          "name": "Checklist de Auditoría Interna",
+          "status": "pending",
+          "version": "1.0",
+          "fecha_vigencia": "2026",
+          "responsable": "Auditor",
+          "url": null
+        },
+        {
+          "code": "AU-IR-001",
+          "name": "Informe de No Conformidad y Plan de Acción Correctiva",
+          "status": "pending",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-25",
+          "responsable": "HSE",
+          "url": null
+        },
+        {
+          "code": "AU-FR-003",
+          "name": "Formato de Informe de Investigación de Accidentes",
+          "status": "pending",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-16",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1UcFflIV5hjzZO_DqUyBNuiE3JVJFfDWp/view?usp=sharing"
+        },
+        {
+          "code": "AU-PR-002",
+          "name": "Plan de Auditoría Interna Integrado",
+          "status": "pending",
+          "version": "1.0",
+          "fecha_vigencia": null,
+          "responsable": "Calidad y HSE",
+          "url": null
+        }
       ]
     },
     {
       "category": "11. REGISTROS ESPECÍFICOS",
       "items": [
-        { "code": "SG-CA-001", "name": "Cronograma Anual de Actividades HSE", "status": "pending", "url": null },
-        { "code": "EM-PS-001", "name": "Detalle de Ejercicios de Simulacro", "status": "pending", "url": null },
-        { "code": "SG-CE-001", "name": "Certificados de Equipos de Protección Personal", "status": "pending", "url": null },
-        { "code": "GL-CA-001", "name": "Certificado de Afiliación a Mutualidad/ISL", "status": "pending", "url": null },
-        { "code": "SG-AC-001", "name": "Certificado de Accidentabilidad (Anual)", "status": "pending", "url": null },
-        { "code": "SG-KPI-001", "name": "Tablero de Indicadores de Desempeño (KPIs)", "status": "pending", "url": null }
+        {
+          "code": "SG-CG-001",
+          "name": "Cronograma Anual de Actividades HSE",
+          "status": "pending",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1LMAKn1w8lrfLH1-CIek3iujU_rsOSU7N/view?usp=sharing"
+        },
+        {
+          "code": "EM-PS-001",
+          "name": "Detalle de Ejercicios de Simulacro",
+          "status": "pending",
+          "version": "0.0",
+          "fecha_vigencia": "2026-07-01",
+          "responsable": "HSE",
+          "url": null
+        },
+        {
+          "code": "SG-CE-001",
+          "name": "Certificados de Equipos de Protección Personal",
+          "status": "pending",
+          "version": "1.0",
+          "fecha_vigencia": "2026",
+          "responsable": "HSE",
+          "url": null
+        },
+        {
+          "code": "SG-CE-003",
+          "name": "Certificado de Afiliación a Mutualidad/ISL",
+          "status": "pending",
+          "version": "1.0",
+          "fecha_vigencia": "2026",
+          "responsable": "RRHH",
+          "url": null
+        },
+        {
+          "code": "SG-CE-002",
+          "name": "Certificado de Accidentabilidad (Anual)",
+          "status": "pending",
+          "version": "1.0",
+          "fecha_vigencia": "2026",
+          "responsable": "HSE",
+          "url": null
+        },
+        {
+          "code": "SG-KPI-001",
+          "name": "Tablero de Indicadores de Desempeño (KPIs)",
+          "status": "pending",
+          "version": "1.0",
+          "fecha_vigencia": "2026",
+          "responsable": "HSE",
+          "url": null
+        },
+        {
+          "code": "SG-IM-001",
+          "name": "Informe Mensual de Gestión HSE - Asesoría Externa en Prevención de Riesgos",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-08-26",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1UEL5COL906sIs1lX9dc7DIn_d9Qm_ADg/view?usp=sharing"
+        }
       ]
     },
     {
       "category": "12. GESTIÓN AMBIENTAL",
       "items": [
-        { "code": "AM-MA-001", "name": "Matriz de Aspectos e Impactos Ambientales", "status": "ready", "url": "https://drive.google.com/file/d/14PJvMleRrOVpodwlVaAYO7HO8FMfAXd9/view?usp=drive_link" },
-        { "code": "AM-PO-001", "name": "Política Ambiental Integrada QHSE", "status": "ready", "url": "https://drive.google.com/file/d/1bmKO7D1YXm4_hKBFC5x3-UGB-iXUTRtB/view?usp=drive_link" },
-        { "code": "AM-AL-001", "name": "Alcance del Sistema de Gestión Ambiental (SGA)", "status": "ready", "url": "https://drive.google.com/file/d/1Xxls6Y4lBidYUal0l42oJyfo_VaI-yny/view?usp=drive_link" },
-        { "code": "AM-MP-001", "name": "Mapa de Aspectos e Impactos Ambientales por Proceso", "status": "ready", "url": "https://drive.google.com/file/d/1E29dR1-u79sdX40gKVoaXRe1CPUQUeS8/view?usp=drive_link" },
-        { "code": "AM-MR-001", "name": "Matriz de Riesgos Ambientales y Oportunidades", "status": "ready", "url": "https://drive.google.com/file/d/1uy8ap0qS47nsXTpzoVpHhJ-gnNHdyIUV/view?usp=drive_link" },
-        { "code": "AM-PR-001", "name": "Procedimiento para Identificación y Evaluación de Aspectos Ambientales", "status": "ready", "url": "https://drive.google.com/file/d/1wQq6c81FHAmdYxtHp_OMPodlBfQoW9cJ/view?usp=drive_link" },
-        { "code": "AM-PR-002", "name": "Control Operacional de Emisiones, Residuos y Vertimientos", "status": "ready", "url": "https://drive.google.com/file/d/1I603W_w7wx_4G4CpmSwCXmFtkGJVzZO-/view?usp=drive_link" },
-        { "code": "AM-PR-003", "name": "Gestión de Sustancias Químicas y Residuos Peligrosos", "status": "ready", "url": "https://drive.google.com/file/d/1q3lLoPe2HO6BWoZC080EctHn5L2pRmNR/view?usp=drive_link" },
-        { "code": "AM-PR-004", "name": "Respuesta ante Emergencias Ambientales", "status": "ready", "url": "https://drive.google.com/file/d/1mBuHyhKR0k0V2VcJRaQ3cbA4M60Bi4JR/view?usp=drive_link" },
-        { "code": "AM-RE-001", "name": "Registro de Incidentes Ambientales", "status": "ready", "url": "https://drive.google.com/file/d/1BqRJ8GxWmbyHmtnJgRA0ekF31lzhd7Th/view?usp=drive_link" },
-        { "code": "AM-RE-002", "name": "Seguimiento de Indicadores Ambientales", "status": "ready", "url": "https://drive.google.com/file/d/18bpVqphuKjK_JXAUC3XVEOoAdkIcism-/view?usp=drive_link" }
+        {
+          "code": "AM-MA-001",
+          "name": "Matriz de Aspectos e Impactos Ambientales",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/14PJvMleRrOVpodwlVaAYO7HO8FMfAXd9/view?usp=sharing"
+        },
+        {
+          "code": "AM-PO-001",
+          "name": "Política Ambiental Integrada QHSE",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1bmKO7D1YXm4_hKBFC5x3-UGB-iXUTRtB/view?usp=sharing"
+        },
+        {
+          "code": "AM-AL-001",
+          "name": "Alcance del Sistema de Gestión Ambiental (SGA)",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1Xxls6Y4lBidYUal0l42oJyfo_VaI-yny/view?usp=sharing"
+        },
+        {
+          "code": "AM-MP-001",
+          "name": "Mapa de Aspectos e Impactos Ambientales por Proceso",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1E29dR1-u79sdX40gKVoaXRe1CPUQUeS8/view?usp=sharing"
+        },
+        {
+          "code": "AM-MR-001",
+          "name": "Matriz de Riesgos Ambientales y Oportunidades",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1uy8ap0qS47nsXTpzoVpHhJ-gnNHdyIUV/view?usp=sharing"
+        },
+        {
+          "code": "AM-PR-001",
+          "name": "Procedimiento para Identificación y Evaluación de Aspectos Ambientales",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1wQq6c81FHAmdYxtHp_OMPodlBfQoW9cJ/view?usp=sharing"
+        },
+        {
+          "code": "AM-PR-002",
+          "name": "Control Operacional de Emisiones, Residuos y Vertimientos",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1I603W_w7wx_4G4CpmSwCXmFtkGJVzZO-/view?usp=sharing"
+        },
+        {
+          "code": "AM-PR-003",
+          "name": "Gestión de Sustancias Químicas y Residuos Peligrosos",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1q3lLoPe2HO6BWoZC080EctHn5L2pRmNR/view?usp=sharing"
+        },
+        {
+          "code": "AM-PR-004",
+          "name": "Respuesta ante Emergencias Ambientales",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1mBuHyhKR0k0V2VcJRaQ3cbA4M60Bi4JR/view?usp=sharing"
+        },
+        {
+          "code": "AM-RE-001",
+          "name": "Registro de Incidentes Ambientales",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1BqRJ8GxWmbyHmtnJgRA0ekF31lzhd7Th/view?usp=sharing"
+        },
+        {
+          "code": "AM-RE-002",
+          "name": "Seguimiento de Indicadores Ambientales",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/18bpVqphuKjK_JXAUC3XVEOoAdkIcism-/view?usp=sharing"
+        },
+        {
+          "code": "AM-FR-001",
+          "name": "Registro de Identificación de Aspectos Ambientales",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1JMucIjZlpq3bi709yg4PKdcU-5RnwoEj/view?usp=sharing"
+        },
+        {
+          "code": "AM-FR-002",
+          "name": "Registro de Evaluación de Aspectos Ambientales",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1xMv_jbSgAu5b14aKsAryCDy83RBLyzYL/view?usp=sharing"
+        },
+        {
+          "code": "AM-FR-003",
+          "name": "Registro de Controles Ambientales",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1UJJsm36xiTyxuw53P4XDoM5ym9D3lkMA/view?usp=sharing"
+        },
+        {
+          "code": "AM-FR-004",
+          "name": "Registro de Mantenimiento de Extractores y Sistemas de Ventilación",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1eRsaMrhXO-V7xohoeLNe_a4u57cdU7k2/view?usp=sharing"
+        },
+        {
+          "code": "AM-FR-005",
+          "name": "Registro de Control de Polvo",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1O_XOSahkeL5EJMvaf8f26ow-vpDW8hsp/view?usp=sharing"
+        },
+        {
+          "code": "AM-FR-006",
+          "name": "Registro de Gestión de Residuos No Peligrosos",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1e5Lifcnu2e-FSGzsl1vR8awsh8KSeJC6/view?usp=sharing"
+        },
+        {
+          "code": "AM-FR-007",
+          "name": "Registro de Control de Vertimientos",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1Li9w4F5LiQyjn-f_qAmdUPfR8VAA0e7n/view?usp=sharing"
+        },
+        {
+          "code": "AM-FR-008",
+          "name": "Registro de Simulacros de Emergencias Ambientales",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/14A87aZFqqBRAIAWVcoS0tVmEXGxHljF1/view?usp=sharing"
+        },
+        {
+          "code": "AM-FR-009",
+          "name": "Registro de Inspección de Equipos de Emergencia",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1vHKgPZ5C4MnDkT7_nJbQbxxmYpY3y-CV/view?usp=sharing"
+        },
+        {
+          "code": "AM-FR-010",
+          "name": "Registro de Capacitación en Respuesta a Emergencias Ambientales",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1IYOsRlgTDjnZSCzwvDwOI5-D4Wi6Q4nc/view?usp=sharing"
+        }
       ]
     },
     {
       "category": "13. CONTROL DEL SISTEMA",
       "items": [
-        { "code": "SG-CD-001", "name": "Procedimiento de Control de Documentos y Registros", "status": "ready", "url": "https://drive.google.com/file/d/1TrHbhgO-_k7Ea6QQYFyfuU-06Voi2bIa/view?usp=drive_link" },
-        { "code": "SG-GC-001", "name": "Procedimiento de Gestión del Cambio (MOC)", "status": "ready", "url": "https://drive.google.com/file/d/1gk-BKvwp3cHnIwINgjbA8_7HZNm48ePr/view?usp=drive_link" },
-        { "code": "SG-CC-001", "name": "Procedimiento de Comunicación y Consulta", "status": "ready", "url": "https://drive.google.com/file/d/1v_lIpWVrXRGQC40B523ghVGj80bSQC5i/view?usp=drive_link" }
+        {
+          "code": "SG-CD-001",
+          "name": "Procedimiento de Control de Documentos y Registros",
+          "status": "ready",
+          "version": "1.3",
+          "fecha_vigencia": "2026-09-10",
+          "responsable": "Calidad y Seguridad de la Información",
+          "url": "https://drive.google.com/file/d/1TrHbhgO-_k7Ea6QQYFyfuU-06Voi2bIa/view?usp=sharing"
+        },
+        {
+          "code": "SG-GC-001",
+          "name": "Procedimiento de Gestión del Cambio (MOC)",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "Calidad y Seguridad de la Información",
+          "url": "https://drive.google.com/file/d/1gk-BKvwp3cHnIwINgjbA8_7HZNm48ePr/view?usp=sharing"
+        },
+        {
+          "code": "SG-CC-001",
+          "name": "Procedimiento de Comunicación y Consulta",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "Calidad y Seguridad de la Información",
+          "url": "https://drive.google.com/file/d/1v_lIpWVrXRGQC40B523ghVGj80bSQC5i/view?usp=sharing"
+        },
+        {
+          "code": "SG-FR-001",
+          "name": "Formulario de Solicitud de Cambio",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "Calidad y Seguridad de la Información",
+          "url": "https://drive.google.com/file/d/1awoizju0bX0ovEnY3MLPQgbjk3C3IROk/view?usp=sharing"
+        },
+        {
+          "code": "SG-FR-002",
+          "name": "Formulario de Registro de Consultas y Comunicaciones",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "Calidad y Seguridad de la Información",
+          "url": "https://drive.google.com/file/d/1ISE8dhEIr9ANahcdY6ZyNGp7R6Cb1wj4/view?usp=sharing"
+        }
       ]
     },
     {
       "category": "14. PROCEDIMIENTOS OPERATIVOS ESPECÍFICOS",
       "items": [
-        { "code": "PO-PR-001", "name": "Procedimiento de Trabajo en Espacios Confinados", "status": "ready", "url": "#URL_DEL_PDF" },
-        { "code": "PO-PR-002", "name": "Procedimiento de Montaje y Desmontaje de Estructuras Metálicas", "status": "ready", "url": "#URL_DEL_PDF" },
-        { "code": "PO-PR-003", "name": "Procedimiento de Trabajos en Caliente (Soldadura y Corte)", "status": "ready", "url": "#URL_DEL_PDF" },
-        { "code": "PO-PR-004", "name": "Procedimiento de Trabajo en Altura y Andamiaje", "status": "pending", "url": null },
-        { "code": "PO-PR-005", "name": "Procedimiento de Izaje y Manejo de Cargas", "status": "pending", "url": null },
-        { "code": "PO-PR-006", "name": "Procedimiento de Excavación, Trenching y Relleno", "status": "pending", "url": null },
-        { "code": "PO-PR-007", "name": "Procedimiento de Hormigonado y Curado", "status": "pending", "url": null },
-        { "code": "PO-PR-008", "name": "Procedimiento de Pintura Industrial y Touch-Up", "status": "pending", "url": null },
-        { "code": "PO-PR-009", "name": "Procedimiento de Topografía y Replanteo", "status": "pending", "url": null },
-        { "code": "PO-PR-010", "name": "Procedimiento de Montaje de Equipos y Maquinaria", "status": "pending", "url": null },
-        { "code": "PO-PR-011", "name": "Procedimiento de Trazabilidad y Transferencia de Marcas", "status": "pending", "url": null },
-        { "code": "PO-PR-012", "name": "Procedimiento de Instalación de Faena y Campamentos", "status": "pending", "url": null },
-        { "code": "PO-PR-013", "name": "Procedimiento de Uniones Apernadas (Torque y Tensión)", "status": "pending", "url": null },
-        { "code": "PO-PR-014", "name": "Procedimiento de Uso de Plataformas Elevadoras (Nacelas) y Canastillas", "status": "pending", "url": null },
-        { "code": "PO-PR-015", "name": "Procedimiento de Trabajos Eléctricos y Protección contra Arco Eléctrico", "status": "pending", "url": null },
-        { "code": "PO-PR-016", "name": "Procedimiento de Pruebas Hidrostáticas de Presión", "status": "pending", "url": null },
-        { "code": "PO-PR-017", "name": "Procedimiento de Instalación y Montaje de Piping (Cañería)", "status": "pending", "url": null },
-        { "code": "PO-PR-018", "name": "Procedimiento de Soldadura de Tubería Termoplástica (HDPE, PPR)", "status": "pending", "url": null },
-        { "code": "PO-PR-019", "name": "Procedimiento de Equipos Rotatorios y Partes Móviles", "status": "pending", "url": null },
-        { "code": "PO-PR-020", "name": "Procedimiento de Bloqueo y Etiquetado (LOTO)", "status": "pending", "url": null },
-        { "code": "PO-PR-021", "name": "Procedimiento de Orden y Limpieza (SS) y Almacenamiento", "status": "pending", "url": null },
-        { "code": "PO-PR-022", "name": "Procedimiento de Gestión de Riesgos Psicosociales y Acoso", "status": "pending", "url": null },
-        { "code": "PO-PR-023", "name": "Procedimiento de Coordinación de Contratistas (ART18)", "status": "pending", "url": null },
-        { "code": "PO-PR-024", "name": "Procedimiento de Ensayos No Destructivos (ENDs) y Radiología", "status": "pending", "url": null },
-        { "code": "PO-PR-025", "name": "Procedimiento de Primeros Auxilios y Respuesta Médica", "status": "pending", "url": null }
+        {
+          "code": "PO-PR-001",
+          "name": "Procedimiento de Trabajo en Espacios Confinados",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1Cl-QjRf3TrhwADmG6kJiRlLnoy0D49tT/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-002",
+          "name": "Procedimiento de Montaje y Desmontaje de Estructuras Metálicas",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/13Mg0wnW7CsgKdmTFfcg6MbUNv8yjhK6M/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-003",
+          "name": "Procedimiento de Trabajos en Caliente (Soldadura y Corte)",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1JYuAKyCUPVoK4ehQ0Ua10AC9FExJBrTZ/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-004",
+          "name": "Procedimiento de Trabajo en Altura y Andamiaje",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-16",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1nmBbiq889o0cxgTYQaNqkNhLsViwhEuG/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-005",
+          "name": "Procedimiento de Izaje y Manejo de Cargas",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-16",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1U93n1MWK65k423SXczutbcfRL4z5O3cZ/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-006",
+          "name": "Procedimiento de Excavación, Trenching y Relleno",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1XepAaiqqGJSHrZreZIaUiLnmSAqrRCIx/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-007",
+          "name": "Procedimiento de Hormigonado y Curado",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1jbVeJO8P_NHaT-g0PCp1Z4ZylSDqbHPd/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-008",
+          "name": "Procedimiento de Pintura Industrial y Touch-Up",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1GKJG7a78WBrSbk9H21SE5LRmpAzGKwY3/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-009",
+          "name": "Procedimiento de Topografía y  Levantamientos (Replanteo)",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1iI2yOolK1csAaQKH1et8LbKh61LczO43/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-010",
+          "name": "Procedimiento de Montaje de Equipos y Maquinaria",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1CuTaB6JKNySPBjQ-kkzYi1cZcADWjhR3/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-011",
+          "name": "Procedimiento de Gestión - Trazabilidad de Materiales y Equipos",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1aj4kM276yO-N1Z_jXRZO4FFSZf9wK4Dh/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-012",
+          "name": "Procedimiento de Instalación de Faena y Campamentos",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1jAuc4YJkh86o-dXszSLBCZF6bEIvEdM5/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-013",
+          "name": "Procedimiento de Uniones Apernadas (Torque y Tensión)",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1sS7Motqkz0e1jX8_549SBbP9aJCW9V12/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-014",
+          "name": "Procedimiento de Uso de Plataformas Elevadoras (Nacelas) y Canastillas",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/164KlJDvCNj4SYpvzj07guC8o2DR_h8cH/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-015",
+          "name": "Procedimiento de Trabajos Eléctricos y Protección contra Arco Eléctrico",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-16",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1-2Lamb0Lkd5H2EUQrs7kJkscQgjtskYU/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-016",
+          "name": "Procedimiento de Pruebas Hidrostáticas de Presión",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1FK7Rs-oX9ynVtVraoQAz_D0EjKSNPu9C/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-017",
+          "name": "Procedimiento de Instalación y Montaje de Piping",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1YEDaJSt07BAE-TPoxfXAoeSW4hQCdM_s/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-018",
+          "name": "Procedimiento de Soldadura de Tubería Termoplástica (HDPE, PPR)",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1gW6E6fEFaUWEe6C4uV2mnSk-kOPTlgFd/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-019",
+          "name": "Procedimiento de Equipos Rotatorios y Partes Móviles",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1V7C4pUk0ceECVSK7aj1zpFzXlbIe1vDs/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-020",
+          "name": "Procedimiento de Bloqueo y Etiquetado (LOTO)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-09-16",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1hARkDfcE7c8AkVE9IbgR5Ctu-daR8F1Z/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-021",
+          "name": "Procedimiento de Orden y Limpieza (SS) y Almacenamiento",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1PBe0hBNGNr3CYKdnMlWLpiIar5_h3QDb/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-022",
+          "name": "Procedimiento de Gestión de Riesgos Psicosociales y Acoso",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1mVLZ-nlv71hNCfhQK6x71U6U5R5beh54/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-023",
+          "name": "Procedimiento de Coordinación de Contratistas (Art. 66 bis Ley N°16.744 y D.S. N°76/2007)",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1kwOVAfF-JafxtQEg8b2NWszRKblcal2M/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-024",
+          "name": "Procedimiento de Ensayos No Destructivos (ENDs) y Radiología",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1dLc1lS3QKUTSkVFP8yxVMuj3fDxO6aQP/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-025",
+          "name": "Procedimiento de Primeros Auxilios y Respuesta Médica",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1LpzfE4hR8IJp4a_60IV9flrQk9KtI7Su/view?usp=sharing"
+        },
+        {
+          "code": "PO-PR-026",
+          "name": "Procedimiento de Soldadura Fuerte (Brazing) en cañerias de cobre - GAS, AUTOCLAVES Y OTRAS LÍNEAS INDUSTRIALES",
+          "status": "pending",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": null
+        },
+        {
+          "code": "PO-PR-027",
+          "name": "Procedimiento de Soldadura SMAW",
+          "status": "pending",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": null
+        },
+        {
+          "code": "PO-PR-028",
+          "name": "Procedimiento de Soldadura GTAW",
+          "status": "pending",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": null
+        },
+        {
+          "code": "PO-PR-029",
+          "name": "Procedimiento de Soldadura GMAW",
+          "status": "pending",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": null
+        },
+        {
+          "code": "PO-PR-030",
+          "name": "Procedimiento de Soldadura FCAW",
+          "status": "pending",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": null
+        },
+        {
+          "code": "PO-PR-031",
+          "name": "Procedimiento de Soldadura SAW",
+          "status": "pending",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": null
+        },
+        {
+          "code": "PO-PR-032",
+          "name": "Procedimiento de Soldadura OFW",
+          "status": "pending",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": null
+        },
+        {
+          "code": "PO-PR-033",
+          "name": "Procedimiento de Soldadura Blanda",
+          "status": "pending",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": null
+        },
+        {
+          "code": "PO-PR-034",
+          "name": "Procedimiento de Corte Oxiacetilénico",
+          "status": "pending",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": null
+        },
+        {
+          "code": "PO-PR-035",
+          "name": "Procedimiento de Corte por Plasma",
+          "status": "ready",
+          "version": "0.0",
+          "fecha_vigencia": "2026-06-28",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1DCcP4HKqQZqFqAYm7YAE6d23zp04eE6L/view?usp=sharing"
+        }
       ]
     },
     {
       "category": "15. PROTOCOLOS TÉCNICOS DE CALIDAD Y SEGURIDAD",
       "items": [
-        { "code": "PT-PR-001", "name": "Protocolo Técnico de Unión Soldada (Arco, Gas, HDPE)", "status": "ready", "url": "https://drive.google.com/file/d/17ndNOH4bNAkKQOWq6MQ-AxgFq6hbnWd7/view?usp=drive_link" },
-        { "code": "PT-FR-002", "name": "Procedimiento de Soldadura (WPS)", "status": "ready", "url": "https://drive.google.com/file/d/10X2fLg9UGlynL6i_e56IKgbGc5QClx3v/view?usp=drive_link" },
-        { "code": "PT-FR-003", "name": "Registro de Calificación de Procedimiento (PQR)", "status": "ready", "url": "https://drive.google.com/file/d/1KY5MVJtZsCxrHFlfiqsLyErm2ZoHZruy/view?usp=drive_link" },
-        { "code": "PT-FR-004", "name": "Registro de Calificación del Soldador (WPQ)", "status": "ready", "url": "https://drive.google.com/file/d/1jNY3Fq3QoDU8vUmPP81AJhXmuYet2DBj/view?usp=drive_link" }
+        {
+          "code": "PT-PR-001",
+          "name": "Protocolo Técnico de Unión Soldada (Arco, Gas, HDPE)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-03",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/17ndNOH4bNAkKQOWq6MQ-AxgFq6hbnWd7/view?usp=sharing"
+        },
+        {
+          "code": "PT-FR-002",
+          "name": "Especificación Procedimiento de Soldadura (WPS)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-03",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/10X2fLg9UGlynL6i_e56IKgbGc5QClx3v/view?usp=sharing"
+        },
+        {
+          "code": "PT-FR-003",
+          "name": "Registro de Calificación de Procedimiento(PQR)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-03",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1KY5MVJtZsCxrHFlfiqsLyErm2ZoHZruy/view?usp=sharing"
+        },
+        {
+          "code": "PT-FR-004",
+          "name": "Registro de Calificación del Soldador (WPQ)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-03",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1jNY3Fq3QoDU8vUmPP81AJhXmuYet2DBj/view?usp=sharing"
+        },
+        {
+          "code": "PT-PR-002",
+          "name": "Protocolo Técnico de Ensayos No Destructivos",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-03",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1YYRE-yXBWzjLjf5C7VQsi9KxQtdnXA1N/view?usp=sharing"
+        },
+        {
+          "code": "PT-FR-005",
+          "name": "Informe de Ensayos No Destructivos",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1XzDtIarYf1Ow7baBY1qKdcx74FviqE82/view?usp=sharing"
+        },
+        {
+          "code": "PT-PR-003",
+          "name": "Protocolo Técnico de Touch-Up y Reparación de Recubrimientos",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/17-ikfT80v927hYW6KvJYEfVJTeBElUBX/view?usp=sharing"
+        },
+        {
+          "code": "PT-PR-004",
+          "name": "Protocolo Técnico de Uniones Apernadas",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1WssMO8fgwL4U3oPLPfm1QfNVSZLT_u7L/view?usp=sharing"
+        },
+        {
+          "code": "PT-PR-005",
+          "name": "Protocolo Técnico de Primeros Auxilios y Repuesta Médica",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/13IzwbQ1pniSOkkV-DQCiErgQcWAcd3Pt/view?usp=sharing"
+        },
+        {
+          "code": "PT-FR-006",
+          "name": "Reporte de Touch-Up y Reparación de Recubrimientos",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1cA2MDW6rFjS5xGXkK7WsT_zJrhpX-7AS/view?usp=sharing"
+        },
+        {
+          "code": "PT-FR-008",
+          "name": "Checklist de Preparación de Supeficies para Touch-Up",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1wnC87P9H1YhOIMrdKMCmKPZa4UAXj_EI/view?usp=sharing"
+        },
+        {
+          "code": "PT-FR-009",
+          "name": "Registro de Medición de Espesores Secos (DFT)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1FYIKnX-zCiq8i45EeaKAthEmNbp2R6vx/view?usp=sharing"
+        },
+        {
+          "code": "PT-FR-007",
+          "name": "Bitacora de Apernado",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1h6XnT_uxtFJ6kh03dXhmkRv8MFhcZWWT/view?usp=sharing"
+        },
+        {
+          "code": "EM-FR-001",
+          "name": "Hoja de Atención Primeros Auxilios",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1_aniF_g7te3YKraUB0zXfhnClhjumsf6/view?usp=sharing"
+        },
+        {
+          "code": "PT-FR-010",
+          "name": "Checklist de Apriete de Uniones Apernadas",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1RkYV46UWrA-RvMBcjmHcKraWGal_sbEs/view?usp=sharing"
+        },
+        {
+          "code": "PT-FR-011",
+          "name": "CheckList Semanal de Botiquín de Primeros Auxilios",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1GZN7BV2T54mb49OAdJyB0uO2XK6rszHy/view?usp=sharing"
+        },
+        {
+          "code": "PT-MA-001",
+          "name": "Tablas de Torque por Diámetro y Grado",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1W7_oMEawNWg_mIolmyr8_axIfT0Rh7Y-/view?usp=sharing"
+        },
+        {
+          "code": "PT-FR-012",
+          "name": "Trajeta de Contactos de Emergencia",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-01",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1Ohqvbqgg7FKRFduObjNxBQE9_jnqLAva/view?usp=sharing"
+        },
+        {
+          "code": "PT-PR-006",
+          "name": "Protocolo Técnico de Especificación y Operación de Motores Eléctricos (IEC 60034-1)",
+          "status": "pending",
+          "version": null,
+          "fecha_vigencia": "2026-08-10",
+          "responsable": null,
+          "url": "https://drive.google.com/file/d/1cezAjHJrzoSqB-od88HbAKXyBPtRQdW4/view?usp=sharing"
+        },
+        {
+          "code": "PT-FR-020",
+          "name": "Informe Técnico de Evaluación de Contrapresión del Sistema de Escape",
+          "status": "pending",
+          "version": null,
+          "fecha_vigencia": null,
+          "responsable": null,
+          "url": "https://drive.google.com/file/d/1jlLEoWFZky8du2oFjIX6C4XKsg_0CQ0f/view?usp=sharing"
+        }
       ]
     },
     {
       "category": "16. CHECKLISTS DE VERIFICACIÓN OPERATIVA",
       "items": [
-        { "code": "CK-FR-001", "name": "Pre-Operacional: Soldadura y Oxicorte", "status": "ready", "url": "https://drive.google.com/file/d/121TSURxsMUn1UzDHuCyTQNrZRBeR1rzT/view?usp=drive_link" },
-        { "code": "CK-FR-002", "name": "Pre-Operacional: Trabajo en Altura y Andamios", "status": "ready", "url": "https://drive.google.com/file/d/1jbzezBXOTcNBYvAsH5SigRM5_TFgK2Wm/view?usp=drive_link" },
-        { "code": "CK-FR-003", "name": "Pre-Operacional: Izaje y Grúas", "status": "ready", "url": "https://drive.google.com/file/d/1uiJElxKEus0wwA2Q_Q4b8BuyFyGUAKuV/view?usp=drive_link" },
-        { "code": "CK-FR-004", "name": "Pre-Operacional: Espacios Confinados", "status": "ready", "url": "https://drive.google.com/file/d/12hoNUbdK0W2I7Va3-UVRbX52sRBf5hMu/view?usp=drive_link" },
-        { "code": "CK-FR-005", "name": "Inspección: Herramientas Manuales y Eléctricas", "status": "ready", "url": "https://drive.google.com/file/d/1LKLsH8_GMik-cHpeioTZ2wBRDcMIkVIv/view?usp=drive_link" },
-        { "code": "CK-FR-006", "name": "Verificación: Pruebas Hidrostáticas", "status": "ready", "url": "https://drive.google.com/file/d/1ij40M4Wx0NanP2qpt0xPMBy5e9to-mOC/view?usp=drive_link" },
-        { "code": "CK-FR-007", "name": "Montaje: Piping y Soportería", "status": "ready", "url": "https://drive.google.com/file/d/1rARRvArJFot8qXcu_S9K2iF6WHVdUCFp/view?usp=drive_link" },
-        { "code": "CK-FR-008", "name": "Entrada a Faena: Inducción y EPP", "status": "ready", "url": "https://drive.google.com/file/d/1Tu5pxFk6gP5Jl3FJ3bxmGbEfYls7pOB-/view?usp=drive_link" },
-        { "code": "CK-FR-009", "name": "Verificación: Andamios Tubulares y de Fachada", "status": "ready", "url": "https://drive.google.com/file/d/1Jqf0gv_6zfZocv3HfvMWUoE1G1_M4GV9/view?usp=drive_link" },
-        { "code": "CK-FR-010", "name": "Verificación: Excavación y Zanjas (Trenching)", "status": "ready", "url": "https://drive.google.com/file/d/1IC7AwcZk0PC3kr_3MZLqJADbsfwJpI9a/view?usp=drive_link" }
+        {
+          "code": "CK-FR-001",
+          "name": "Pre-Operacional: Soldadura y Oxicorte",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-16",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/121TSURxsMUn1UzDHuCyTQNrZRBeR1rzT/view?usp=sharing"
+        },
+        {
+          "code": "CK-FR-002",
+          "name": "Pre-Operacional: Trabajo en Altura y Andamios",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-16",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1jbzezBXOTcNBYvAsH5SigRM5_TFgK2Wm/view?usp=sharing"
+        },
+        {
+          "code": "CK-FR-003",
+          "name": "Pre-Operacional: Izaje y Grúas",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-16",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1uiJElxKEus0wwA2Q_Q4b8BuyFyGUAKuV/view?usp=sharing"
+        },
+        {
+          "code": "CK-FR-004",
+          "name": "Pre-Operacional: Espacios Confinados",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-16",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/12hoNUbdK0W2I7Va3-UVRbX52sRBf5hMu/view?usp=sharing"
+        },
+        {
+          "code": "CK-FR-005",
+          "name": "Inspección: Herramientas Manuales y Eléctricas",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-16",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1LKLsH8_GMik-cHpeioTZ2wBRDcMIkVIv/view?usp=sharing"
+        },
+        {
+          "code": "CK-FR-006",
+          "name": "Verificación: Pruebas Hidrostáticas",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-16",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1ij40M4Wx0NanP2qpt0xPMBy5e9to-mOC/view?usp=sharing"
+        },
+        {
+          "code": "CK-FR-007",
+          "name": "Montaje: Piping y Soportería",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-16",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1rARRvArJFot8qXcu_S9K2iF6WHVdUCFp/view?usp=sharing"
+        },
+        {
+          "code": "CK-FR-008",
+          "name": "Entrada a Faena: Inducción y EPP",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-16",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1Tu5pxFk6gP5Jl3FJ3bxmGbEfYls7pOB-/view?usp=sharing"
+        },
+        {
+          "code": "CK-FR-009",
+          "name": "Verificación: Andamios Tubulares y de Fachada",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-16",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1Jqf0gv_6zfZocv3HfvMWUoE1G1_M4GV9/view?usp=sharing"
+        },
+        {
+          "code": "CK-FR-010",
+          "name": "Verificación: Excavación y Zanjas (Trenching)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-05-16",
+          "responsable": "HSE",
+          "url": "https://drive.google.com/file/d/1IC7AwcZk0PC3kr_3MZLqJADbsfwJpI9a/view?usp=sharing"
+        }
       ]
     },
     {
       "category": "17. GESTIÓN DE CALIDAD (ISO 9001)",
       "items": [
-        { "code": "CA-PR-001", "name": "Política de Calidad", "status": "ready", "url": "https://drive.google.com/file/d/1J8fN_wIorsJCBuW72xT3l4MyPoGENunx/view?usp=drive_link" },
-        { "code": "CA-AL-001", "name": "Alcance del Sistema de Gestión de Calidad", "status": "ready", "url": "https://drive.google.com/file/d/1PyMq6y3jKXF6_WYi8L774tnXaOIqgsLg/view?usp=drive_link" },
-        { "code": "CA-MP-001", "name": "Mapa de Procesos (Cadena de Valor)", "status": "ready", "url": "https://drive.google.com/file/d/1N_QnlF4afadbYYqVzZEnXQ2AuDhqD9fm/view?usp=drive_link" },
-        { "code": "CA-MR-001", "name": "Matriz de Riesgos de Calidad y Oportunidades", "status": "ready", "url": "https://drive.google.com/file/d/1bjn8GzaBQhxdXXwl612c9Ya0gk2aHA8E/view?usp=drive_link" },
-        { "code": "CA-PR-002", "name": "Procedimiento de Control de Producto No Conforme", "status": "ready", "url": "https://drive.google.com/file/d/126ZI73-IDPIdZQ0eg-1yiv9V7CmOf0MH/view?usp=drive_link" },
-        { "code": "CA-PR-003", "name": "Procedimiento de Evaluación y Re-evaluación de Proveedores", "status": "ready", "url": "https://drive.google.com/file/d/1dDKSeGKWUGiX2n1_LpiPBDs5dYElIzpp/view?usp=drive_link" },
-        { "code": "CA-FR-001", "name": "Formato de Encuesta de Satisfacción al Cliente", "status": "ready", "url": "https://drive.google.com/file/d/1LqVa7MAi0sTJaTKt4m-mAU7V4ePpqPb9/view?usp=drive_link" },
-        { "code": "CA-RE-001", "name": "Registro de Quejas, Reclamos y Felicitaciones", "status": "ready", "url": "https://drive.google.com/file/d/10a5UP3ZRik53Yh7UpkSUrKWr47x2NMa9/view?usp=drive_link" },
-        { "code": "CA-KPI-001", "name": "Tablero de Indicadores de Calidad (Entregas, Eficiencia)", "status": "ready", "url": "https://drive.google.com/file/d/1kNX1jtOH_8zknge_ryiSVJvqxUZDSWjk/view?usp=drive_link" },
-        { "code": "CA-RE-002", "name": "Acta de Revisión por la Dirección (Calidad)", "status": "ready", "url": "https://drive.google.com/file/d/1_YID6A8RaNbNfREfMiGDje38TvNcYy9O/view?usp=drive_link" },
-        { "code": "CA-MP-001-GRAF", "name": "Mapa de Procesos Gráfico (Cadena de Valor)", "status": "ready", "url": "https://drive.google.com/file/d/1gDCpcBsWriDXt-M-3YA0gAG98QisfFi1/view?usp=drive_link" }
+        {
+          "code": "CA-PO-001",
+          "name": "Política de Calidad",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad / SGC",
+          "url": "https://drive.google.com/file/d/1J8fN_wIorsJCBuW72xT3l4MyPoGENunx/view?usp=sharing"
+        },
+        {
+          "code": "CA-AL-001",
+          "name": "Alcance del Sistema de Gestión de Calidad",
+          "status": "ready",
+          "version": "1.2",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad / SGC",
+          "url": "https://drive.google.com/file/d/1PyMq6y3jKXF6_WYi8L774tnXaOIqgsLg/view?usp=sharing"
+        },
+        {
+          "code": "CA-MP-001",
+          "name": "Mapa de Procesos (Cadena de Valor)",
+          "status": "ready",
+          "version": "2.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad / SGC",
+          "url": "https://drive.google.com/file/d/1N_QnlF4afadbYYqVzZEnXQ2AuDhqD9fm/view?usp=sharing"
+        },
+        {
+          "code": "CA-MR-001",
+          "name": "Matriz de Riesgos de Calidad y Oportunidades",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad / SGC",
+          "url": "https://drive.google.com/file/d/1bjn8GzaBQhxdXXwl612c9Ya0gk2aHA8E/view?usp=sharing"
+        },
+        {
+          "code": "CA-PR-002",
+          "name": "Procedimiento de Control de Producto No Conforme",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad / SGC",
+          "url": "https://drive.google.com/file/d/126ZI73-IDPIdZQ0eg-1yiv9V7CmOf0MH/view?usp=sharing"
+        },
+        {
+          "code": "CA-PR-003",
+          "name": "Procedimiento de Evaluación y Re-evaluación de Proveedores",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad / SGC",
+          "url": "https://drive.google.com/file/d/1dDKSeGKWUGiX2n1_LpiPBDs5dYElIzpp/view?usp=sharing"
+        },
+        {
+          "code": "CA-FR-001",
+          "name": "Formato de Encuesta de Satisfacción al Cliente",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad / SGC",
+          "url": "https://drive.google.com/file/d/1LqVa7MAi0sTJaTKt4m-mAU7V4ePpqPb9/view?usp=sharing"
+        },
+        {
+          "code": "CA-RE-001",
+          "name": "Registro de Quejas, Reclamos y Felicitaciones",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad / SGC",
+          "url": "https://drive.google.com/file/d/10a5UP3ZRik53Yh7UpkSUrKWr47x2NMa9/view?usp=sharing"
+        },
+        {
+          "code": "CA-KPI-001",
+          "name": "Tablero de Indicadores de Calidad (Entregas, Eficiencia)",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad / SGC",
+          "url": "https://drive.google.com/file/d/1kNX1jtOH_8zknge_ryiSVJvqxUZDSWjk/view?usp=sharing"
+        },
+        {
+          "code": "CA-RE-002",
+          "name": "Acta de Revisión por la Dirección (Calidad)",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad / SGC",
+          "url": "https://drive.google.com/file/d/1_YID6A8RaNbNfREfMiGDje38TvNcYy9O/view?usp=sharing"
+        },
+        {
+          "code": "CA-MP-001-GRAF",
+          "name": "Mapa de Procesos Gráfico (Cadena de Valor)",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad / SGC",
+          "url": "https://drive.google.com/file/d/1gDCpcBsWriDXt-M-3YA0gAG98QisfFi1/view?usp=sharing"
+        },
+        {
+          "code": "CA-FR-002",
+          "name": "Informe de Ejecución de Servicio",
+          "status": "pending",
+          "version": "0.0",
+          "fecha_vigencia": null,
+          "responsable": "Calidad / SGC",
+          "url": null
+        },
+        {
+          "code": "CA-OB-001",
+          "name": "Objetivos de Calidad y Planificación para Lograrlos",
+          "status": "pending",
+          "version": null,
+          "fecha_vigencia": null,
+          "responsable": "Calidad / SGC",
+          "url": "https://drive.google.com/file/d/1LkjuKAsUrSYfWFtSQiOT4TICnmdLOCKI/view?usp=sharing"
+        }
       ]
     },
     {
-      "category": "18. SEGURIDAD DE LA INFORMACIÓN (SGSI)",
+      "category": "18. SEGURIDAD DE LA INFORMACIÓN (ISO 27001)",
       "items": [
-        { "code": "SI-PO-001", "name": "Política de Seguridad de la Información y Protección de Datos", "status": "ready", "url": "https://drive.google.com/file/d/1qZQUM5fM9xFRkImG9s0QuBiQkjpe4jt2/view?usp=drive_link" },
-        { "code": "SI-AL-001", "name": "Alcance del SGSI", "status": "ready", "url": "https://drive.google.com/file/d/1SRphisQmQVwc5cTCHOfdPsppHdOr-ZuM/view?usp=drive_link" },
-        { "code": "SI-MR-001", "name": "Matriz de Riesgos y Oportunidades de Seguridad", "status": "ready", "url": "https://drive.google.com/file/d/1FITp-YFuG1JtkyVyaIubb2w-b6csip8E/view?usp=drive_link" },
-        { "code": "SI-RE-001", "name": "Declaración de Aplicabilidad (SoA - Statement of Applicability)", "status": "ready", "url": "https://drive.google.com/file/d/1BdU3TStWTE3rvekDTKjdjWqIuUHZIqNP/view?usp=drive_link" },
-        { "code": "SI-PR-001", "name": "Control de Accesos Lógicos y Gestión de Identidades", "status": "ready", "url": "https://drive.google.com/file/d/1uJi7ZGw9UFONeHXNHYuTYH58JTc1MA-C/view?usp=drive_link" },
-        { "code": "SI-PR-002", "name": "Gestión de Incidentes de Seguridad y Brechas de Datos", "status": "ready", "url": "https://drive.google.com/file/d/10x-G--RwVMXecOKrc-mY5oU8TDAuJCXp/view?usp=drive_link" },
-        { "code": "SI-PR-003", "name": "Plan de Continuidad del Negocio ante caídas de TI (BCP)", "status": "ready", "url": "https://drive.google.com/file/d/1y6NXBK2mF012k5H5YOI0qYD0ddwDd4h3/view?usp=drive_link" },
-        { "code": "SI-PR-004", "name": "Clasificación y Control de Activos de Información", "status": "ready", "url": "https://drive.google.com/file/d/1G11lokQG_mzLqI1BLAjXwol_fiO5_f1G/view?usp=drive_link" },
-        { "code": "SI-PR-005", "name": "Seguridad en la Gestión de Contratistas y Terceros", "status": "ready", "url": "https://drive.google.com/file/d/1W-6weiACO6CSVknl83-gAfd5QDKJBj_B/view?usp=drive_link" },
-        { "code": "SI-RE-002", "name": "Matriz de Cumplimiento Legal aplicable del SGSI", "status": "ready", "url": "https://drive.google.com/file/d/1JY-kOSGB9Pwv18pGAMRE3vx7-OsN75WQ/view?usp=drive_link" }
+        {
+          "code": "SI-PO-001",
+          "name": "Política de Seguridad de la Información y Protección de Datos",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "CISO / Gerencia",
+          "url": "https://drive.google.com/file/d/1qZQUM5fM9xFRkImG9s0QuBiQkjpe4jt2/view?usp=sharing"
+        },
+        {
+          "code": "SI-AL-001",
+          "name": "Alcance del Sistema de Gestión de Seguridad de la Información (SGSI)",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "CISO / Gerencia",
+          "url": "https://drive.google.com/file/d/1SRphisQmQVwc5cTCHOfdPsppHdOr-ZuM/view?usp=sharing"
+        },
+        {
+          "code": "SI-MR-001",
+          "name": "Matriz de Riesgos y Oportunidades de Seguridad de la Información",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "CISO",
+          "url": "https://drive.google.com/file/d/1FITp-YFuG1JtkyVyaIubb2w-b6csip8E/view?usp=sharing"
+        },
+        {
+          "code": "SI-RE-001",
+          "name": "Declaración de Aplicabilidad (SoA) - ISO 27001:2022",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "CISO",
+          "url": "https://drive.google.com/file/d/1BdU3TStWTE3rvekDTKjdjWqIuUHZIqNP/view?usp=sharing"
+        },
+        {
+          "code": "SI-PR-001",
+          "name": "Control de Accesos Lógicos y Gestión de Identidades",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "CISO / TI",
+          "url": "https://drive.google.com/file/d/1uJi7ZGw9UFONeHXNHYuTYH58JTc1MA-C/view?usp=sharing"
+        },
+        {
+          "code": "SI-PR-002",
+          "name": "Gestión de Incidentes de Seguridad y Brechas de Datos",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "CISO",
+          "url": "https://drive.google.com/file/d/10x-G--RwVMXecOKrc-mY5oU8TDAuJCXp/view?usp=sharing"
+        },
+        {
+          "code": "SI-PR-003",
+          "name": "Plan de Continuidad del Negocio ante caídas de TI (BCP)",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "CISO / TI",
+          "url": "https://drive.google.com/file/d/1y6NXBK2mF012k5H5YOI0qYD0ddwDd4h3/view?usp=sharing"
+        },
+        {
+          "code": "SI-PR-004",
+          "name": "Clasificación y Control de Activos de Información",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "CISO",
+          "url": "https://drive.google.com/file/d/1G11lokQG_mzLqI1BLAjXwol_fiO5_f1G/view?usp=sharing"
+        },
+        {
+          "code": "SI-PR-005",
+          "name": "Seguridad en la Gestión de Contratistas y Terceros",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "CISO / Compras",
+          "url": "https://drive.google.com/file/d/1W-6weiACO6CSVknl83-gAfd5QDKJBj_B/view?usp=sharing"
+        },
+        {
+          "code": "SI-RE-002",
+          "name": "Matriz de Cumplimiento Legal aplicable",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "CISO",
+          "url": "https://drive.google.com/file/d/1JY-kOSGB9Pwv18pGAMRE3vx7-OsN75WQ/view?usp=sharing"
+        }
       ]
     },
     {
-      "category": "19. LIMPIEZA, HIGIENE E INOCUIDAD (SGIA)",
+      "category": "19. LIMPIEZA, HIGIENE E INOCUIDAD (ISO 22000 adaptada)",
       "items": [
-        { "code": "IA-PO-001", "name": "Política de Limpieza, Higiene e Inocuidad", "status": "ready", "url": "https://drive.google.com/file/d/1izfubKHceJAytdUSXZQP0r8bOi4SrBhL/view?usp=drive_link" },
-        { "code": "IA-AL-001", "name": "Alcance del SGIA", "status": "ready", "url": "https://drive.google.com/file/d/1aG-9ia4IM6MuK4t8xzyVqdz9zJ_ousnR/view?usp=drive_link" },
-        { "code": "IA-MR-001", "name": "Análisis de Peligros y Puntos Críticos de Control (HACCP)", "status": "ready", "url": "https://drive.google.com/file/d/1f2H-Kde5_7jtPt6WZk6Ueh_WjtJId07_/view?usp=drive_link" },
-        { "code": "IA-PR-001", "name": "Programas de Prerrequisitos (PPR)", "status": "ready", "url": "https://drive.google.com/file/d/11zAIBugGceZzBDF6j7H3Q16TleNHiDLA/view?usp=drive_link" },
-        { "code": "IA-PR-002", "name": "Control de No Conformidades y Acciones Correctivas en Inocuidad", "status": "ready", "url": "https://drive.google.com/file/d/1RTONpCnL5kfXPQZswfbaNNDlZkmE7FAF/view?usp=drive_link" },
-        { "code": "IA-PR-003", "name": "Sistema de Trazabilidad y Retiro de Productos", "status": "ready", "url": "https://drive.google.com/file/d/1rqvhU0Lxbih8tgeevrEd8ewn031XuGuh/view?usp=drive_link" },
-        { "code": "IA-PR-004", "name": "Validación y Verificación de Controles Operacionaless", "status": "ready", "url": "https://drive.google.com/file/d/1tfkUYJsxIYNlNvp5Sy_7YzwAUiKCcSUW/view?usp=drive_link" },
-        { "code": "IA-RE-001", "name": "Registro de Incidentes de Inocuidad y Reclamos de clientes", "status": "ready", "url": "https://drive.google.com/file/d/1h0Zg5JEsRkLxMeKfnBEq9v65yU7DbMuL/view?usp=drive_link" },
-        { "code": "IA-KPI-001", "name": "Tablero de Indicadores de Inocuidad", "status": "ready", "url": "https://drive.google.com/file/d/1d7YX-CwTCztCg8D_EmpGFCx2wyJqB8d3/view?usp=drive_link" }
+        {
+          "code": "IA-PO-001",
+          "name": "Política de Limpieza, Higiene e Inocuidad",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/1izfubKHceJAytdUSXZQP0r8bOi4SrBhL/view?usp=sharing"
+        },
+        {
+          "code": "IA-AL-001",
+          "name": "Alcance del Sistema de Gestión de Limpieza, Higiene e Inocuidad (SGIA)",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Gerencia / Calidad",
+          "url": "https://drive.google.com/file/d/1aG-9ia4IM6MuK4t8xzyVqdz9zJ_ousnR/view?usp=sharing"
+        },
+        {
+          "code": "IA-MR-001",
+          "name": "Análisis de Peligros y Puntos Críticos de Control (HACCP)",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad / Operaciones",
+          "url": "https://drive.google.com/file/d/1f2H-Kde5_7jtPt6WZk6Ueh_WjtJId07_/view?usp=sharing"
+        },
+        {
+          "code": "IA-PR-001",
+          "name": "Programas de Prerrequisitos (PPR) - Limpieza, control de plagas, instalaciones",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad / Operaciones",
+          "url": "https://drive.google.com/file/d/11zAIBugGceZzBDF6j7H3Q16TleNHiDLA/view?usp=sharing"
+        },
+        {
+          "code": "IA-PR-002",
+          "name": "Control de No Conformidades y Acciones Correctivas en Inocuidad",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad",
+          "url": "https://drive.google.com/file/d/1RTONpCnL5kfXPQZswfbaNNDlZkmE7FAF/view?usp=sharing"
+        },
+        {
+          "code": "IA-PR-003",
+          "name": "Sistema de Trazabilidad y Retiro de Productos (Simulacros)",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad / Operaciones",
+          "url": "https://drive.google.com/file/d/1rqvhU0Lxbih8tgeevrEd8ewn031XuGuh/view?usp=sharing"
+        },
+        {
+          "code": "IA-PR-004",
+          "name": "Validación y Verificación de Controles Operacionales",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad",
+          "url": "https://drive.google.com/file/d/1tfkUYJsxIYNlNvp5Sy_7YzwAUiKCcSUW/view?usp=sharing"
+        },
+        {
+          "code": "IA-RE-001",
+          "name": "Registro de Incidentes de Inocuidad y Reclamos de Clientes",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad",
+          "url": "https://drive.google.com/file/d/1h0Zg5JEsRkLxMeKfnBEq9v65yU7DbMuL/view?usp=sharing"
+        },
+        {
+          "code": "IA-KPI-001",
+          "name": "Tablero de Indicadores de Inocuidad (cumplimiento PPR, tiempos de retiro)",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad / Operaciones",
+          "url": "https://drive.google.com/file/d/1d7YX-CwTCztCg8D_EmpGFCx2wyJqB8d3/view?usp=sharing"
+        }
       ]
     },
     {
       "category": "20. INTEGRIDAD Y CUMPLIMIENTO NORMATIVO (Ley 21.595)",
       "items": [
-        { "code": "IC-PO-001", "name": "Política de Integridad y Cumplimiento Normativo", "status": "ready", "url": "https://drive.google.com/file/d/1n6Umew7gMj_7lkzEsOWjZnVqhri48inf/view?usp=drive_link" },
-        { "code": "IC-MR-001", "name": "Matriz de Riesgos de Integridad y Cumplimiento Normativo", "status": "ready", "url": "https://drive.google.com/file/d/1bEGEB0PQpUQIBi_bZ5qJWaUJuYY5ZDj8/view?usp=drive_link" },
-        { "code": "IC-PR-001", "name": "Procedimiento de Denuncias y Canales de Reporte", "status": "ready", "url": "https://drive.google.com/file/d/1vfN8fgeNU8hcDVlKdAyo_DS47BiirzYz/view?usp=drive_link" },
-        { "code": "IC-PR-002", "name": "Procedimiento de Investigación Interna", "status": "ready", "url": "https://drive.google.com/file/d/1s-emqwzg1lL7zy-PtKSoIAujtg6O9iyq/view?usp=drive_link" },
-        { "code": "IC-PC-001", "name": "Plan de Capacitación en Integridad", "status": "ready", "url": "https://drive.google.com/file/d/1FKAbWTROZbmQxtz_WuoeXLWhbcivgy2s/view?usp=drive_link" },
-        { "code": "IC-RE-001", "name": "Registro de Capacitaciones y Evaluaciones en Integridad", "status": "ready", "url": "https://drive.google.com/file/d/1CmfjA-UL_-QVAuhse5_GykKKMQGZUvgq/view?usp=drive_link" },
-        { "code": "IC-KPI-001", "name": "Tablero de Indicadores de Integridad", "status": "ready", "url": "https://drive.google.com/file/d/1QB1EymYwIpUca8pHFVHSKas_fF68T4fD/view?usp=drive_link" },
-        { "code": "IC-PO-002", "name": "Política Anticorrupción", "status": "ready", "url": "https://drive.google.com/file/d/1bNBHLzCbtVEy5z-rGyg6Hgd16Jk-25dV/view?usp=drive_link" },
-        { "code": "IC-PO-003", "name": "Política de Conflictos de Interés", "status": "ready", "url": "https://drive.google.com/file/d/1x7WGqrOfdV1h-PHspA68loXZgz2rdlqm/view?usp=drive_link" },
-        { "code": "IC-PO-004", "name": "Política de Gestión del Canal de Denuncias", "status": "ready", "url": "https://drive.google.com/file/d/1iEDHktGWDXUNXUZf0mmDJsQo0OgpRK6k/view?usp=drive_link" },
-        { "code": "IC-PR-003", "name": "Lineamientos para el Oficial de Cumplimiento", "status": "ready", "url": "https://drive.google.com/file/d/1wBJF5rpj-cf7wMnf8LT-KsXiyuLSQuKJ/view?usp=drive_link" },
-        { "code": "IC-CE-001", "name": "Certificado de Implementación", "status": "ready", "url": "https://drive.google.com/file/d/1xFylAL2Fbzk15f_AcQYp4q1awUkpKA1j/view?usp=drive_link" }
+        {
+          "code": "IC-PO-001",
+          "name": "Política de Integridad y Cumplimiento Normativo",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-17",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/1n6Umew7gMj_7lkzEsOWjZnVqhri48inf/view?usp=sharing"
+        },
+        {
+          "code": "IC-MR-001",
+          "name": "Matriz de Riesgos de Integridad y Cumplimiento Normativo",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-17",
+          "responsable": "Gerencia / Compliance",
+          "url": "https://drive.google.com/file/d/1bEGEB0PQpUQIBi_bZ5qJWaUJuYY5ZDj8/view?usp=sharing"
+        },
+        {
+          "code": "IC-PR-001",
+          "name": "Procedimiento de Denuncias y Canales de Reporte",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-17",
+          "responsable": "RRHH / Legal",
+          "url": "https://drive.google.com/file/d/1vfN8fgeNU8hcDVlKdAyo_DS47BiirzYz/view?usp=sharing"
+        },
+        {
+          "code": "IC-PR-002",
+          "name": "Procedimiento de Investigación Interna",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-17",
+          "responsable": "Legal",
+          "url": "https://drive.google.com/file/d/1s-emqwzg1lL7zy-PtKSoIAujtg6O9iyq/view?usp=sharing"
+        },
+        {
+          "code": "IC-PC-001",
+          "name": "Plan de Capacitación en Integridad (e-learning)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-17",
+          "responsable": "RRHH / Compliance",
+          "url": "https://drive.google.com/file/d/1FKAbWTROZbmQxtz_WuoeXLWhbcivgy2s/view?usp=sharing"
+        },
+        {
+          "code": "IC-RE-001",
+          "name": "Registro de Capacitaciones y Evaluaciones en Integridad",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-17",
+          "responsable": "RRHH",
+          "url": "https://drive.google.com/file/d/1CmfjA-UL_-QVAuhse5_GykKKMQGZUvgq/view?usp=sharing"
+        },
+        {
+          "code": "IC-KPI-001",
+          "name": "Tablero de Indicadores de Integridad",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-17",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/1QB1EymYwIpUca8pHFVHSKas_fF68T4fD/view?usp=sharing"
+        },
+        {
+          "code": "IC-PO-002",
+          "name": "Política Anticorrupción",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/1bNBHLzCbtVEy5z-rGyg6Hgd16Jk-25dV/view?usp=sharing"
+        },
+        {
+          "code": "IC-PO-003",
+          "name": "Política de Conflictos de Interés",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/1x7WGqrOfdV1h-PHspA68loXZgz2rdlqm/view?usp=sharing"
+        },
+        {
+          "code": "IC-PO-004",
+          "name": "Política de Gestión del Canal de Denuncias",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/1iEDHktGWDXUNXUZf0mmDJsQo0OgpRK6k/view?usp=sharing"
+        },
+        {
+          "code": "IC-PR-003",
+          "name": "Lineamientos para el Oficial de Cumplimiento",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/1wBJF5rpj-cf7wMnf8LT-KsXiyuLSQuKJ/view?usp=sharing"
+        },
+        {
+          "code": "IC-CE-001",
+          "name": "Certificado de Implementación",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/1xFylAL2Fbzk15f_AcQYp4q1awUkpKA1j/view?usp=sharing"
+        },
+        {
+          "code": "IC-PR-004",
+          "name": "Pacto de Integridad",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-10",
+          "responsable": "Gerencia",
+          "url": "https://drive.google.com/file/d/11M_fDh0-lvW1FvjThciak7p7P9fj4DCg/view?usp=sharing"
+        }
       ]
     },
     {
       "category": "21. GESTIÓN DE ACTIVOS Y MANTENIMIENTO (ISO 55001)",
       "items": [
-        { "code": "GA-PO-001 ", "name": "Política de Gestión de Activos", "status": "ready", "url": "https://drive.google.com/file/d/1xx8npbFxXxM2UJ7seFboLDbvqCcFCUZb/view?usp=drive_link" },
-        { "code": "GA-AL-001", "name": "Alcance del Sistema de Gestión de Activos", "status": "ready", "url": "https://drive.google.com/file/d/1tyKoY-Y5PN78KrjmWI5cqk5o-WLRLSPy/view?usp=drive_link" },
-        { "code": "GA-MR-001", "name": "Matriz de Riesgos y Criticidad de Activos", "status": "ready", "url": "https://drive.google.com/file/d/1i0kkcBhsP3vKoIBe8oCqcZX5KrS80IaE/view?usp=drive_link" },
-        { "code": "GA-PR-001", "name": "Procedimiento de Mantenimiento Preventivo", "status": "ready", "url": "https://drive.google.com/file/d/1YTUgprTTz0gtOlnCCDsJEI9RRU5y7Fp1/view?usp=drive_link" },
-        { "code": "GA-PR-002", "name": "Procedimiento de Mantenimiento Predictivo", "status": "ready", "url": "https://drive.google.com/file/d/1RGGWk6rzdakpyTEBAQwbh_i63FDRXZxK/view?usp=drive_link" },
-        { "code": "GA-PR-003", "name": "Procedimiento de Gestión de Repuestos Críticos", "status": "ready", "url": "https://drive.google.com/file/d/1ZoEjw4z0Sg5K0cvZ6xvp8AwoSthFvFCE/view?usp=drive_link" },
-        { "code": "GA-RE-001", "name": "Registro de Hoja de Vida de Equipos", "status": "ready", "url": "https://drive.google.com/file/d/19zY7LnFoeVTTFGjLU4V8PUju4mOhPcSi/view?usp=drive_link" },
-        { "code": "GA-RE-002", "name": "Registro de Órdenes de Trabajo de Mantenimiento", "status": "ready", "url": "https://drive.google.com/file/d/13NL-npUNW6_rIxJxKOOqd11P4E1uZhdj/view?usp=drive_link" },
-        { "code": "GA-KPI-001", "name": "Tablero de Indicadores de Mantenimiento", "status": "ready", "url": "https://drive.google.com/file/d/1q1zfvJm-GL5fCcCJT-bpxAqtgNXOMWlq/view?usp=drive_link" },
-        { "code": "GA-RE-003", "name": "Informe Técnico Mantención Preventiva Gas", "status": "ready", "url": "https://drive.google.com/file/d/1Ypd0Mb-dpLobwMnK4XLoW8j2uxAJNsbs/view?usp=drive_link" },
-        { "code": "GA-RE-004", "name": "Registro de Inventario de Repuestos Críticos", "status": "ready", "url": "https://drive.google.com/file/d/1FtOwr74Tg-6biVkA9qpuK9Pm_AEw1uou/view?usp=drive_link" }
+        {
+          "code": "GA-PO-001",
+          "name": "Política de Gestión de Activos",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad y Seguridad de la Información",
+          "url": "https://drive.google.com/file/d/1xx8npbFxXxM2UJ7seFboLDbvqCcFCUZb/view?usp=sharing"
+        },
+        {
+          "code": "GA-AL-001",
+          "name": "Alcance del Sistema de Gestión de Activos",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Calidad y Seguridad de la Información",
+          "url": "https://drive.google.com/file/d/1tyKoY-Y5PN78KrjmWI5cqk5o-WLRLSPy/view?usp=sharing"
+        },
+        {
+          "code": "GA-MR-001",
+          "name": "Matriz de Riesgos y Criticidad de Activos",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Calidad y Seguridad de la Información",
+          "url": "https://drive.google.com/file/d/1i0kkcBhsP3vKoIBe8oCqcZX5KrS80IaE/view?usp=sharing"
+        },
+        {
+          "code": "GA-PR-001",
+          "name": "Procedimiento de Mantenimiento Preventivo",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Calidad y Seguridad de la Información",
+          "url": "https://drive.google.com/file/d/1YTUgprTTz0gtOlnCCDsJEI9RRU5y7Fp1/view?usp=sharing"
+        },
+        {
+          "code": "GA-PR-002",
+          "name": "Procedimiento de Mantenimiento Predictivo",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Calidad y Seguridad de la Información",
+          "url": "https://drive.google.com/file/d/1RGGWk6rzdakpyTEBAQwbh_i63FDRXZxK/view?usp=sharing"
+        },
+        {
+          "code": "GA-PR-003",
+          "name": "Procedimiento de Gestión de Repuestos Críticos",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad y Seguridad de la Información",
+          "url": "https://drive.google.com/file/d/1ZoEjw4z0Sg5K0cvZ6xvp8AwoSthFvFCE/view?usp=sharing"
+        },
+        {
+          "code": "GA-RE-001",
+          "name": "Registro de Hoja de Vida de Equipos",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Calidad y Seguridad de la Información",
+          "url": "https://drive.google.com/file/d/19zY7LnFoeVTTFGjLU4V8PUju4mOhPcSi/view?usp=sharing"
+        },
+        {
+          "code": "GA-RE-002",
+          "name": "Registro de Órdenes de Trabajo de Mantenimiento",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Calidad y Seguridad de la Información",
+          "url": "https://drive.google.com/file/d/13NL-npUNW6_rIxJxKOOqd11P4E1uZhdj/view?usp=sharing"
+        },
+        {
+          "code": "GA-KPI-001",
+          "name": "Tablero de Indicadores de Mantenimiento",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Calidad y Seguridad de la Información",
+          "url": "https://drive.google.com/file/d/1q1zfvJm-GL5fCcCJT-bpxAqtgNXOMWlq/view?usp=sharing"
+        },
+        {
+          "code": "GA-RE-003",
+          "name": "Informe Técnico Mantención Preventiva Gas",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-23",
+          "responsable": "Calidad y Seguridad de la Información",
+          "url": "https://drive.google.com/file/d/1Ypd0Mb-dpLobwMnK4XLoW8j2uxAJNsbs/view?usp=sharing"
+        },
+        {
+          "code": "GA-RE-004",
+          "name": "Registro de Inventario de Repuestos Críticos",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Calidad y Seguridad de la Información",
+          "url": "https://drive.google.com/file/d/1FtOwr74Tg-6biVkA9qpuK9Pm_AEw1uou/view?usp=sharing"
+        },
+        {
+          "code": "GA-PR-004",
+          "name": "Procedimiento de Mantenimiento Correctivo",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-03",
+          "responsable": "Calidad y Seguridad de la Información",
+          "url": "https://drive.google.com/file/d/1mFgXevK_1EU-d9KnPG7dxHpIOoXHWdqP/view?usp=sharing"
+        },
+        {
+          "code": "GA-RE-005",
+          "name": "Registro de Reporte de Fallas",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-08-03",
+          "responsable": "Calidad y Seguridad de la Información",
+          "url": "https://drive.google.com/file/d/1MwDw123TSTBhrAjtfzlBlfDvt6lmrE_S/view?usp=sharing"
+        }
       ]
     },
     {
       "category": "22. SOSTENIBILIDAD Y CAMBIO CLIMÁTICO",
       "items": [
-        { "code": "SC-PO-001", "name": "Política de Sostenibilidad y Cambio Climático", "status": "ready", "url": "https://drive.google.com/file/d/1XnVq7MtbiQqUpNhBVWyV9pLYiylRuQDF/view?usp=drive_link" },
-        { "code": "SC-AL-001", "name": "Alcance del Sistema de Gestión de Sostenibilidad", "status": "ready", "url": "https://drive.google.com/file/d/1bYJn6QlYxMUxP06DjHbMqknuu1vB_1Zh/view?usp=drive_link" },
-        { "code": "SC-MR-001", "name": "Matriz de Riesgos Climáticos", "status": "ready", "url": "https://drive.google.com/file/d/1xwpkKVMmqbfSOipYIBhT2SF1ifveCwzQ/view?usp=drive_link" },
-        { "code": "SC-PR-001", "name": "Procedimiento de Cuantificación de Huella de Carbono", "status": "ready", "url": "https://drive.google.com/file/d/1XuK5OQTikvvPTJh9oSD8p8jJXuZ9Ugmx/view?usp=drive_link" },
-        { "code": "SC-PR-002", "name": "Procedimiento de Alineación con Ley Marco de Cambio Climático", "status": "ready", "url": "https://drive.google.com/file/d/10uFwVxkP-KGr3ueN6z7AA9EEOH_Z66yw/view?usp=drive_link" },
-        { "code": "SC-RE-001", "name": "Registro de Emisiones de Gases de Efecto Invernadero (GEI)", "status": "ready", "url": "https://drive.google.com/file/d/18lAgmbev47g73TrIsIaYi_SEhBJfeYOF/view?usp=drive_link" },
-        { "code": "SC-KPI-001", "name": "Tablero de Indicadores de Sostenibilidad", "status": "ready", "url": "https://drive.google.com/file/d/1bg_oFmCk6zxY1Dhh0BdJSGWnmAiyBFWX/view?usp=drive_link" }
+        {
+          "code": "SC-PO-001",
+          "name": "Política de Sostenibilidad y Cambio Climático",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/1XnVq7MtbiQqUpNhBVWyV9pLYiylRuQDF/view?usp=sharing"
+        },
+        {
+          "code": "SC-AL-001",
+          "name": "Alcance del Sistema de Gestión de Sostenibilidad",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/1bYJn6QlYxMUxP06DjHbMqknuu1vB_1Zh/view?usp=sharing"
+        },
+        {
+          "code": "SC-MR-001",
+          "name": "Matriz de Riesgos Climáticos (físicos y de transición)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/1xwpkKVMmqbfSOipYIBhT2SF1ifveCwzQ/view?usp=sharing"
+        },
+        {
+          "code": "SC-PR-001",
+          "name": "Procedimiento de Cuantificación de Huella de Carbono (Alcance 1, 2 y 3)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/1XuK5OQTikvvPTJh9oSD8p8jJXuZ9Ugmx/view?usp=sharing"
+        },
+        {
+          "code": "SC-PR-002",
+          "name": "Procedimiento de Alineación con Ley Marco de Cambio Climático (21.455)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/10uFwVxkP-KGr3ueN6z7AA9EEOH_Z66yw/view?usp=sharing"
+        },
+        {
+          "code": "SC-RE-001",
+          "name": "Registro de Emisiones de Gases de Efecto Invernadero (GEI)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/18lAgmbev47g73TrIsIaYi_SEhBJfeYOF/view?usp=sharing"
+        },
+        {
+          "code": "SC-KPI-001",
+          "name": "Tablero de Indicadores de Sostenibilidad",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/1bg_oFmCk6zxY1Dhh0BdJSGWnmAiyBFWX/view?usp=sharing"
+        }
       ]
     },
     {
       "category": "23. RELACIÓN CON COMUNIDADES Y LICENCIA SOCIAL PARA OPERAR",
       "items": [
-        { "code": "RC-PO-001", "name": "Política de Relacionamiento Comunitario", "status": "ready", "url": "https://drive.google.com/file/d/18UlvEelJ_IVJFzM0q_zr1yC00WzKU_Vp/view?usp=drive_link" },
-        { "code": "RC-AL-001", "name": "Alcance de Gestión de Relaciones Comunitarias", "status": "ready", "url": "https://drive.google.com/file/d/1fI8lLG-FwCjbGCFl5FpQA0GSCILaTXtg/view?usp=drive_link" },
-        { "code": "RC-MR-001", "name": "Matriz de Riesgos y Grupos de Interés (Stakeholders)", "status": "ready", "url": "https://drive.google.com/file/d/15clJbvVJoJip82OyBN7UT5qHcPh8lRhe/view?usp=drive_link" },
-        { "code": "RC-PR-001", "name": "Procedimiento de Participación Ciudadana y Consulta", "status": "ready", "url": "https://drive.google.com/file/d/11u5I496njxtNo5MIe18KAA2AbmsAMBvZ/view?usp=drive_link" },
-        { "code": "RC-PR-002", "name": "Procedimiento de Coordinación con SEIA/RCA", "status": "ready", "url": "https://drive.google.com/file/d/1wO3xuZyYOHtPlClZ78TVmX-xdP5p6O9n/view?usp=drive_link" },
-        { "code": "RC-FR-001", "name": "Formato de Gestión de Quejas y Reclamos de Comunidades", "status": "ready", "url": "https://drive.google.com/file/d/1z3-CoKLm0GFx0QhzOUI6Q6SHkrDkULAa/view?usp=drive_link" },
-        { "code": "RC-RE-001", "name": "Registro de Compromisos Ambientales/Sociales (RCA)", "status": "ready", "url": "https://drive.google.com/file/d/1kJ-LD9YWjUowr5VDMCeNDPzVtkKD7ETC/view?usp=drive_link" },  
-        { "code": "RC-KPI-001", "name": "Tablero de Indicadores de Relacionamiento Comunitario", "status": "ready", "url": "https://drive.google.com/file/d/1O7upxhAUwNMj6aTqbnu62LEBDuZoR2bs/view?usp=drive_link" }
+        {
+          "code": "RC-PO-001",
+          "name": "Política de Relacionamiento Comunitario",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/18UlvEelJ_IVJFzM0q_zr1yC00WzKU_Vp/view?usp=sharing"
+        },
+        {
+          "code": "RC-AL-001",
+          "name": "Alcance de Gestión de Relaciones Comunitarias",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/1fI8lLG-FwCjbGCFl5FpQA0GSCILaTXtg/view?usp=sharing"
+        },
+        {
+          "code": "RC-MR-001",
+          "name": "Matriz de Riesgos y Grupos de Interés (Stakeholders)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/15clJbvVJoJip82OyBN7UT5qHcPh8lRhe/view?usp=sharing"
+        },
+        {
+          "code": "RC-PR-001",
+          "name": "Procedimiento de Participación Ciudadana y Consulta",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/11u5I496njxtNo5MIe18KAA2AbmsAMBvZ/view?usp=sharing"
+        },
+        {
+          "code": "RC-PR-002",
+          "name": "Procedimiento de Coordinación con SEIA/RCA",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/1wO3xuZyYOHtPlClZ78TVmX-xdP5p6O9n/view?usp=sharing"
+        },
+        {
+          "code": "RC-FR-001",
+          "name": "Formato de Gestión de Quejas y Reclamos de Comunidades",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/1z3-CoKLm0GFx0QhzOUI6Q6SHkrDkULAa/view?usp=sharing"
+        },
+        {
+          "code": "RC-RE-001",
+          "name": "Registro de Compromisos Ambientales/Sociales (RCA)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/1kJ-LD9YWjUowr5VDMCeNDPzVtkKD7ETC/view?usp=sharing"
+        },
+        {
+          "code": "RC-KPI-001",
+          "name": "Tablero de Indicadores de Relacionamiento Comunitario",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/1O7upxhAUwNMj6aTqbnu62LEBDuZoR2bs/view?usp=sharing"
+        }
       ]
     },
     {
       "category": "24. GESTIÓN DE CRISIS Y COMUNICACIONES",
       "items": [
-        { "code": "CR-PO-001", "name": "Política de Gestión de Crisis y Comunicaciones", "status": "ready", "url": "https://drive.google.com/file/d/12SGgdGzTkHLzhLaaBTBj1YNxsLfcFg3v/view?usp=drive_link" },
-        { "code": "CR-AL-001", "name": "Alcance del Plan de Gestión de Crisis", "status": "ready", "url": "https://drive.google.com/file/d/1XE9PrPw8axcXdtDLygfM7yVnhaWG51WP/view?usp=drive_link" },
-        { "code": "CR-PE-001", "name": "Plan de Comunicación de Crisis", "status": "ready", "url": "https://drive.google.com/file/d/1Oprmpr3ag-w13tHFFLjJI9pgsSSbwt4n/view?usp=drive_link" },
-        { "code": "CR-PR-001", "name": "Procedimiento de Activación del Comité de Crisis", "status": "ready", "url": "https://drive.google.com/file/d/17SZI6nJrrhZ9i3S8cvSWl6gZJslGbfzB/view?usp=drive_link" },
-        { "code": "CR-PR-002", "name": "Procedimiento de Vocería y Manejo de Prensa", "status": "ready", "url": "https://drive.google.com/file/d/1eKI1uFlSqR0WKPe3DbG_tv2uFYjOf36y/view?usp=drive_link" },
-        { "code": "CR-FR-001", "name": "Formato de Registro de Incidente Mayor y Escalamiento", "status": "ready", "url": "https://drive.google.com/file/d/1stTxDddNVHAE4AHkV92aFYSEyrlHX3D1/view?usp=drive_link" },
-        { "code": "CR-LT-001", "name": "Listado de Contactos Clave ", "status": "ready", "url": "https://drive.google.com/file/d/1J8i3H6tHoxH60J09EtPaWLiJLZpCeHLf/view?usp=drive_link" }
+        {
+          "code": "CR-PO-001",
+          "name": "Política de Gestión de Crisis y Comunicaciones",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-07-27",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/12SGgdGzTkHLzhLaaBTBj1YNxsLfcFg3v/view?usp=sharing"
+        },
+        {
+          "code": "CR-AL-001",
+          "name": "Alcance del Plan de Gestión de Crisis",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/1XE9PrPw8axcXdtDLygfM7yVnhaWG51WP/view?usp=sharing"
+        },
+        {
+          "code": "CR-PE-001",
+          "name": "Plan de Comunicación de Crisis (medios, clientes, autoridades)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/1Oprmpr3ag-w13tHFFLjJI9pgsSSbwt4n/view?usp=sharing"
+        },
+        {
+          "code": "CR-PR-001",
+          "name": "Procedimiento de Activación del Comité de Crisis",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/17SZI6nJrrhZ9i3S8cvSWl6gZJslGbfzB/view?usp=sharing"
+        },
+        {
+          "code": "CR-PR-002",
+          "name": "Procedimiento de Vocería y Manejo de Prensa",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/1eKI1uFlSqR0WKPe3DbG_tv2uFYjOf36y/view?usp=sharing"
+        },
+        {
+          "code": "CR-FR-001",
+          "name": "Formato de Registro de Incidente Mayor y Escalamiento",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/1stTxDddNVHAE4AHkV92aFYSEyrlHX3D1/view?usp=sharing"
+        },
+        {
+          "code": "CR-LT-001",
+          "name": "Listado de Contactos Clave (autoridades, medios, clientes)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/1J8i3H6tHoxH60J09EtPaWLiJLZpCeHLf/view?usp=sharing"
+        }
       ]
     },
     {
-      "category": "25. DIVERSIDAD, EQUIDAD E INCLUSIÓN (DEI)",
+      "category": "25. DIVERSIDAD, EQUIDAD E INCLUSIÓN",
       "items": [
-        { "code": "DEI-PO-001", "name": "Política de Diversidad, Equidad e Inclusión", "status": "ready", "url": "https://drive.google.com/file/d/1XQHpbwDsRbHkizfVXUdQBsWUPFzjwDVW/view?usp=drive_link" },
-        { "code": "DEI-AL-001", "name": "Alcance del Programa de Inclusión Laboral", "status": "ready", "url": "https://drive.google.com/file/d/1zk3TSq-JMwy4t5pdsjepmqUbKzmZMcu3/view?usp=drive_link" },
-        { "code": "DEI-PR-001", "name": "Procedimiento de Inclusión Laboral de Personas con Discapacidad (Ley 21.015)", "status": "ready", "url": "https://drive.google.com/file/d/122Xx9tzaRco56wFvgHn9cTxBhwhk95aW/view?usp=drive_link" },
-        { "code": "DEI-PR-002", "name": "Procedimiento de Equidad de Género y Brecha Salarial", "status": "ready", "url": "https://drive.google.com/file/d/1opst0B3YjLdyNNTdOnOm5O1figgKyHJU/view?usp=drive_link" },
-        { "code": "DEI-RE-001", "name": "Registro de Cumplimiento de Cuota Ley 21.015", "status": "ready", "url": "https://drive.google.com/file/d/1SodP1xvtHEtuPS3t_KQZ4aDr8BEgHN9Z/view?usp=drive_link" },
-        { "code": "DEI-KPI-001", "name": "Tablero de Indicadores de Diversidad e Inclusión", "status": "ready", "url": "https://drive.google.com/file/d/17tQZco_G6n5ycExccabuJdKs7nYrteNZ/view?usp=drive_link" }
+        {
+          "code": "DEI-PO-001",
+          "name": "Política de Diversidad, Equidad e Inclusión",
+          "status": "ready",
+          "version": "1.2",
+          "fecha_vigencia": "2026-08-30",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/1XQHpbwDsRbHkizfVXUdQBsWUPFzjwDVW/view?usp=sharing"
+        },
+        {
+          "code": "DEI-AL-001",
+          "name": "Alcance del Programa de Inclusión Laboral",
+          "status": "ready",
+          "version": "1.2",
+          "fecha_vigencia": "2026-08-30",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/1zk3TSq-JMwy4t5pdsjepmqUbKzmZMcu3/view?usp=sharing"
+        },
+        {
+          "code": "DEI-PR-001",
+          "name": "Procedimiento de Inclusión Laboral de Personas con Discapacidad",
+          "status": "ready",
+          "version": "1.3",
+          "fecha_vigencia": "2026-08-30",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/122Xx9tzaRco56wFvgHn9cTxBhwhk95aW/view?usp=sharing"
+        },
+        {
+          "code": "DEI-PR-002",
+          "name": "Procedimiento de Equidad de Género y Brecha Salarial",
+          "status": "ready",
+          "version": "1.2",
+          "fecha_vigencia": "2026-08-30",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/1opst0B3YjLdyNNTdOnOm5O1figgKyHJU/view?usp=sharing"
+        },
+        {
+          "code": "DEI-RE-001",
+          "name": "Registro de Cumplimiento de Cuota Ley 21.015",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-30",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/1SodP1xvtHEtuPS3t_KQZ4aDr8BEgHN9Z/view?usp=sharing"
+        },
+        {
+          "code": "DEI-KPI-001",
+          "name": "Tablero de Indicadores de Diversidad e Inclusión",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-30",
+          "responsable": "Gerencia de Operaciones",
+          "url": "https://drive.google.com/file/d/17tQZco_G6n5ycExccabuJdKs7nYrteNZ/view?usp=sharing"
+        }
       ]
     },
     {
       "category": "26. CIBERSEGURIDAD INDUSTRIAL / OT",
       "items": [
-        { "code": "CI-PO-001", "name": "Política de Ciberseguridad Industrial (OT)", "status": "ready", "url": "https://drive.google.com/file/d/1jNAMjXxogOzvlnMyNVXe25Gu5tKfaLFt/view?usp=drive_link" },
-        { "code": "CI-AL-001", "name": "Alcance del Sistema de Ciberseguridad OT", "status": "ready", "url": "https://drive.google.com/file/d/1VSMBx-kXdz5B6MdFUR7pbySRESwikt9s/view?usp=drive_link" },
-        { "code": "CI-MR-001", "name": "Matriz de Riesgos de Ciberseguridad OT", "status": "ready", "url": "https://drive.google.com/file/d/1JA6q7iCUPTuLIiEwxFSz6evPg_5YTGs2/view?usp=drive_link" },
-        { "code": "CI-PR-001", "name": "Procedimiento de Segmentación de Redes IT/OT", "status": "ready", "url": "https://drive.google.com/file/d/16j4QXPNO2x_P6P3hXrw5qZTcYC_Py2N1/view?usp=drive_link" },
-        { "code": "CI-PR-002", "name": "Procedimiento de Gestión de Incidentes de Ciberseguridad OT", "status": "ready", "url": "https://drive.google.com/file/d/1tu_z2MKs_YCreHvOzv0ODFaGlRBup4ox/view?usp=drive_link" },
-        { "code": "CI-RE-001", "name": "Registro de Inventario de Activos OT", "status": "ready", "url": "https://drive.google.com/file/d/1WGnA_THr8utxUMcCc5seuSeORH1Mg2p_/view?usp=drive_link" },
-        { "code": "CI-KPI-001", "name": "Tablero de Indicadores de Ciberseguridad OT", "status": "ready", "url": "https://drive.google.com/file/d/1Cf2YzbD8d4_Mruo8_TAKBpb60IzRN5Ak/view?usp=drive_link" },
-        { "code": "CI-RE-002", "name": "Registro de Incidentes de Ciberseguridad OT", "status": "ready", "url": "https://drive.google.com/file/d/1gDYXfVDdt36eg71rJE5QGsx0YokanKpT/view?usp=drive_link" },
-        { "code": "CI-MR-002", "name": "Matriz Ampliada de Riesgos de Ciberseguridad OT", "status": "ready", "url": "https://drive.google.com/file/d/1D3njs7rIcPHKoHDTpDEJbbgzdgAvFjLi/view?usp=drive_link" },
-        { "code": "CI-PR-003", "name": "Procedimiento de Simulacros de Ciberseguridad OT", "status": "ready", "url": "https://drive.google.com/file/d/1u4WlHLsFQeMwE_7S9xzyxBcv9hw2sxTB/view?usp=drive_link" },
-        { "code": "CI-RE-003", "name": "Declaración de Aplicabilidad (SoA) - Controles IEC 62443", "status": "ready", "url": "https://drive.google.com/file/d/14DWWgkIAw07WjU9c9pluLNNKKrgIdhDA/view?usp=drive_link" }
+        {
+          "code": "CI-PO-001",
+          "name": "Política de Ciberseguridad Industrial (OT)",
+          "status": "ready",
+          "version": "1.2",
+          "fecha_vigencia": "2026-08-30",
+          "responsable": "Responsable de TI/CISO",
+          "url": "https://drive.google.com/file/d/1jNAMjXxogOzvlnMyNVXe25Gu5tKfaLFt/view?usp=sharing"
+        },
+        {
+          "code": "CI-AL-001",
+          "name": "Alcance del Sistema de Ciberseguridad OT (SCADA/PLC)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Responsable de TI/CISO",
+          "url": "https://drive.google.com/file/d/1VSMBx-kXdz5B6MdFUR7pbySRESwikt9s/view?usp=sharing"
+        },
+        {
+          "code": "CI-MR-001",
+          "name": "Matriz de Riesgos de Ciberseguridad OT",
+          "status": "pending",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Responsable de TI/CISO",
+          "url": "https://drive.google.com/file/d/1JA6q7iCUPTuLIiEwxFSz6evPg_5YTGs2/view?usp=sharing"
+        },
+        {
+          "code": "CI-PR-001",
+          "name": "Procedimiento de Segmentación de Redes IT-OT",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-30",
+          "responsable": "Responsable de TI/CISO",
+          "url": "https://drive.google.com/file/d/16j4QXPNO2x_P6P3hXrw5qZTcYC_Py2N1/view?usp=sharing"
+        },
+        {
+          "code": "CI-PR-002",
+          "name": "Procedimiento de Gestión de Incidentes de Ciberseguridad OT",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Responsable de TI/CISO",
+          "url": "https://drive.google.com/file/d/1tu_z2MKs_YCreHvOzv0ODFaGlRBup4ox/view?usp=sharing"
+        },
+        {
+          "code": "CI-RE-001",
+          "name": "Registro de Inventario de Activos OT (SCADA/PLC)",
+          "status": "ready",
+          "version": "1.0",
+          "fecha_vigencia": "2026-07-20",
+          "responsable": "Responsable de TI/CISO",
+          "url": "https://drive.google.com/file/d/1WGnA_THr8utxUMcCc5seuSeORH1Mg2p_/view?usp=sharing"
+        },
+        {
+          "code": "CI-KPI-001",
+          "name": "Tablero de Indicadores de Ciberseguridad OT",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-31",
+          "responsable": "Responsable de TI/CISO",
+          "url": "https://drive.google.com/file/d/1Cf2YzbD8d4_Mruo8_TAKBpb60IzRN5Ak/view?usp=sharing"
+        },
+        {
+          "code": "CI-RE-002",
+          "name": "Registro de Incidentes de Ciberseguridad OT",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-31",
+          "responsable": "Responsable de TI/CISO",
+          "url": "https://drive.google.com/file/d/1gDYXfVDdt36eg71rJE5QGsx0YokanKpT/view?usp=sharing"
+        },
+        {
+          "code": "CI-MR-002",
+          "name": "Matriz Ampliada de Riesgos de Ciberseguridad OT",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-31",
+          "responsable": "CISO / HSE",
+          "url": "https://drive.google.com/file/d/1D3njs7rIcPHKoHDTpDEJbbgzdgAvFjLi/view?usp=sharing"
+        },
+        {
+          "code": "CI-PR-003",
+          "name": "Procedimiento de Simulacros de Ciberseguridad OT",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-31",
+          "responsable": "CISO / HSE",
+          "url": "https://drive.google.com/file/d/1u4WlHLsFQeMwE_7S9xzyxBcv9hw2sxTB/view?usp=sharing"
+        },
+        {
+          "code": "CI-RE-003",
+          "name": "Declaración de Aplicabilidad (SoA) - Controles IEC 62443",
+          "status": "ready",
+          "version": "1.1",
+          "fecha_vigencia": "2026-08-31",
+          "responsable": "CISO / HSE",
+          "url": "https://drive.google.com/file/d/14DWWgkIAw07WjU9c9pluLNNKKrgIdhDA/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "category": "ANEXO · Registros de respaldo (acceso restringido, disponibles a solicitud)",
+      "items": [
+        {
+          "code": "RR-01",
+          "name": "Facturas emitidas — Facturas electrónicas emitidas por TermIng (PDF SII) (9 archivo/s, 2026)",
+          "status": "restricted",
+          "version": null,
+          "fecha_vigencia": null,
+          "responsable": "GL-PR-003",
+          "url": null
+        },
+        {
+          "code": "RR-02",
+          "name": "Comprobantes de pago recibidos — Comprobantes bancarios de abonos de clientes (7 archivo/s, 09-2026)",
+          "status": "restricted",
+          "version": null,
+          "fecha_vigencia": null,
+          "responsable": "GL-PR-003",
+          "url": null
+        },
+        {
+          "code": "RR-03",
+          "name": "Notas de crédito — Notas de crédito emitidas (0 archivo/s, —)",
+          "status": "restricted",
+          "version": null,
+          "fecha_vigencia": null,
+          "responsable": "GL-PR-003",
+          "url": null
+        },
+        {
+          "code": "RR-04",
+          "name": "Conciliación bancaria — Comprobantes de movimientos y transferencias (compras con débito, comisiones, pagos a proveedores, honorarios y retiros) (34 archivo/s, 09-2026)",
+          "status": "restricted",
+          "version": null,
+          "fecha_vigencia": null,
+          "responsable": "GL-RE-001",
+          "url": null
+        },
+        {
+          "code": "RR-05",
+          "name": "Aporte de capital — Comprobantes de aporte de capital (2 archivo/s, 09-2026)",
+          "status": "restricted",
+          "version": null,
+          "fecha_vigencia": null,
+          "responsable": "GC-AE-002-08",
+          "url": null
+        },
+        {
+          "code": "RR-06",
+          "name": "Libro de control contable — Libro vigente v12 (25-09), conciliación Registro de Compras SII, cartola y versiones anteriores (1 archivo/s, 05–09-2026)",
+          "status": "restricted",
+          "version": null,
+          "fecha_vigencia": null,
+          "responsable": "GL-RE-001",
+          "url": null
+        },
+        {
+          "code": "RR-07",
+          "name": "Índice de Administración y Finanzas — Índice paralelo creado el 28-09 (1 archivo/s, 09-2026)",
+          "status": "restricted",
+          "version": null,
+          "fecha_vigencia": null,
+          "responsable": "GL-RE-001",
+          "url": null
+        },
+        {
+          "code": "RR-08",
+          "name": "Informes mensuales HSE — SG-IM-001-001 (ago), -002 (sep), -003 (oct, borrador) (3 archivo/s, 08–10-2026)",
+          "status": "restricted",
+          "version": null,
+          "fecha_vigencia": null,
+          "responsable": "SG-IM-001",
+          "url": null
+        },
+        {
+          "code": "RR-09",
+          "name": "Credenciales del consultor HSE — Resolución SEREMI y carnet de Ingeniero en Prevención de Riesgos (2 archivo/s, —)",
+          "status": "restricted",
+          "version": null,
+          "fecha_vigencia": null,
+          "responsable": "MEM-GEN-2026-006",
+          "url": null
+        },
+        {
+          "code": "RR-10",
+          "name": "Hoja de vida de equipos (evidencia) — Registro GA-RE-001 en Excel y fichas fotográficas/video de 10 equipos (TermIng-EQ-01 a EQ-10) (11 archivo/s, 07–09-2026)",
+          "status": "restricted",
+          "version": null,
+          "fecha_vigencia": null,
+          "responsable": "GA-RE-001",
+          "url": null
+        },
+        {
+          "code": "RR-11",
+          "name": "Dossier personal del representante legal — Carnet, certificado SEC y antecedentes del representante legal (3 archivo/s, 09-2026)",
+          "status": "restricted",
+          "version": null,
+          "fecha_vigencia": null,
+          "responsable": "GL-RC-001",
+          "url": null
+        }
       ]
     }
   ]
