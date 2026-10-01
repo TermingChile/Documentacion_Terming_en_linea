@@ -1,0 +1,62 @@
+INFORME DE VALIDACIÓN DEL LOG MAESTRO — generar_json.py v2
+================================================================
+
+Categorías           : 28
+Documentos           : 322
+  Listos (con enlace): 263
+  Pendientes         : 40
+  Restringidos       : 19
+Códigos duplicados   : 2
+Sin archivo físico   : 0
+
+CÓDIGOS DUPLICADOS — incumple SG-CD-001
+----------------------------------------------------------------
+  CK-FR-002
+      · 8. OPERACIONES Y CONTROL DE PROCESOS → Permisos Especiales de Trabajo de Alto Riesgo (fila 116)
+      · 16. CHECKLISTS DE VERIFICACIÓN OPERATIVA → Pre-Operacional: Trabajo en Altura y Andamios (fila 224)
+  CK-FR-009
+      · 8. OPERACIONES Y CONTROL DE PROCESOS → Checklist Pre-Operacional de Vehículos y Equipos (fila 115)
+      · 16. CHECKLISTS DE VERIFICACIÓN OPERATIVA → Verificación: Andamios Tubulares y de Fachada (fila 231)
+
+PENDIENTES EN LA WEB (estado no listo o sin enlace)
+----------------------------------------------------------------
+  [SG-PG-006] Política y Procedimiento de Prevención de Alcohol y Drogas  — estado LOG: (vacío); enlace: sí
+  [GC-AE-002-09] (sin título)  — estado LOG: (vacío); enlace: no
+  [GL-PO-001] Política Financiera y de Tesorería  — estado LOG: Pendiente; enlace: no
+  [GL-IR-001] Informe Semestral de Verificación de Controles Financieros  — estado LOG: Pendiente; enlace: no
+  [GL-PU-001] Presupuesto Anual y Control Presupuestario  — estado LOG: Pendiente; enlace: no
+  [CP-FR-002-01 a 29] Formatos de Registro de Asistencia a Capacitación  — estado LOG: Listo; enlace: no
+  [EM-PE-001] Plan de Emergencias y Sub-Planes  — estado LOG: En verificación (Re-emitido); enlace: no
+  [EM-SI-002] Programa Anual de Simulacros  — estado LOG: En verificación (Re-emitido); enlace: no
+  [EM-FR-003] Formato de Registro y Evaluación de Simulacro  — estado LOG: En verificación (Re-emitido); enlace: no
+  [EM-LT-004] Listado de Teléfonos de Emergencia Actualizado  — estado LOG: En verificación (Re-emitido); enlace: no
+  [SG-PR-005] Permiso de Trabajo en Espacios Confinados  — estado LOG: Pendiente; enlace: sí
+  [CK-FR-009] Checklist Pre-Operacional de Vehículos y Equipos  — estado LOG: Pendiente; enlace: sí
+  [CK-FR-002] Permisos Especiales de Trabajo de Alto Riesgo  — estado LOG: Pendiente; enlace: sí
+  [AU-RE-003] Registro de Reuniones del Comité Paritario de Higiene y Seguridad  — estado LOG: Pendiente; enlace: no
+  [AU-IR-002] Informe de Investigación de Incidentes -Instructivo y Formulario de Reporte, Clasificación e Investigación  — estado LOG: Listo; enlace: no
+  [AU-IA-002] Procedimiento Investigación Accidentes e Incidentes  — estado LOG: Dado de baja; enlace: no
+  [AU-CK-001] Checklist de Auditoría Interna  — estado LOG: Pendiente; enlace: no
+  [AU-IR-001] Informe de No Conformidad y Plan de Acción Correctiva  — estado LOG: Listo; enlace: no
+  [AU-FR-003] Formato de Informe de Investigación de Accidentes  — estado LOG: Pendiente; enlace: sí
+  [AU-PR-002] Plan de Auditoría Interna Integrado  — estado LOG: Pendiente; enlace: no
+  [SG-CG-001] Cronograma Anual de Actividades HSE  — estado LOG: Pendiente; enlace: sí
+  [EM-PS-001] Detalle de Ejercicios de Simulacro  — estado LOG: Pendiente; enlace: no
+  [SG-CE-001] Certificados de Equipos de Protección Personal  — estado LOG: Pendiente; enlace: no
+  [SG-CE-003] Certificado de Afiliación a Mutualidad/ISL  — estado LOG: Pendiente; enlace: no
+  [SG-CE-002] Certificado de Accidentabilidad (Anual)  — estado LOG: Pendiente; enlace: no
+  [SG-KPI-001] Tablero de Indicadores de Desempeño (KPIs)  — estado LOG: Pendiente; enlace: no
+  [PO-PR-026] Procedimiento de Soldadura Fuerte (Brazing) en cañerias de cobre - GAS, AUTOCLAVES Y OTRAS LÍNEAS INDUSTRIALES  — estado LOG: Listo; enlace: no
+  [PO-PR-027] Procedimiento de Soldadura SMAW  — estado LOG: Listo; enlace: no
+  [PO-PR-028] Procedimiento de Soldadura GTAW  — estado LOG: Listo; enlace: no
+  [PO-PR-029] Procedimiento de Soldadura GMAW  — estado LOG: Listo; enlace: no
+  [PO-PR-030] Procedimiento de Soldadura FCAW  — estado LOG: Listo; enlace: no
+  [PO-PR-031] Procedimiento de Soldadura SAW  — estado LOG: Listo; enlace: no
+  [PO-PR-032] Procedimiento de Soldadura OFW  — estado LOG: Listo; enlace: no
+  [PO-PR-033] Procedimiento de Soldadura Blanda  — estado LOG: Listo; enlace: no
+  [PO-PR-034] Procedimiento de Corte Oxiacetilénico  — estado LOG: Listo; enlace: no
+  [PT-PR-006] Protocolo Técnico de Especificación y Operación de Motores Eléctricos (IEC 60034-1)  — estado LOG: (vacío); enlace: sí
+  [PT-FR-020] Informe Técnico de Evaluación de Contrapresión del Sistema de Escape  — estado LOG: (vacío); enlace: sí
+  [CA-FR-002] Informe de Ejecución de Servicio  — estado LOG: Pendiente; enlace: no
+  [CA-OB-001] Objetivos de Calidad y Planificación para Lograrlos  — estado LOG: Pendiente; enlace: sí
+  [CI-MR-001] Matriz de Riesgos de Ciberseguridad OT  — estado LOG: Supercedido; enlace: sí
