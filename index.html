@@ -95,6 +95,9 @@
         .stats .pending {
             color: #F29D38;
         }
+        .stats .restricted {
+            color: #5a4a8a;
+        }
         .stats .total {
             color: #8a9aaa;
         }
@@ -348,6 +351,11 @@
             color: #b06020;
         }
 
+        .doc-table .doc-status.restricted {
+            background: #ece8f4;
+            color: #5a4a8a;
+        }
+
         .doc-table .doc-link {
             color: #2D4E71;
             text-decoration: none;
@@ -505,6 +513,10 @@
             font-size: 40px;
             margin-bottom: 12px;
         }
+            /* tablas desplazables en celular (01-10-2026) */
+        @media (max-width: 600px) {
+            .section-body.open { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+        }
     </style>
 </head>
 <body>
@@ -518,12 +530,13 @@
                     Term<span>Ing</span>
                     <small>SPA · Chile</small>
                 </div>
-                <span class="badge-version">v4.0</span>
+                <span class="badge-version" id="badgeFecha">v4.0</span>
             </div>
             <div class="header-right">
                 <div class="stats">
                     <span class="ready">✅ <span id="countReady">0</span> Listos</span>
                     <span class="pending">⏳ <span id="countPending">0</span> Pendientes</span>
+                    <span class="restricted">🔒 <span id="countRestricted">0</span> Restringidos</span>
                     <span class="total">📄 <span id="countTotal">0</span> Total</span>
                 </div>
                 <a href="https://drive.google.com/drive/folders/19rJ6b_tCvMkzYtuIGmipAYSepvvYoY7f?usp=drive_link" target="_blank" class="btn-drive">
@@ -548,6 +561,7 @@
                 <button class="filter-btn active" data-filter="all">📋 Todos</button>
                 <button class="filter-btn" data-filter="ready">✅ Listos</button>
                 <button class="filter-btn active-pending" data-filter="pending">⏳ Pendientes</button>
+                <button class="filter-btn" data-filter="restricted">🔒 Restringidos</button>
             </div>
         </div>
 
@@ -586,17 +600,20 @@
         function updateCounts(data) {
             let total = 0,
                 ready = 0,
-                pending = 0;
+                pending = 0,
+                restricted = 0;
             data.forEach(cat => {
                 cat.items.forEach(doc => {
                     total++;
                     if (doc.status === 'ready') ready++;
+                    else if (doc.status === 'restricted') restricted++;
                     else pending++;
                 });
             });
             document.getElementById('countTotal').textContent = total;
             document.getElementById('countReady').textContent = ready;
             document.getElementById('countPending').textContent = pending;
+            document.getElementById('countRestricted').textContent = restricted;
         }
 
         // Función para renderizar
@@ -610,7 +627,8 @@
                         doc.name.toLowerCase().includes(searchTerm.toLowerCase());
                     const matchFilter = currentFilter === 'all' ||
                         (currentFilter === 'ready' && doc.status === 'ready') ||
-                        (currentFilter === 'pending' && doc.status === 'pending');
+                        (currentFilter === 'pending' && doc.status === 'pending') ||
+                        (currentFilter === 'restricted' && doc.status === 'restricted');
                     return matchSearch && matchFilter;
                 });
 
@@ -643,9 +661,11 @@
                             `;
 
                 filtered.forEach(doc => {
-                    const statusClass = doc.status === 'ready' ? 'ready' : 'pending';
-                    const statusLabel = doc.status === 'ready' ? '✅ Listo' : '⏳ Pendiente';
-                    const linkHtml = doc.url && doc.url !== '#URL_DEL_PDF' && doc.url !== '' ?
+                    const statusClass = doc.status === 'ready' ? 'ready' : (doc.status === 'restricted' ? 'restricted' : 'pending');
+                    const statusLabel = doc.status === 'ready' ? '✅ Listo' : (doc.status === 'restricted' ? '🔒 Restringido' : '⏳ Pendiente');
+                    const linkHtml = doc.status === 'restricted' ?
+                        `<span class="doc-link disabled" title="Disponible a solicitud de la autoridad fiscalizadora">🔒 A solicitud</span>` :
+                        doc.url && doc.url !== '#URL_DEL_PDF' && doc.url !== '' ?
                         `<a href="${doc.url}" target="_blank" class="doc-link">📄 Ver</a>` :
                         `<span class="doc-link disabled">⏳ Próximo</span>`;
 
@@ -709,6 +729,9 @@
 
                 // ─── Cargar documentos ───
                 documentos = data.documentos;
+                if (data.fecha_generacion) {
+                    document.getElementById('badgeFecha').textContent = 'Actualizado ' + data.fecha_generacion.split('-').reverse().join('-');
+                }
                 updateCounts(documentos);
                 render();
 
@@ -728,6 +751,8 @@
                             this.classList.add('active');
                         } else if (filter === 'pending') {
                             this.classList.add('active-pending');
+                        } else if (filter === 'restricted') {
+                            this.classList.add('active');
                         }
                         currentFilter = filter;
                         render();
